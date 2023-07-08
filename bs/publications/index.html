@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/bs',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/lat',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'bs',
+  language: 'lat',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/sdg-site-rs/assets/css/style.css?v=20230708020342">
+        <link rel="stylesheet" href="/sdg-site-rs/assets/css/style.css?v=20230708115655">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,7 +138,7 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-bs layout-page">
+<body class="language-lat layout-page">
 <!-- <div class="container"> -->
 
 <script>translations['header'] = {"alpha":"Alfa1","default_contrast":"Zadani kontrast","disable_high_contrast":"Onemogući visoki kontrast","disclaimer":"Ova internet stranica se razvija. Pozdravljamo vaše <a href=\"mailto:%email_address\">povratne informacije</a>.","enable_high_contrast":"Omogući visoki kontrast","high_contrast":"Visok kontrast","skip_link":"Prijeđi na glavni sadržaj","tag_line":"17 ciljeva za transformiranje našeg svijeta"};</script>
@@ -159,8 +159,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/sdg-site-rs/bs/" id="home">
-        <img src="/sdg-site-rs/assets/img/logo/bs/SDG_logo.png" alt="Ciljevi održivog razvoja - 17 ciljeva za transformiranje našeg svijeta" />
+      <a class="navbar-brand" href="/sdg-site-rs/lat/" id="home">
+        <img src="/sdg-site-rs/assets/img/logo/lat/SDG_logo.png" alt="Ciljevi održivog razvoja - 17 ciljeva za transformiranje našeg svijeta" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,19 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
-      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Latinica</span>
+      <span class="language-abbreviation">lat</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-rs/publications/">
+            <a href="/sdg-site-rs/bs/publications/">
               English
             </a>
           </li><li>
-            <a href="/sdg-site-rs/sr/publications/">
-              Српски
-            </a>
-          </li><li>
-            <a href="/sdg-site-rs/hr/publications/">
-              Hrvatski
+            <a href="/sdg-site-rs/cir/bs/publications/">
+              Ћирилица
             </a>
           </li></ul>
   </div>
@@ -198,15 +194,15 @@ var translations = {
             aria-haspopup="true">
           <button data-target="menu-mobile" aria-expanded="false">Meni</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/goals">Ciljevi</a>
+    <a href="/sdg-site-rs/lat/goals">Ciljevi</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/reporting-status">Status izvještavanja</a>
+    <a href="/sdg-site-rs/lat/reporting-status">Status izvještavanja</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/about">O nama</a>
+    <a href="/sdg-site-rs/lat/about">O nama</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/publications">Publikacije</a>
+    <a href="/sdg-site-rs/lat/publications">Publikacije</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/covid-19-impact">COVID-19 Uticaj</a>
+    <a href="/sdg-site-rs/lat/covid-19-impact">COVID-19 Uticaj</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -218,19 +214,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
-      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Latinica</span>
+      <span class="language-abbreviation">lat</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-rs/publications/">
+            <a href="/sdg-site-rs/bs/publications/">
               English
             </a>
           </li><li>
-            <a href="/sdg-site-rs/sr/publications/">
-              Српски
-            </a>
-          </li><li>
-            <a href="/sdg-site-rs/hr/publications/">
-              Hrvatski
+            <a href="/sdg-site-rs/cir/bs/publications/">
+              Ћирилица
             </a>
           </li></ul>
   </div>
@@ -247,7 +239,7 @@ var translations = {
             aria-haspopup="true">
           <button data-target="search-mobile" aria-expanded="false">Pretraživanje</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/sdg-site-rs/bs/search">
+  <form action="/sdg-site-rs/lat/search">
     <label class="sr-only" for="indicator_search-mobile">Pretraživanje</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Pretraživanje" /><!--
     --><button aria-label="Pretraživanje" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -258,7 +250,7 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/sdg-site-rs/bs/search">
+  <form action="/sdg-site-rs/lat/search">
     <label class="sr-only" for="indicator_search">Pretraživanje</label>
     <input type="text" name="q" id="indicator_search" title="Pretraživanje" /><!--
     --><button aria-label="Pretraživanje" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -267,15 +259,15 @@ var translations = {
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/goals">Ciljevi</a>
+    <a href="/sdg-site-rs/lat/goals">Ciljevi</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/reporting-status">Status izvještavanja</a>
+    <a href="/sdg-site-rs/lat/reporting-status">Status izvještavanja</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/about">O nama</a>
+    <a href="/sdg-site-rs/lat/about">O nama</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/publications">Publikacije</a>
+    <a href="/sdg-site-rs/lat/publications">Publikacije</a>
     </li><li class="nav-link ">
-    <a href="/sdg-site-rs/bs/covid-19-impact">COVID-19 Uticaj</a>
+    <a href="/sdg-site-rs/lat/covid-19-impact">COVID-19 Uticaj</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -287,19 +279,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Bosanski</span>
-      <span class="language-abbreviation">bs</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Latinica</span>
+      <span class="language-abbreviation">lat</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/sdg-site-rs/publications/">
+            <a href="/sdg-site-rs/bs/publications/">
               English
             </a>
           </li><li>
-            <a href="/sdg-site-rs/sr/publications/">
-              Српски
-            </a>
-          </li><li>
-            <a href="/sdg-site-rs/hr/publications/">
-              Hrvatski
+            <a href="/sdg-site-rs/cir/bs/publications/">
+              Ћирилица
             </a>
           </li></ul>
   </div>
@@ -351,7 +339,7 @@ var translations = {
                 
                 </li>
               <li>
-                <a href="/sdg-site-rs/bs/about/cookies-and-privacy/">Kolačići</a>
+                <a href="/sdg-site-rs/lat/about/cookies-and-privacy/">Kolačići</a>
                 
                 </li>
               
@@ -388,12 +376,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/sdg-site-rs/assets/js/sdg.js?v=20230708020342'></script>
+<script src='/sdg-site-rs/assets/js/sdg.js?v=20230708115655'></script>
 
 
     
     
-    <script src="/sdg-site-rs/assets/js/custom.js?v=20230708020342"></script><script>
+    <script src="/sdg-site-rs/assets/js/custom.js?v=20230708115655"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
