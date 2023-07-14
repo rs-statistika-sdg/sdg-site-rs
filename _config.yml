@@ -9,20 +9,19 @@ baseurl: "/sdg-site-rs"
 # The next line should be the URL of your data repository published site. To find this,
 # go to your data repository in Github, and click "Settings", then scroll down to the
 # "Github Pages" section. Copy/paste the link in the green section.
-remote_data_prefix: "https://rs-statistika-sdg.github.io/sdg-data-bosnia"
+remote_data_prefix: "https://rs-statistika-sdg.github.io/sdg-data-rs"
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
 # URL for the "Edit Data" button on indicators.
-data_edit_url: http://prose.io/#rs-statistika-sdg/sdg-data-bosnia/edit/develop/data/indicator_[id].csv
+data_edit_url: http://prose.io/#rs-statistika-sdg/sdg-data-rs/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
-metadata_edit_url: http://prose.io/#rs-statistika-sdg/sdg-data-bosnia/edit/develop/meta/[id].md
+metadata_edit_url: http://prose.io/#rs-statistika-sdg/sdg-data-rs/edit/develop/meta/[id].md
 #
 # The list of languages that are translated. The first one is the default.
 languages:
   - en
-  - bs
-  - sr
-  - hr
+  - lat
+  - cir
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
@@ -134,7 +133,7 @@ non_global_metadata: indicator.national_metadata
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://sdg.bhas.gov.ba/assets/img/goals
+goal_image_base: https://rs-statistika-sdg.github.io/sdg-data-rs/assets/img/goals
 
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
