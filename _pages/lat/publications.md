@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Publikacije
-language: bs
-permalink: /bs/publications/
+language: lat
+permalink: lat/publications/
 ---
 
 <div>

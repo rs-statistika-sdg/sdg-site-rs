@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Публикације
-language: sr
-permalink: /sr/publications/
+language: cir
+permalink: cir/publications/
 ---
 
 <div>

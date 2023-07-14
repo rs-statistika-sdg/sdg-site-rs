@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-language: bs
-permalink: /bs/news/
+language: lat
+permalink: lat/news/
 ---
 
 ## News and Events

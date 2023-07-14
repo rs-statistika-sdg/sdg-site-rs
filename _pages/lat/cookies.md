@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Kolačići i privatnost
-language: bs
-permalink: /bs/about/cookies-and-privacy/
+language: lat
+permalink: lat/about/cookies-and-privacy/
 ---
 Slijedi opis podataka koji se prikupljaju kada koristite ovu web stranicu i za šta se
 koriste.

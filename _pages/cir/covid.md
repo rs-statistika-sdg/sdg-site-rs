@@ -1,8 +1,8 @@
 ---
 title: COVID-19 епидемиолошки подаци
 layout: standalone-indicators
-permalink: /sr/covid-19-impact/
-language: sr
+permalink: cir/covid-19-impact/
+language: cir
 standalone_indicators:
     - gross-domestic-product
     - revenue-from-indirect-taxes

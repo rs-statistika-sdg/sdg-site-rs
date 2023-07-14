@@ -1,7 +1,7 @@
 ---
 title: O nama
-language: bs
-permalink: /bs/about/
+language: lat
+permalink: lat/about/
 layout: page
 ---
 
