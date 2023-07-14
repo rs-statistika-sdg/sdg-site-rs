@@ -1,6 +1,6 @@
 ---
 title: Guidance
-language: bs
+language: lat
 permalink: lat/guidance/
 layout: page
 ---
