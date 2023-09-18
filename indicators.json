@@ -291,7 +291,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/3-3-3",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "3-3-4",
@@ -579,7 +579,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-1-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-2-1",
@@ -595,7 +595,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-2-2",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "5-3-1",
@@ -939,11 +939,11 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/8-9-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "8-9-2",
-          "title": "",
+          "title": "Proportion of jobs in sustainable tourism industries out of total tourism jobs",
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/8-9-2",
@@ -1803,7 +1803,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/16-4-1",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "16-4-2",
