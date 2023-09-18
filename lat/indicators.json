@@ -1019,7 +1019,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-2-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-3-1",
@@ -1035,7 +1035,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-3-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-4-1",
@@ -1043,7 +1043,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-5-1",
@@ -1067,7 +1067,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-b-1",
@@ -1075,7 +1075,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "9-c-1",
@@ -1083,7 +1083,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/9-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
@@ -1123,7 +1123,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-5-1",
@@ -1139,7 +1139,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-7-1",
@@ -1163,7 +1163,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-7-3",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-7-4",
@@ -1171,7 +1171,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-7-4",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-a-1",
@@ -1179,7 +1179,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "10-b-1",
@@ -1195,7 +1195,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/lat/10-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
