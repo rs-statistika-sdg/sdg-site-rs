@@ -731,7 +731,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-4-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-4-2",
@@ -739,7 +739,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-4-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-5-1",
@@ -747,7 +747,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-5-2",
@@ -755,7 +755,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-6-1",
@@ -763,7 +763,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-6-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-a-1",
@@ -771,7 +771,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "6-b-1",
@@ -779,7 +779,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/cir/6-b-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
