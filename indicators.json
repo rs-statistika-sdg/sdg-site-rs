@@ -475,7 +475,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/4-1-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-1-2",
@@ -483,7 +483,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/4-1-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-2-1",
@@ -523,7 +523,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/4-5-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-6-1",
@@ -539,7 +539,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/4-7-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-a-1",
@@ -555,7 +555,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/4-b-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "4-c-1",
@@ -603,7 +603,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-3-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-3-2",
@@ -635,7 +635,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-5-2",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-6-1",
@@ -659,7 +659,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-a-1",
-          "status": "complete"
+          "status": "notstarted"
         },
         {
           "id": "5-a-2",
@@ -683,7 +683,7 @@
           "description": "",
           "keywords": "",
           "href": "/sdg-site-rs/5-c-1",
-          "status": "complete"
+          "status": "notstarted"
         }]
     }
   },
