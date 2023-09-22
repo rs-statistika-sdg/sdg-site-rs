@@ -74,8 +74,8 @@ email_contacts:
 # International Support
 # Eg name: Australia and adjective: Australian
 country:
-  name: BiH
-  adjective: BiH
+  name: Република Српска
+  adjective: Република Српска
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
