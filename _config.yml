@@ -75,7 +75,7 @@ email_contacts:
 # Eg name: Australia and adjective: Australian
 country:
   name: Република Српска
-  adjective: Република Српска
+  adjective: РС
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
