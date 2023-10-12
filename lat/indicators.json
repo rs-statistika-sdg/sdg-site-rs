@@ -10,7 +10,7 @@
           "title": "Procenat stanovništva koji žive ispod međunarodne linije siromastva po polu, starosti, statusu zaposlenja i geografskoj lokaciji (urbano / ruralno)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-1-1",
+          "href": "/lat/1-1-1",
           "status": "notstarted"
         },
         {
@@ -18,7 +18,7 @@
           "title": "Procenat stanovništva koji živi ispod nacionalne linije siromaštva, po polu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-2-1",
+          "href": "/lat/1-2-1",
           "status": "complete"
         },
         {
@@ -26,7 +26,7 @@
           "title": "Udio muškaraca, žena i djece svih uzrasta koji žive u siromaštvu u svim dimenzijama siromaštva prema nacionalnim definicijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-2-2",
+          "href": "/lat/1-2-2",
           "status": "complete"
         },
         {
@@ -34,7 +34,7 @@
           "title": "Udio stanovništva koje je pokriveno sistemima/nivoima socijalne zaštite, po polu, uz izdvajanje djece, nezaposlenih, starijih osoba, osoba sa invaliditetom, trudnica, novorođenčadi, žrtava povreda na radu i siromašnih i ranjivih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-3-1",
+          "href": "/lat/1-3-1",
           "status": "complete"
         },
         {
@@ -42,7 +42,7 @@
           "title": "Udio stanovništva koje živi u domaćinstvima u kojima ima pristup osnovnim uslugama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-4-1",
+          "href": "/lat/1-4-1",
           "status": "notstarted"
         },
         {
@@ -50,7 +50,7 @@
           "title": "Udio ukupne populacije odraslih osoba koje imaju sigurna prava na zemljište, sa zakonski priznatom dokumentacijom, i koji smatraju da su njihova prava na zemljištu sigurna, po polu i vrsti prava na zemlji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-4-2",
+          "href": "/lat/1-4-2",
           "status": "complete"
         },
         {
@@ -58,7 +58,7 @@
           "title": "Broj smrti, nestalih osoba i direktno pogođenih lica pripisanih katastrofama na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-5-1",
+          "href": "/lat/1-5-1",
           "status": "notstarted"
         },
         {
@@ -66,7 +66,7 @@
           "title": "Direktni ekonomski gubitak uzrokovan nesrećama u odnosu na globalni bruto domaći proizvod (BDP)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-5-2",
+          "href": "/lat/1-5-2",
           "status": "notstarted"
         },
         {
@@ -74,7 +74,7 @@
           "title": "Broj zemalja koje usvajaju i implementiraju nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai Okvirom za smanjenje rizika od katastrofa 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-5-3",
+          "href": "/lat/1-5-3",
           "status": "notstarted"
         },
         {
@@ -82,7 +82,7 @@
           "title": "Udio lokalnih samouprava koje usvajaju i sprovode strategije za smanjenje rizika od katastrofa u skladu sa nacionalnim strategijama za smanjenje rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-5-4",
+          "href": "/lat/1-5-4",
           "status": "notstarted"
         },
         {
@@ -90,7 +90,7 @@
           "title": "Ukupni grantovi službene razvojne pomoći svih donatora koji su usmjereni na smanjenje siromaštva kao udio u bruto nacionalnom dohotku zemlje primaoca",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-a-1",
+          "href": "/lat/1-a-1",
           "status": "notstarted"
         },
         {
@@ -98,7 +98,7 @@
           "title": "Udio ukupne državne potrošnje na osnovne usluge (obrazovanje, zdravstvo i socijalna zaštita)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-a-2",
+          "href": "/lat/1-a-2",
           "status": "notstarted"
         },
         {
@@ -106,7 +106,7 @@
           "title": "Javna socijalna potrošnja u korist siromašnih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/1-b-1",
+          "href": "/lat/1-b-1",
           "status": "notstarted"
         }]
     }
@@ -122,7 +122,7 @@
           "title": "Rasprostranjenot podhranjenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-1-1",
+          "href": "/lat/2-1-1",
           "status": "notstarted"
         },
         {
@@ -130,7 +130,7 @@
           "title": "Rasprostranjenost umjerene ili ozbiljne prehrambene nesigurnosti među stanovništvom, na osnovu Skale iskustva u pogledu nesigurnosti hrane (FIES)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-1-2",
+          "href": "/lat/2-1-2",
           "status": "notstarted"
         },
         {
@@ -138,7 +138,7 @@
           "title": "Prevalencija zaostajanja u rastu (visina za uzrast <-2 standardne devijacije od medijane prema standardima Svjetske zdravstvene organizacije (SZO) za rast djece) među djecom do pet godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-2-1",
+          "href": "/lat/2-2-1",
           "status": "complete"
         },
         {
@@ -146,7 +146,7 @@
           "title": "Prevalencija loše uhranjenosti (težina prema visini >+2 ili <-2 standardne devijacije od medijane SZO Standarda rasta djece) među djecom do pet godina, po vrstama (mršavost ili prekomjerna težina)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-2-2",
+          "href": "/lat/2-2-2",
           "status": "complete"
         },
         {
@@ -154,7 +154,7 @@
           "title": "Prevalencija loše uhranjenosti (težina prema visini >+2 ili <-2 standardne devijacije od medijane SZO Standarda rasta djece) među djecom do pet godina, po vrstama (mršavost ili prekomjerna težina)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-2-3",
+          "href": "/lat/2-2-3",
           "status": "notstarted"
         },
         {
@@ -162,7 +162,7 @@
           "title": "Obim proizvodnje po jedinici radne snage prema klasama veličine poljoprivrednog/šumarskog preduzeća",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-3-1",
+          "href": "/lat/2-3-1",
           "status": "notstarted"
         },
         {
@@ -170,7 +170,7 @@
           "title": "Prosječni prihodi malih proizvođača hrane, prema polu i starosedelačkom statusu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-3-2",
+          "href": "/lat/2-3-2",
           "status": "notstarted"
         },
         {
@@ -178,7 +178,7 @@
           "title": "Udio poljoprivrednog zemljišta pod produktivnom i održivom poljoprivrednom djelatnošću",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-4-1",
+          "href": "/lat/2-4-1",
           "status": "notstarted"
         },
         {
@@ -186,7 +186,7 @@
           "title": "Broj biljnih i životinjskih genetičkih resursa za hranu i poljoprivredu osiguranih u srednjoročnim ili dugoročnim konzervatorskim objektima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-5-1",
+          "href": "/lat/2-5-1",
           "status": "notstarted"
         },
         {
@@ -194,7 +194,7 @@
           "title": "Udio lokalnih sorti klasificiranih kao u opasnosti od izumiranja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-5-2",
+          "href": "/lat/2-5-2",
           "status": "notstarted"
         },
         {
@@ -202,7 +202,7 @@
           "title": "Indeks poljoprivredne orijentacije za državne rashode",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-a-1",
+          "href": "/lat/2-a-1",
           "status": "notstarted"
         },
         {
@@ -210,7 +210,7 @@
           "title": "Ukupni zvanični tokovi (zvanična razvojna pomoć plus drugi zvanični tokovi) u poljoprivrednom sektoru",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-a-2",
+          "href": "/lat/2-a-2",
           "status": "notstarted"
         },
         {
@@ -218,7 +218,7 @@
           "title": "Poljoprivredne izvozne subvencije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-b-1",
+          "href": "/lat/2-b-1",
           "status": "notstarted"
         },
         {
@@ -226,7 +226,7 @@
           "title": "Indikator anomalija cijena hrane",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/2-c-1",
+          "href": "/lat/2-c-1",
           "status": "notstarted"
         }]
     }
@@ -242,7 +242,7 @@
           "title": "Stopa smrtnosti majki (na 100 000 živorođenih)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-1-1",
+          "href": "/lat/3-1-1",
           "status": "complete"
         },
         {
@@ -250,7 +250,7 @@
           "title": "Udio porođaja uz prisustvo kvalifikovanog zdravstvenog osoblja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-1-2",
+          "href": "/lat/3-1-2",
           "status": "complete"
         },
         {
@@ -258,7 +258,7 @@
           "title": "Stopa smrtnosti djece mlađe od pet godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-2-1",
+          "href": "/lat/3-2-1",
           "status": "complete"
         },
         {
@@ -266,7 +266,7 @@
           "title": "Stopa smrtnosti novorođenčadi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-2-2",
+          "href": "/lat/3-2-2",
           "status": "complete"
         },
         {
@@ -274,7 +274,7 @@
           "title": "Broj novih HIV infekcija na 1 000 neinficiranih stanovnika, po polu, starosti i po glavnim populacionim grupama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-3-1",
+          "href": "/lat/3-3-1",
           "status": "complete"
         },
         {
@@ -282,7 +282,7 @@
           "title": "Incidencija tuberkuloze na 100 000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-3-2",
+          "href": "/lat/3-3-2",
           "status": "complete"
         },
         {
@@ -290,7 +290,7 @@
           "title": "Incidencija malarije na 1 000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-3-3",
+          "href": "/lat/3-3-3",
           "status": "complete"
         },
         {
@@ -298,7 +298,7 @@
           "title": "Incidencija hepatitisa B na 100 000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-3-4",
+          "href": "/lat/3-3-4",
           "status": "complete"
         },
         {
@@ -306,7 +306,7 @@
           "title": "Broj ljudi kojima su potrebne intervencije protiv zanemarenih tropskih bolesti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-3-5",
+          "href": "/lat/3-3-5",
           "status": "notstarted"
         },
         {
@@ -314,7 +314,7 @@
           "title": "Stopa smrtnosti koja se pripisuje kardiovaskularnim bolestima, raku, dijabetesu ili hroničnim bolestima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-4-1",
+          "href": "/lat/3-4-1",
           "status": "complete"
         },
         {
@@ -322,7 +322,7 @@
           "title": "Stopa smrtnosti usljed samoubistva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-4-2",
+          "href": "/lat/3-4-2",
           "status": "complete"
         },
         {
@@ -330,7 +330,7 @@
           "title": "Obuhvat intervencija liječenja (farmakološke, psihološke i usluge rehabilitacije i dalje njege) za poremećaje upotrebe supstanci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-5-1",
+          "href": "/lat/3-5-1",
           "status": "complete"
         },
         {
@@ -338,7 +338,7 @@
           "title": "Potrošnja alkohola po stanovniku (starosti od 15 i više godina) u kalendarskoj godini u litrima čistog alkohola",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-5-2",
+          "href": "/lat/3-5-2",
           "status": "complete"
         },
         {
@@ -346,7 +346,7 @@
           "title": "Stopa smrtnosti usljed povreda u saobraćajnim nesrećama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-6-1",
+          "href": "/lat/3-6-1",
           "status": "complete"
         },
         {
@@ -354,7 +354,7 @@
           "title": "Udio žena u reproduktivnom periodu (starosti 15–49 godina) koje svoje potrebe za planiranje porodice zadovoljavaju savremenim metodama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-7-1",
+          "href": "/lat/3-7-1",
           "status": "complete"
         },
         {
@@ -362,7 +362,7 @@
           "title": "Stopa rađanja kod adolescenata (starosti 10–14 godina; starosti 15–19 godina) na 1 000 žena iz te starosne grupe",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-7-2",
+          "href": "/lat/3-7-2",
           "status": "complete"
         },
         {
@@ -370,7 +370,7 @@
           "title": "Pokrivenost osnovnih zdravstvenih usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-8-1",
+          "href": "/lat/3-8-1",
           "status": "notstarted"
         },
         {
@@ -378,7 +378,7 @@
           "title": "Udio stanovništva s velikim izdacima domaćinstva za zdravstvo kao udio u ukupnim izdacima ili prihodima domaćinstva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-8-2",
+          "href": "/lat/3-8-2",
           "status": "notstarted"
         },
         {
@@ -386,7 +386,7 @@
           "title": "Stopa smrtnosti uzrokovana zagađenjem domaćinstvima i zraka u okolini",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-9-1",
+          "href": "/lat/3-9-1",
           "status": "notstarted"
         },
         {
@@ -394,7 +394,7 @@
           "title": "Stopa smrtnosti uzrokovana nebezbijednom vodom, nebezjbednoj sanitaciji i nedostatku higijene (izlaganje nebezbjednimVodama, Sanitaciji i Higijeni za Sve (WASH) uslugama)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-9-2",
+          "href": "/lat/3-9-2",
           "status": "notstarted"
         },
         {
@@ -402,7 +402,7 @@
           "title": "Stopa smrtnosti uzrokovana nenamjernim trovanjem",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-9-3",
+          "href": "/lat/3-9-3",
           "status": "notstarted"
         },
         {
@@ -410,7 +410,7 @@
           "title": "Starosno standardizovana prevalencija trenutne upotrebe duvana među osobama starosti 15 godina i više",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-a-1",
+          "href": "/lat/3-a-1",
           "status": "complete"
         },
         {
@@ -418,7 +418,7 @@
           "title": "Udio ciljane populacije obuhvaćene svim vakcinama uključenih u nacionalnim programa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-b-1",
+          "href": "/lat/3-b-1",
           "status": "complete"
         },
         {
@@ -426,7 +426,7 @@
           "title": "Ukupna neto službena razvojna pomoć medicinskim istraživanjima i osnovnim zdravstvenim sektorima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-b-2",
+          "href": "/lat/3-b-2",
           "status": "complete"
         },
         {
@@ -434,7 +434,7 @@
           "title": "Udio zdravstvenih ustanova koje imaju osnovni paket relevantnih esencijalnih lijekova koji su priuštivi i dostupni na održivoj osnovi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-b-3",
+          "href": "/lat/3-b-3",
           "status": "notstarted"
         },
         {
@@ -442,7 +442,7 @@
           "title": "Gustina i distribucija zdravstvenih radnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-c-1",
+          "href": "/lat/3-c-1",
           "status": "complete"
         },
         {
@@ -450,7 +450,7 @@
           "title": "Kapacitet međunarodnih zdravstvenih propisa (IHR) i spremnost za hitne slučajeve u zdravstvu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-d-1",
+          "href": "/lat/3-d-1",
           "status": "complete"
         },
         {
@@ -458,7 +458,7 @@
           "title": "Procenat infekcija krvotoka zbog odabranih organizama otpornih na antimikrobne bolesti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/3-d-2",
+          "href": "/lat/3-d-2",
           "status": "complete"
         }]
     }
@@ -474,7 +474,7 @@
           "title": "Srazmjer djece i mladih: (a) u razredima 2/3; (b) na kraju osnovnog; i (c) na kraju nižeg srednjeg obrazovanja koja postižu najmanje minimalnog nivoa znanja u (i) čitanju i (ii) matematici, po polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-1-1",
+          "href": "/lat/4-1-1",
           "status": "notstarted"
         },
         {
@@ -482,7 +482,7 @@
           "title": "Stopa završenih studija (osnovno obrazovanje, niže srednje obrazovanje, srednje obrazovanje)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-1-2",
+          "href": "/lat/4-1-2",
           "status": "notstarted"
         },
         {
@@ -490,7 +490,7 @@
           "title": "Udio djece mlađe od pet godina koja se pravilno razvijaju u smislu zdravstvenog, obrazovnog i psihosocijalnog blagostanja, prema polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-2-1",
+          "href": "/lat/4-2-1",
           "status": "complete"
         },
         {
@@ -498,7 +498,7 @@
           "title": "Stopa učešća u organizovanom učenju (godinu dana prije zvaničnog uzrasta za upis u osnovnu školu), prema polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-2-2",
+          "href": "/lat/4-2-2",
           "status": "complete"
         },
         {
@@ -506,7 +506,7 @@
           "title": "Stopa učešća mladih i odraslih u formalnom i neformalnom obrazovanju i obukama u prethodnih 12 mjeseci, prema polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-3-1",
+          "href": "/lat/4-3-1",
           "status": "complete"
         },
         {
@@ -514,7 +514,7 @@
           "title": "Stopa učešća mladih i odraslih koji posjeduju vještine u informacionim i komunikacionim tehnologijama, po vrstama vještina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-4-1",
+          "href": "/lat/4-4-1",
           "status": "complete"
         },
         {
@@ -522,7 +522,7 @@
           "title": "Indeksi pariteta (ženske/muškarci, ruralna/urbana, najniži/najviši kvintil bogatstva i drugi kao što su status invalidnosti, autohtoni narodi i pogođeni sukobima, kada podaci postanu dostupni) za sve indikatore obrazovanja na ovoj listi koji mogu biti razvrstani",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-5-1",
+          "href": "/lat/4-5-1",
           "status": "notstarted"
         },
         {
@@ -530,7 +530,7 @@
           "title": "Udio stanovništva u datoj starosnoj grupi koja postiže najmanje fiksni nivo znanja u funkcionalnim vještinama (a) pismenosti i (b) računanja, prema polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-6-1",
+          "href": "/lat/4-6-1",
           "status": "notstarted"
         },
         {
@@ -538,7 +538,7 @@
           "title": "Mjera u kojoj su na svim nivoima integrisani obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj, uključujući i rodnu ravnopravnost i ljudska prava na svim nivoima: (a) nacionalnih obrazovnih politika; (b) kurikuluma; (c) obrazovanja nastavnika; i (d) procjene učenika i studenata",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-7-1",
+          "href": "/lat/4-7-1",
           "status": "notstarted"
         },
         {
@@ -546,7 +546,7 @@
           "title": "Udio škola koje nude osnovne usluge, prema vrsti usluge",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-a-1",
+          "href": "/lat/4-a-1",
           "status": "notstarted"
         },
         {
@@ -554,7 +554,7 @@
           "title": "Obim službene razvojne pomoći za stipendije po sektorima i vrstama studija",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-b-1",
+          "href": "/lat/4-b-1",
           "status": "notstarted"
         },
         {
@@ -562,7 +562,7 @@
           "title": "Proporcija učitelja sa minimalno potrebnim kvalifikacijama, prema nivou obrazovanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/4-c-1",
+          "href": "/lat/4-c-1",
           "status": "notstarted"
         }]
     }
@@ -578,7 +578,7 @@
           "title": "Da li postoji ili ne pravni okvir koji promoviše, sprovodi i prati ravnopravnost i zabranu diskriminacije po osnovu pola",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-1-1",
+          "href": "/lat/5-1-1",
           "status": "complete"
         },
         {
@@ -586,7 +586,7 @@
           "title": "Udio žena i djevojčica starosti 15 godina i više koje su ikada bile u partnerskim vezama izložene fizičkom, seksualnom ili psihološkom nasilju od strane sadašnjeg ili bivšeg partnera tokom proteklih 12 mjeseci, prema vrsti nasilja i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-2-1",
+          "href": "/lat/5-2-1",
           "status": "complete"
         },
         {
@@ -594,7 +594,7 @@
           "title": "Udio žena i djevojčica starosti 15 godina i više koje su bile izložene seksualnom nasilju od strane osoba koje nisu njihov bliski partner tokom proteklih 12 mjeseci, po starosti i mjestu dešavanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-2-2",
+          "href": "/lat/5-2-2",
           "status": "complete"
         },
         {
@@ -602,7 +602,7 @@
           "title": "Udio žena starosti od 20-24 godine koje su bile u braku ili u zajednici prije 15 i prije 18 godina starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-3-1",
+          "href": "/lat/5-3-1",
           "status": "notstarted"
         },
         {
@@ -610,7 +610,7 @@
           "title": "Udio djevojčica i žena u dobi od 15 do 49 godina koja su podvrgnute rezanju ženskih genitalija, prema starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-3-2",
+          "href": "/lat/5-3-2",
           "status": "notstarted"
         },
         {
@@ -618,7 +618,7 @@
           "title": "Udio vremena provedenog na neplaćenom radu u domaćinstvu i njegovateljskom radu, prema polu, starosti i lokaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-4-1",
+          "href": "/lat/5-4-1",
           "status": "notstarted"
         },
         {
@@ -626,7 +626,7 @@
           "title": "Udio mjesta koje imaju žene u (a) nacionalnim parlamentima i (b) lokalnim samoupravama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-5-1",
+          "href": "/lat/5-5-1",
           "status": "complete"
         },
         {
@@ -634,7 +634,7 @@
           "title": "Udio žena na rukovodećim pozicijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-5-2",
+          "href": "/lat/5-5-2",
           "status": "notstarted"
         },
         {
@@ -642,7 +642,7 @@
           "title": "Udio žena u dobi od 15 do 49 godina koje donose svoje odluke u vezi sa seksualnim odnosima, upotrebom kontracepcije i reproduktivnom zdravljem",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-6-1",
+          "href": "/lat/5-6-1",
           "status": "notstarted"
         },
         {
@@ -650,7 +650,7 @@
           "title": "Broj zemalja sa zakonima i propisima koji garantuju pun i jednak pristup ženama i muškarcima u dobi od 15 godina i više seksualnoj i reproduktivnoj zdravstvenoj zaštiti, informacijama i obrazovanju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-6-2",
+          "href": "/lat/5-6-2",
           "status": "notstarted"
         },
         {
@@ -658,7 +658,7 @@
           "title": "(a) udio ukupnog poljoprivrednog stanovništva sa vlasništvom ili zaštićenim pravima na poljoprivrednom zemljištu, prema polu; i (b) udio žena među vlasnicima ili nosiocima prava na poljoprivrednom zemljištu, prema vrsti posjeda",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-a-1",
+          "href": "/lat/5-a-1",
           "status": "notstarted"
         },
         {
@@ -666,7 +666,7 @@
           "title": "Udio država u kojima pravni okvir (uključujući običajno pravo) garantuje jednaka prava žena na vlasništvo i/ili kontrolu nad zemljištem",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-a-2",
+          "href": "/lat/5-a-2",
           "status": "notstarted"
         },
         {
@@ -674,7 +674,7 @@
           "title": "Udio osoba koje posjeduju mobilni telefon, po polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-b-1",
+          "href": "/lat/5-b-1",
           "status": "notstarted"
         },
         {
@@ -682,7 +682,7 @@
           "title": "Udio država sa sistemima praćenja i javnog izdvajanja za ravnopravnost polova i osnaživanje žena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/5-c-1",
+          "href": "/lat/5-c-1",
           "status": "notstarted"
         }]
     }
@@ -698,7 +698,7 @@
           "title": "Udio stanovništva koje koristi pitku vodu iz sistema kojima se bezbjedno upravlja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-1-1",
+          "href": "/lat/6-1-1",
           "status": "complete"
         },
         {
@@ -706,7 +706,7 @@
           "title": "Udio stanovništva koje koristi usluge sanitacije kojima se bezbjedno upravlja, uključujući pranje ruku sapunom i vodom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-2-1",
+          "href": "/lat/6-2-1",
           "status": "complete"
         },
         {
@@ -714,7 +714,7 @@
           "title": "Udio otpadnih voda koje se bezbjedno prečišćavaju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-3-1",
+          "href": "/lat/6-3-1",
           "status": "complete"
         },
         {
@@ -722,7 +722,7 @@
           "title": "Udio vodnih tijela koja imaju vodu odgovarajućeg kvaliteta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-3-2",
+          "href": "/lat/6-3-2",
           "status": "complete"
         },
         {
@@ -730,7 +730,7 @@
           "title": "Promijeniti efikasnost upotrebe vode tokom vremena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-4-1",
+          "href": "/lat/6-4-1",
           "status": "notstarted"
         },
         {
@@ -738,7 +738,7 @@
           "title": "Nivo vodenog stresa: povlačenje slatke vode kao udio raspoloživih slatkovodnih resursa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-4-2",
+          "href": "/lat/6-4-2",
           "status": "notstarted"
         },
         {
@@ -746,7 +746,7 @@
           "title": "Stepen integriranog upravljanja vodnim resursima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-5-1",
+          "href": "/lat/6-5-1",
           "status": "notstarted"
         },
         {
@@ -754,7 +754,7 @@
           "title": "Udio prekogranične površine sa operativnim aranžmanom za saradnju na vodama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-5-2",
+          "href": "/lat/6-5-2",
           "status": "notstarted"
         },
         {
@@ -762,7 +762,7 @@
           "title": "Promjena obima  vodnih ekosistema tokom vremena",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-6-1",
+          "href": "/lat/6-6-1",
           "status": "notstarted"
         },
         {
@@ -770,7 +770,7 @@
           "title": "Visina zvanične razvojne pomoći koja se odnosi na vode i kanalizaciju koja je dio vladinog koordinirajućeg plana potrošnje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-a-1",
+          "href": "/lat/6-a-1",
           "status": "notstarted"
         },
         {
@@ -778,7 +778,7 @@
           "title": "Udio lokalnih administrativnih jedinica sa utvrđenim i operativnim politikama i postupcima za učešće lokalnih zajednica u upravljanju vodama i sanitacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/6-b-1",
+          "href": "/lat/6-b-1",
           "status": "notstarted"
         }]
     }
@@ -794,7 +794,7 @@
           "title": "Udio stanovništva koje ima pristup električnoj energiji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-1-1",
+          "href": "/lat/7-1-1",
           "status": "complete"
         },
         {
@@ -802,7 +802,7 @@
           "title": "Udio stanovništva koji se prvenstveno oslanja na čista goriva i tehnologiju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-1-2",
+          "href": "/lat/7-1-2",
           "status": "notstarted"
         },
         {
@@ -810,7 +810,7 @@
           "title": "Udio obnovljive energije u ukupnoj potrošnji finalne energije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-2-1",
+          "href": "/lat/7-2-1",
           "status": "notstarted"
         },
         {
@@ -818,7 +818,7 @@
           "title": "Energetski intenzitet mjeren u smislu primarne energije i BDP-a",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-3-1",
+          "href": "/lat/7-3-1",
           "status": "notstarted"
         },
         {
@@ -826,7 +826,7 @@
           "title": "Međunarodni finansijski tokovi u zemljama u razvoju za podršku istraživanju i razvoju čiste energije i proizvodnji obnovljivih izvora energije, uključujući i hibridne sisteme",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-a-1",
+          "href": "/lat/7-a-1",
           "status": "notstarted"
         },
         {
@@ -834,7 +834,7 @@
           "title": "Instalirani kapaciteti za proizvodnju obnovljivih izvora energije u zemljama u razvoju (u vatima po stanovniku)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/7-b-1",
+          "href": "/lat/7-b-1",
           "status": "notstarted"
         }]
     }
@@ -850,7 +850,7 @@
           "title": "Godišnja stopa rasta realnog BDP-a po stanovniku",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-1-1",
+          "href": "/lat/8-1-1",
           "status": "notstarted"
         },
         {
@@ -858,7 +858,7 @@
           "title": "Godišnja stopa rasta realnog BDP-a po zaposlenoj osobi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-2-1",
+          "href": "/lat/8-2-1",
           "status": "notstarted"
         },
         {
@@ -866,7 +866,7 @@
           "title": "Udio neformalnog zapošljavanja u ukupnoj zaposlenosti, prema sektorima i polu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-3-1",
+          "href": "/lat/8-3-1",
           "status": "notstarted"
         },
         {
@@ -874,7 +874,7 @@
           "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-4-1",
+          "href": "/lat/8-4-1",
           "status": "notstarted"
         },
         {
@@ -882,7 +882,7 @@
           "title": "Potrošnja domaćeg materijala, potrošnja domaćeg materijala po glavi stanovnika i potrošnja domaćeg materijala po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-4-2",
+          "href": "/lat/8-4-2",
           "status": "notstarted"
         },
         {
@@ -890,7 +890,7 @@
           "title": "Prosječna zarada po satu zaposlenih, prema polu, starosti, zanimanju i osobama sa invaliditetom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-5-1",
+          "href": "/lat/8-5-1",
           "status": "notstarted"
         },
         {
@@ -898,7 +898,7 @@
           "title": "Stopa nezaposlenosti prema polu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-5-2",
+          "href": "/lat/8-5-2",
           "status": "complete"
         },
         {
@@ -906,7 +906,7 @@
           "title": "Procenat mladih (u dobi od 15-24 godine) koji nisu u obrazovanju, zapošljavanju ili obuci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-6-1",
+          "href": "/lat/8-6-1",
           "status": "notstarted"
         },
         {
@@ -914,7 +914,7 @@
           "title": "Udio i broj djece uzrasta 5-17 godina angažovanih u dječijem radu, prema polu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-7-1",
+          "href": "/lat/8-7-1",
           "status": "notstarted"
         },
         {
@@ -922,7 +922,7 @@
           "title": "Fatalne i nefatalne povrede na radu na 100.000 radnika, prema polu i migrantskom statusu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-8-1",
+          "href": "/lat/8-8-1",
           "status": "notstarted"
         },
         {
@@ -930,7 +930,7 @@
           "title": "Nivo nacionalne usklađenosti radnih prava (sloboda udruživanja i kolektivnog pregovaranja) na osnovu tekstualnih izvora Međunarodne organizacije rada (ILO) i nacionalnog zakonodavstva, prema polu i statusu migranata",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-8-2",
+          "href": "/lat/8-8-2",
           "status": "notstarted"
         },
         {
@@ -938,7 +938,7 @@
           "title": "Direktan BDP iz turizma kao učešće u ukupnom BDP-u i u stopi rasta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-9-1",
+          "href": "/lat/8-9-1",
           "status": "complete"
         },
         {
@@ -946,7 +946,7 @@
           "title": "Udio radnih mjesta u održivoj turističkoj privrdi u odnosu na ukupan broj radnih mjesta u turizmu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-9-2",
+          "href": "/lat/8-9-2",
           "status": "complete"
         },
         {
@@ -954,7 +954,7 @@
           "title": "(a) Broj filijala komercijalnih banaka na 100.000 odraslih i (b) broj automatizovanih bankomata na 100.000 odraslih",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-10-1",
+          "href": "/lat/8-10-1",
           "status": "complete"
         },
         {
@@ -962,7 +962,7 @@
           "title": "Udio odraslih (15 i više godina) sa računom u banci ili drugoj finansijskoj instituciji ili sa pružaocem usluge mobilnih novčanih usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-10-2",
+          "href": "/lat/8-10-2",
           "status": "notstarted"
         },
         {
@@ -970,7 +970,7 @@
           "title": "Pomoć za trgovinske obaveze i isplate",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-a-1",
+          "href": "/lat/8-a-1",
           "status": "notstarted"
         },
         {
@@ -978,7 +978,7 @@
           "title": "Postojanje razvijene i operacionalizovane nacionalne strategije za zapošljavanje mladih, kao posebna strategija ili kao dio nacionalne strategije zapošljavanja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/8-b-1",
+          "href": "/lat/8-b-1",
           "status": "notstarted"
         }]
     }
@@ -994,7 +994,7 @@
           "title": "Udio ruralnog stanovništva koje živi na udaljenosti od 2 km od cjelogodišnje ceste",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-1-1",
+          "href": "/lat/9-1-1",
           "status": "notstarted"
         },
         {
@@ -1002,7 +1002,7 @@
           "title": "Obim putničkog i teretnog transporta, po vrsti transporta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-1-2",
+          "href": "/lat/9-1-2",
           "status": "complete"
         },
         {
@@ -1010,7 +1010,7 @@
           "title": "Bruto dodata vrijednost prerađivačke industrije, učešće u BDP-u i po glavi stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-2-1",
+          "href": "/lat/9-2-1",
           "status": "complete"
         },
         {
@@ -1018,7 +1018,7 @@
           "title": "Zapošljavanje u proizvodnji kao udio ukupne zaposlenosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-2-2",
+          "href": "/lat/9-2-2",
           "status": "notstarted"
         },
         {
@@ -1026,7 +1026,7 @@
           "title": "Udio malih industrija u ukupnoj dodatoj vrijednosti u industriji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-3-1",
+          "href": "/lat/9-3-1",
           "status": "complete"
         },
         {
@@ -1034,7 +1034,7 @@
           "title": "Udio malih industrija sa zajmom ili kreditnom linijom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-3-2",
+          "href": "/lat/9-3-2",
           "status": "notstarted"
         },
         {
@@ -1042,7 +1042,7 @@
           "title": "Emisija CO2 po jedinici dodane vrijednosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-4-1",
+          "href": "/lat/9-4-1",
           "status": "notstarted"
         },
         {
@@ -1050,7 +1050,7 @@
           "title": "Izdaci za istraživanje i razvoj kao udio u BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-5-1",
+          "href": "/lat/9-5-1",
           "status": "complete"
         },
         {
@@ -1058,7 +1058,7 @@
           "title": "Broj istraživača (izraženo kao ekvivalent zaposlenosti sa punim radnim vremenom) na milion stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-5-2",
+          "href": "/lat/9-5-2",
           "status": "complete"
         },
         {
@@ -1066,7 +1066,7 @@
           "title": "Ukupna zvanična međunarodna podrška (zvanična razvojna pomoć plus drugi zvanični tokovi) za infrastrukturu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-a-1",
+          "href": "/lat/9-a-1",
           "status": "notstarted"
         },
         {
@@ -1074,7 +1074,7 @@
           "title": "Udio dodane vrijednosti srednje i visokotehnološke industrije u ukupnoj dodanoj vrijednosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-b-1",
+          "href": "/lat/9-b-1",
           "status": "notstarted"
         },
         {
@@ -1082,7 +1082,7 @@
           "title": "Udio stanovništva pokrivenog mobilnom mrežom, prema tehnologiji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/9-c-1",
+          "href": "/lat/9-c-1",
           "status": "notstarted"
         }]
     }
@@ -1098,7 +1098,7 @@
           "title": "Stopa rasta potrošnje domaćinstava ili prihoda po glavi stanovnika među donjih 40 posto stanovništva i ukupnom stanovništvu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-1-1",
+          "href": "/lat/10-1-1",
           "status": "notstarted"
         },
         {
@@ -1106,7 +1106,7 @@
           "title": "Udio stanovnika koji žive ispod 50 procenata srednjih prihoda, po polu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-2-1",
+          "href": "/lat/10-2-1",
           "status": "complete"
         },
         {
@@ -1114,7 +1114,7 @@
           "title": "Udio stanovništva koje je prijavilo da se lično osjeća diskriminiranim ili maltretiranim u prethodnih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim ljudskim pravima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-3-1",
+          "href": "/lat/10-3-1",
           "status": "notstarted"
         },
         {
@@ -1122,7 +1122,7 @@
           "title": "Udio radne snage u BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-4-1",
+          "href": "/lat/10-4-1",
           "status": "notstarted"
         },
         {
@@ -1130,7 +1130,7 @@
           "title": "Indikatori finansijske stabilnosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-5-1",
+          "href": "/lat/10-5-1",
           "status": "complete"
         },
         {
@@ -1138,7 +1138,7 @@
           "title": "Udio članova i prava glasa zemalja u razvoju u međunarodnim organizacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-6-1",
+          "href": "/lat/10-6-1",
           "status": "notstarted"
         },
         {
@@ -1146,7 +1146,7 @@
           "title": "Troškovi zapošljavanja koje snose zaposleni u odnosu na godišnji prihod ostvaren u zemlji odredišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-7-1",
+          "href": "/lat/10-7-1",
           "status": "notstarted"
         },
         {
@@ -1154,7 +1154,7 @@
           "title": "Broj zemalja s migracijskim politikama koje omogućavaju uređenu, sigurnu, redovnu i odgovornu migraciju i mobilnost ljudi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-7-2",
+          "href": "/lat/10-7-2",
           "status": "notstarted"
         },
         {
@@ -1162,7 +1162,7 @@
           "title": "Broj ljudi koji su umrli ili nestali u procesu migracije prema međunarodnoj destinaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-7-3",
+          "href": "/lat/10-7-3",
           "status": "notstarted"
         },
         {
@@ -1170,7 +1170,7 @@
           "title": "Udio stanovništva izbjeglica, prema zemlji porijekla",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-7-4",
+          "href": "/lat/10-7-4",
           "status": "notstarted"
         },
         {
@@ -1178,7 +1178,7 @@
           "title": "Udio tarifnih linija primjenjen na uvoz iz najmanje razvijenih zemalja i zemalja u razvoju sa nultom tarifom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-a-1",
+          "href": "/lat/10-a-1",
           "status": "notstarted"
         },
         {
@@ -1186,7 +1186,7 @@
           "title": "Ukupni tokovi sredstava za razvoj, po zemlji primaocu i donatoru i vrsti toka (npr. zvanična razvojna pomoć, direktne strane investicije i drugi tokovi)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-b-1",
+          "href": "/lat/10-b-1",
           "status": "complete"
         },
         {
@@ -1194,7 +1194,7 @@
           "title": "Troškovi doznaka kao proporcija doznačenog iznosa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/10-c-1",
+          "href": "/lat/10-c-1",
           "status": "notstarted"
         }]
     }
@@ -1210,7 +1210,7 @@
           "title": "Udio gradskog stanovništva koje živi u kartonskim naseljima, neformalnim naseljima ili neadekvatnim stambenim uslovima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-1-1",
+          "href": "/lat/11-1-1",
           "status": "complete"
         },
         {
@@ -1218,7 +1218,7 @@
           "title": "Udio stanovništva koji ima povoljan pristup javnom prevozu, prema polu, starosti i osobama sa invaliditetom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-2-1",
+          "href": "/lat/11-2-1",
           "status": "notstarted"
         },
         {
@@ -1226,7 +1226,7 @@
           "title": "Koeficijent stope korištenja zemljišta u odnosu na stopu rasta stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-3-1",
+          "href": "/lat/11-3-1",
           "status": "notstarted"
         },
         {
@@ -1234,7 +1234,7 @@
           "title": "Udio gradova sa strukturom direktnog učešća civilnih društava u urbanističkom planiranju i upravljanju koje funkcionišu redovno i na demokratski način",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-3-2",
+          "href": "/lat/11-3-2",
           "status": "notstarted"
         },
         {
@@ -1242,7 +1242,7 @@
           "title": "Ukupni izdaci po glavi stanovnika za očuvanje, zaštitu i konzervaciju cjelokupne kulturne i prirodne baštine, po vrstama, vrsti naslijeđa i nivou upravljanja (nacionalni, regionalni i lokalni/općinski)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-4-1",
+          "href": "/lat/11-4-1",
           "status": "notstarted"
         },
         {
@@ -1250,7 +1250,7 @@
           "title": "Broj umrlih, nestalih osoba i direktno pogođenih lica uzrokovan katastrofama na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-5-1",
+          "href": "/lat/11-5-1",
           "status": "notstarted"
         },
         {
@@ -1258,7 +1258,7 @@
           "title": "Neposredni ekonomski gubici u odnosu na globalni BDP, oštećenja kritične infrastrukture i broj prekida osnovne usluge, uzrokovano katastrofama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-5-2",
+          "href": "/lat/11-5-2",
           "status": "notstarted"
         },
         {
@@ -1266,7 +1266,7 @@
           "title": "Udio komunalnog čvrstog otpada koji se redovno prikuplja i koji se na odgovarajući način odlaže u ukupnoj količini generisanog komunalnog čvrstog otpada, po gradovima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-6-1",
+          "href": "/lat/11-6-1",
           "status": "complete"
         },
         {
@@ -1274,7 +1274,7 @@
           "title": "Godišnji srednji nivoi finih čestica (npr. PM2.5 i PM10) u gradovima (ponderisana populacija)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-6-2",
+          "href": "/lat/11-6-2",
           "status": "notstarted"
         },
         {
@@ -1282,7 +1282,7 @@
           "title": "Prosječan udio otvorenih javnih površina u izgrađenim površinama gradova, prema spolu, starosti i invaliditetu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-7-1",
+          "href": "/lat/11-7-1",
           "status": "notstarted"
         },
         {
@@ -1290,7 +1290,7 @@
           "title": "Udio osoba koje su žrtve fizičkog ili seksualnog uznemiravanja, po spolu, starosti, invaliditetu, i mjestu dešavanja, tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-7-2",
+          "href": "/lat/11-7-2",
           "status": "notstarted"
         },
         {
@@ -1298,7 +1298,7 @@
           "title": "Broj zemalja koje imaju nacionalne urbane politike ili planove regionalnog razvoja koji (a) odgovaraju na dinamiku stanovništva; (b) osiguravaju uravnotežen teritorijalni razvoj; i (c) povećava lokalni fiskalni prostor",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-a-1",
+          "href": "/lat/11-a-1",
           "status": "notstarted"
         },
         {
@@ -1306,7 +1306,7 @@
           "title": "Broj zemalja koje usvajaju i implementiraju nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai Okvirom za smanjenje rizika od katastrofa 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-b-1",
+          "href": "/lat/11-b-1",
           "status": "notstarted"
         },
         {
@@ -1314,7 +1314,7 @@
           "title": "Udio lokalnih samouprava koje usvajaju i sprovede strategije za smanjenje rizika od katastrofa u skladu sa nacionalnim strategijama za smanjenje rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-b-2",
+          "href": "/lat/11-b-2",
           "status": "notstarted"
         },
         {
@@ -1322,7 +1322,7 @@
           "title": "Udio finansijske podrške najnerazvijenijim zemljama koji se raspoređuje za izgradnju i rekonstrukciju održivih, otpornih i resursno-efikasnih objekata koristeći lokalne materijale",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/11-c-1",
+          "href": "/lat/11-c-1",
           "status": "notstarted"
         }]
     }
@@ -1338,7 +1338,7 @@
           "title": "Broj zemalja koje razvijaju, koje usvajaju ili provode instrumente politike usmjerene na podržavanje prelaska na održivu potrošnju i proizvodnju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-1-1",
+          "href": "/lat/12-1-1",
           "status": "notstarted"
         },
         {
@@ -1346,7 +1346,7 @@
           "title": "Materijalni otisak, materijalni otisak po glavi stanovnika i materijalni otisak po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-2-1",
+          "href": "/lat/12-2-1",
           "status": "notstarted"
         },
         {
@@ -1354,7 +1354,7 @@
           "title": "Potrošnja domaćeg materijala, potrošnja domaćeg materijala po glavi stanovnika i potrošnja domaćeg materijala po BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-2-2",
+          "href": "/lat/12-2-2",
           "status": "notstarted"
         },
         {
@@ -1362,7 +1362,7 @@
           "title": "Indeks gubitka hrane",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-3-1",
+          "href": "/lat/12-3-1",
           "status": "notstarted"
         },
         {
@@ -1370,7 +1370,7 @@
           "title": "Broj strana međunarodnih okolišnih multilateralnih sporazuma o opasnom otpadu i drugim hemikalijama koje ispunjavaju svoje obaveze i obaveze u prenosu informacija kako to zahtijeva svaki relevantni sporazum",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-4-1",
+          "href": "/lat/12-4-1",
           "status": "notstarted"
         },
         {
@@ -1378,7 +1378,7 @@
           "title": "Opasni otpad stvoren po stanovniku i udio tretiranog opasnog otpada prema vrsti obrade",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-4-2",
+          "href": "/lat/12-4-2",
           "status": "notstarted"
         },
         {
@@ -1386,7 +1386,7 @@
           "title": "Nacionalna stopa recikliranja, tone recikliranog materijala",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-5-1",
+          "href": "/lat/12-5-1",
           "status": "notstarted"
         },
         {
@@ -1394,7 +1394,7 @@
           "title": "Broj kompanija koje objavljuju izvještaje o održivosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-6-1",
+          "href": "/lat/12-6-1",
           "status": "notstarted"
         },
         {
@@ -1402,7 +1402,7 @@
           "title": "Stepen održivih politika javnih nabavki i implementacije akcionog plana",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-7-1",
+          "href": "/lat/12-7-1",
           "status": "notstarted"
         },
         {
@@ -1410,7 +1410,7 @@
           "title": "Mjera u kojoj su na svim nivoima integrisani obrazovanje za (i) pripadnost globalnoj zajednici i (ii) održivi razvoj, uključujući i rodnu ravnopravnost i ljudska prava na svim nivoima: (a) nacionalnih obrazovnih politika; (b) kurikuluma; (c) obrazovanja nastavnika; i (d) procjene učenika i studenata",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-8-1",
+          "href": "/lat/12-8-1",
           "status": "notstarted"
         },
         {
@@ -1418,7 +1418,7 @@
           "title": "Instalirani kapaciteti za proizvodnju obnovljivih izvora energije u zemljama u razvoju (u vatima po stanovniku)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-a-1",
+          "href": "/lat/12-a-1",
           "status": "notstarted"
         },
         {
@@ -1426,7 +1426,7 @@
           "title": "Broj strategija ili politika održivog turizma i iimplementiranih akcionih planova sa dogovorenim alatima za praćenje i evaluaciju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-b-1",
+          "href": "/lat/12-b-1",
           "status": "notstarted"
         },
         {
@@ -1434,7 +1434,7 @@
           "title": "Iznos subvencija za fosilna goriva kao procenat BDP-a i iznos subvencija za fosilna goriva kao udio u ukupnim nacionalnim izdacima za fosilna goriva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/12-c-1",
+          "href": "/lat/12-c-1",
           "status": "notstarted"
         }]
     }
@@ -1450,7 +1450,7 @@
           "title": "Broj umrlih, nestalih osoba i direktno pogođenih lica uzrokovanih katastrofama na 100.000 stanovnika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-1-1",
+          "href": "/lat/13-1-1",
           "status": "notstarted"
         },
         {
@@ -1458,7 +1458,7 @@
           "title": "Broj zemalja koje usvajaju i provode nacionalne strategije za smanjenje rizika od katastrofa u skladu sa Sendai okvirom za smanjenje rizika od katastrofa 2015-2030",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-1-2",
+          "href": "/lat/13-1-2",
           "status": "notstarted"
         },
         {
@@ -1466,7 +1466,7 @@
           "title": "Udio lokalnih samouprava koje usvajaju i sprovode strategije za smanjenje rizika od katastrofa u skladu sa nacionalnim strategijama za smanjenje rizika od katastrofa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-1-3",
+          "href": "/lat/13-1-3",
           "status": "notstarted"
         },
         {
@@ -1474,7 +1474,7 @@
           "title": "Broj zemalja s utvrđenim nacionalnim doprinosima, dugoročnim strategijama, nacionalnim planovima adaptacije, strategijama kako je prijavljeno u komunikacijama o prilagodbi i nacionalnim komunikacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-2-1",
+          "href": "/lat/13-2-1",
           "status": "notstarted"
         },
         {
@@ -1482,7 +1482,7 @@
           "title": "Ukupne godišnje emisije gasova sa efektom staklene bašte",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-2-2",
+          "href": "/lat/13-2-2",
           "status": "notstarted"
         },
         {
@@ -1490,7 +1490,7 @@
           "title": "Broj zemalja koje su integrirale pitanja (i) obrazovanja globalnog građanstva i (ii) obrazovanja za održivi razvoj integrirano je u (a) nacionalne obrazovne politike; (b) nastavne programe; (c) obrazovanje nastavnika; i (d) ocjenjivanje učenika",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-3-1",
+          "href": "/lat/13-3-1",
           "status": "notstarted"
         },
         {
@@ -1498,7 +1498,7 @@
           "title": "Iznos osiguranih i mobilisanih američkih dolara godišnje u odnosu na nastavljeni postojeći kolektivni cilj mobilizacije od 100 milijardi dolara preuzetih obaveza do 2025. godine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-a-1",
+          "href": "/lat/13-a-1",
           "status": "notstarted"
         },
         {
@@ -1506,7 +1506,7 @@
           "title": "Broj najnerazvijenijih zemalja i malih ostrvskih zemalja u razvoju s utvrđenim nacionalnim doprinosima dugoročnim strategijama, nacionalnim planovima adaptacije, strategijama kako je navedeno u komunikacijskim adaptacijama i nacionalnim komunikacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/13-b-1",
+          "href": "/lat/13-b-1",
           "status": "notstarted"
         }]
     }
@@ -1522,7 +1522,7 @@
           "title": "Indeks eutrofikacije obale i gustine plastičnog otpada",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-1-1",
+          "href": "/lat/14-1-1",
           "status": "notstarted"
         },
         {
@@ -1530,7 +1530,7 @@
           "title": "Broj zemalja koje koriste pristupe zasnovane na ekosistemima u upravljanju morskim područjima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-2-1",
+          "href": "/lat/14-2-1",
           "status": "notstarted"
         },
         {
@@ -1538,7 +1538,7 @@
           "title": "Prosječna pomorska kiselina (pH) mjerena na dogovorenom paketu reprezentativnih stanica za uzorkovanj",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-3-1",
+          "href": "/lat/14-3-1",
           "status": "notstarted"
         },
         {
@@ -1546,7 +1546,7 @@
           "title": "Udio ribljeg fonda na biološki održivim nivoima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-4-1",
+          "href": "/lat/14-4-1",
           "status": "notstarted"
         },
         {
@@ -1554,7 +1554,7 @@
           "title": "Pokrivenost zaštićenih područja u odnosu na morska područja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-5-1",
+          "href": "/lat/14-5-1",
           "status": "notstarted"
         },
         {
@@ -1562,7 +1562,7 @@
           "title": "Stepen primjene međunarodnih instrumenata usmjerenih na borbu protiv nezakonitog, neprijavljenog i neregulisanog ribolova",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-6-1",
+          "href": "/lat/14-6-1",
           "status": "notstarted"
         },
         {
@@ -1570,7 +1570,7 @@
           "title": "Održivo ribolov kao procenat BDP-a u malim ostrvskim državama u razvoju, najmanje razvijenim zemljama i svim zemljama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-7-1",
+          "href": "/lat/14-7-1",
           "status": "notstarted"
         },
         {
@@ -1578,7 +1578,7 @@
           "title": "Udio ukupnog istraživačkog budžeta namjenjenog istraživanjima u oblasti pomorske tehnologije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-a-1",
+          "href": "/lat/14-a-1",
           "status": "notstarted"
         },
         {
@@ -1586,7 +1586,7 @@
           "title": "Napredak zemalja u stepenu primjene pravnog/regulatornog /političkog/institucionalnog okvira koji prepoznaje i štiti pristupna prava za mala ribarstvo",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-b-1",
+          "href": "/lat/14-b-1",
           "status": "notstarted"
         },
         {
@@ -1594,7 +1594,7 @@
           "title": "Broj zemalja koje ostvaruju napredak u ratifikaciji, prihvatanju i provođenju, kroz zakonske, političke, i institucionalne okvire, instrumenata koji se odnose na okeane a služe provođenju međunarodnog prava, onako kako to predviđa Konvencija Ujedinjenih nacija o pomorskom pravu, za očuvanje i održivu upotrebu okeana i njihovih resursa",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/14-c-1",
+          "href": "/lat/14-c-1",
           "status": "notstarted"
         }]
     }
@@ -1610,7 +1610,7 @@
           "title": "Područje šuma kao udio ukupne površine zemljišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-1-1",
+          "href": "/lat/15-1-1",
           "status": "notstarted"
         },
         {
@@ -1618,7 +1618,7 @@
           "title": "Udio značajnih mjesta za kopneni i slatkovodni biodiverzitet koja su pokrivena zaštićenim područjima, po vrsti ekosistema",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-1-2",
+          "href": "/lat/15-1-2",
           "status": "complete"
         },
         {
@@ -1626,7 +1626,7 @@
           "title": "Napredak ka održivom upravljanju šumama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-2-1",
+          "href": "/lat/15-2-1",
           "status": "notstarted"
         },
         {
@@ -1634,7 +1634,7 @@
           "title": "Udio zemljišta koje je degradirano na ukupnoj površini zemljišta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-3-1",
+          "href": "/lat/15-3-1",
           "status": "notstarted"
         },
         {
@@ -1642,7 +1642,7 @@
           "title": "Pokrivenost zaštićenim područjima značajnih mjesta za planinski biodiverzitet",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-4-1",
+          "href": "/lat/15-4-1",
           "status": "complete"
         },
         {
@@ -1650,7 +1650,7 @@
           "title": "Indeks zelenog pokrivača",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-4-2",
+          "href": "/lat/15-4-2",
           "status": "notstarted"
         },
         {
@@ -1658,7 +1658,7 @@
           "title": "Indeks Crvene liste",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-5-1",
+          "href": "/lat/15-5-1",
           "status": "complete"
         },
         {
@@ -1666,7 +1666,7 @@
           "title": "Broj zemalja koje su usvojile zakonske, administrativne i političke okvire kako bi se osigurala pravična i ravnopravna podjela naknada",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-6-1",
+          "href": "/lat/15-6-1",
           "status": "notstarted"
         },
         {
@@ -1674,7 +1674,7 @@
           "title": "Udio divljih vrsta kojima se trguje, a koje potiču iz krivolova ili nezakonite trgovine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-7-1",
+          "href": "/lat/15-7-1",
           "status": "notstarted"
         },
         {
@@ -1682,7 +1682,7 @@
           "title": "Udio zemalja koje usvajaju u nacionalno zakonodavstvo i adekvatno obezbeđuju sredstva za prevenciju ili kontrolu invazivnih vrsta",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-8-1",
+          "href": "/lat/15-8-1",
           "status": "notstarted"
         },
         {
@@ -1690,7 +1690,7 @@
           "title": "Broj zemalja koje su utvrdile nacionalne ciljeve u skladu sa ili slične cilju 2 Aichi biodiverziteta Strateškom Plana za biološku raznolikost 2011-2020 u svojoj nacionalnoj strategiji i akcionim planovima za biološku raznolikost i izvještavanju o napretku prema tim ciljevima i integracija biodiverziteta u nacionalne sisteme računovodstva i izvještavanja, definisanih kao implementacija Sistema ekološko-ekonomskog računovodstva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-9-1",
+          "href": "/lat/15-9-1",
           "status": "notstarted"
         },
         {
@@ -1698,7 +1698,7 @@
           "title": "Zvanična razvojna pomoć i javni rashodi za očuvanje i održivo korišćenje biodiverziteta i ekosistema",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-a-1",
+          "href": "/lat/15-a-1",
           "status": "complete"
         },
         {
@@ -1706,7 +1706,7 @@
           "title": "Službena razvojna pomoć i javni izdaci za očuvanje i održivo korištenje biodiverziteta i ekosistema",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-b-1",
+          "href": "/lat/15-b-1",
           "status": "notstarted"
         },
         {
@@ -1714,7 +1714,7 @@
           "title": "Udio divljih vrsta kojima se trguje, a koje potiču iz krivolova ili nezakonite trgovine",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/15-c-1",
+          "href": "/lat/15-c-1",
           "status": "notstarted"
         }]
     }
@@ -1730,7 +1730,7 @@
           "title": "Broj žrtava ubistava s namjerom na 100 000 stanovnika, prema polu i starosti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-1-1",
+          "href": "/lat/16-1-1",
           "status": "complete"
         },
         {
@@ -1738,7 +1738,7 @@
           "title": "Umrli povezane sa sukobima na 100.000 stanovnika, prema polu, starosti i uzroku",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-1-2",
+          "href": "/lat/16-1-2",
           "status": "notstarted"
         },
         {
@@ -1746,7 +1746,7 @@
           "title": "Udio stanovništva izloženog (a) fizičkom nasilju, (b) psihičkom nasilju i (c) seksualnom nasilju u prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-1-3",
+          "href": "/lat/16-1-3",
           "status": "notstarted"
         },
         {
@@ -1754,7 +1754,7 @@
           "title": "Udio stanovništva koji se osjećaju sigurno da se kreću sami oko područja u kojem žive",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-1-4",
+          "href": "/lat/16-1-4",
           "status": "notstarted"
         },
         {
@@ -1762,7 +1762,7 @@
           "title": "Udio djece u dobi od 1 do 17 godina koja su u proteklih mjesec dana doživjela bilo kakve fizičke kazne i/ili psihološku agresiju od strane njegovatelja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-2-1",
+          "href": "/lat/16-2-1",
           "status": "notstarted"
         },
         {
@@ -1770,7 +1770,7 @@
           "title": "Broj žrtava trgovine ljudima na 100 000 stanovnika, prema polu, starosti i obliku eksploatacije",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-2-2",
+          "href": "/lat/16-2-2",
           "status": "complete"
         },
         {
@@ -1778,7 +1778,7 @@
           "title": "Udio mladih žena i muškaraca u dobi od 18-29 godina koji su iskusili seksualno nasilje do 18 godina",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-2-3",
+          "href": "/lat/16-2-3",
           "status": "notstarted"
         },
         {
@@ -1786,7 +1786,7 @@
           "title": "Udio žrtava nasilja u zadnjih 12 mjeseci koji su nasilje prijavili nadležnim organima ili drugim zvanično priznatim mehanizmima za rješavanje sukoba",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-3-1",
+          "href": "/lat/16-3-1",
           "status": "notstarted"
         },
         {
@@ -1794,7 +1794,7 @@
           "title": "Neosuđeni pritvorenici kao udio u ukupnoj zatvorskoj populaciji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-3-2",
+          "href": "/lat/16-3-2",
           "status": "notstarted"
         },
         {
@@ -1802,7 +1802,7 @@
           "title": "Ukupna vrijednost nezakonitih finansijskih priliva i odliva (u današnjim američkim dolarima)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-4-1",
+          "href": "/lat/16-4-1",
           "status": "complete"
         },
         {
@@ -1810,7 +1810,7 @@
           "title": "Udio zaplijenjenog, pronađenog i predatog vatrenog oružja za koje su nadležni organi utvrdili nezakonito poreklo ili kontekst u skladu sa međunarodnim instrumentima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-4-2",
+          "href": "/lat/16-4-2",
           "status": "notstarted"
         },
         {
@@ -1818,7 +1818,7 @@
           "title": "Udio osoba koje su imale najmanje jedan kontakt sa državnim službenikom i koje su platile mito državnom službeniku ili su im državni službenici tražili mito tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-5-1",
+          "href": "/lat/16-5-1",
           "status": "notstarted"
         },
         {
@@ -1826,7 +1826,7 @@
           "title": "Udio preduzeća koja su imala najmanje jedan kontakt sa državnim službenikom i koja su platila mito državnom službeniku ili su im državni službenici tražili mito tokom prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-5-2",
+          "href": "/lat/16-5-2",
           "status": "notstarted"
         },
         {
@@ -1834,7 +1834,7 @@
           "title": "Primarni državni rashodi kao dio prvobitnog odobrenog budžeta, po sektorima (ili po budžetskim kodovima ili slično)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-6-1",
+          "href": "/lat/16-6-1",
           "status": "notstarted"
         },
         {
@@ -1842,7 +1842,7 @@
           "title": "Udio stanovništva zadovoljnog svojim posljednjim iskustvom u pružanju javnih usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-6-2",
+          "href": "/lat/16-6-2",
           "status": "notstarted"
         },
         {
@@ -1850,7 +1850,7 @@
           "title": "Udio položaja u nacionalnim i lokalnim institucijama, uključujući (a) zakonodavna tijela; (b) javnu službu; i (c) pravosuđe, u poređenju sa nacionalnim distribucijama, prema polu, starosti, osobama sa invaliditetom i grupama stanovništva",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-7-1",
+          "href": "/lat/16-7-1",
           "status": "notstarted"
         },
         {
@@ -1858,7 +1858,7 @@
           "title": "Udio stanovništva koji vjeruje da je donošenje odluka inkluzivno i odgovara na potrebe, po polu, starosti, invaliditetu ili populacionim grupama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-7-2",
+          "href": "/lat/16-7-2",
           "status": "notstarted"
         },
         {
@@ -1866,7 +1866,7 @@
           "title": "Udio članova i prava glasa zemalja u razvoju u međunarodnim organizacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-8-1",
+          "href": "/lat/16-8-1",
           "status": "notstarted"
         },
         {
@@ -1874,7 +1874,7 @@
           "title": "Udio djece mlađe od 5 godina čija su rođenja registrovana u matičnim knigama, prema starosnoj dobi",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-9-1",
+          "href": "/lat/16-9-1",
           "status": "notstarted"
         },
         {
@@ -1882,7 +1882,7 @@
           "title": "Broj potvrđenih slučajeva ubistava, kidnapovanja, prisilnog nestanka, proizvoljnog zatvaranja i mučenja novinara, pripadnika medijskog osoblja, sindikata i zagovornika ljudskih prava u prethodnih 12 mjeseci",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-10-1",
+          "href": "/lat/16-10-1",
           "status": "notstarted"
         },
         {
@@ -1890,7 +1890,7 @@
           "title": "Broj zemalja koje usvajaju i sprovode ustavne, zakonske i/ili političke garancije za javni pristup informacijama",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-10-2",
+          "href": "/lat/16-10-2",
           "status": "notstarted"
         },
         {
@@ -1898,7 +1898,7 @@
           "title": "Postojanje nezavisnih nacionalnih institucija za ljudska prava u skladu sa Pariškim principima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-a-1",
+          "href": "/lat/16-a-1",
           "status": "notstarted"
         },
         {
@@ -1906,7 +1906,7 @@
           "title": "Procenat izvještavanja o stanovništvu koje je lično bilo diskriminirano ili uznemiravano u prethodnih 12 mjeseci na osnovu diskriminacije zabranjene međunarodnim zakonom o ljudskim pravima",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/16-b-1",
+          "href": "/lat/16-b-1",
           "status": "notstarted"
         }]
     }
@@ -1922,7 +1922,7 @@
           "title": "Ukupni državni prihodi kao procenat BDP-a, po izvoru",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-1-1",
+          "href": "/lat/17-1-1",
           "status": "notstarted"
         },
         {
@@ -1930,7 +1930,7 @@
           "title": "Udio domaćeg budžeta koji se finansira iz domaćih poreza",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-1-2",
+          "href": "/lat/17-1-2",
           "status": "notstarted"
         },
         {
@@ -1938,7 +1938,7 @@
           "title": "Neto zvanična razvojna pomoć, ukupno i najmanje razvijenim zemljama, kao dio Organizacije za ekonomsku saradnju i razvoj (OECD) pomoći Komiteta za razvojnu pomoćbruto nacionalnog dohodka donatora (GNI)",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-2-1",
+          "href": "/lat/17-2-1",
           "status": "notstarted"
         },
         {
@@ -1946,7 +1946,7 @@
           "title": "Direktna strana ulaganja, službena razvojna pomoć i saradnja jug-jug kao udio u bruto nacionalnom dohotku",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-3-1",
+          "href": "/lat/17-3-1",
           "status": "notstarted"
         },
         {
@@ -1954,7 +1954,7 @@
           "title": "Obim doznaka (u američkim dolarima) kao udio u ukupnom BDP-u",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-3-2",
+          "href": "/lat/17-3-2",
           "status": "notstarted"
         },
         {
@@ -1962,7 +1962,7 @@
           "title": "Servis duga kao dio izvoza roba i usluga",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-4-1",
+          "href": "/lat/17-4-1",
           "status": "notstarted"
         },
         {
@@ -1970,7 +1970,7 @@
           "title": "Broj zemalja koje usvajaju i provode režime promocije investicija za zemlje u razvoju, uključujući i najmanje razvijene zemlje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-5-1",
+          "href": "/lat/17-5-1",
           "status": "notstarted"
         },
         {
@@ -1978,7 +1978,7 @@
           "title": "Pretplata na fiksni internet širokopojasnog pristupa na 100 stanovnika, brzinom",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-6-1",
+          "href": "/lat/17-6-1",
           "status": "notstarted"
         },
         {
@@ -1986,7 +1986,7 @@
           "title": "Ukupan iznos odobrenog finansiranja za zemlje u razvoju za promovisanje, prijenos i širenje ekološki prihvatljivih tehnologija",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-7-1",
+          "href": "/lat/17-7-1",
           "status": "notstarted"
         },
         {
@@ -1994,7 +1994,7 @@
           "title": "Udio pojedinaca koji koriste internet",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-8-1",
+          "href": "/lat/17-8-1",
           "status": "complete"
         },
         {
@@ -2002,7 +2002,7 @@
           "title": "Vrijednost finansijske i tehničke pomoći u dolarima (uključujući kroz sjever-jug, jug-jug i trouglastu saradnju) posvećena zemljama u razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-9-1",
+          "href": "/lat/17-9-1",
           "status": "notstarted"
         },
         {
@@ -2010,7 +2010,7 @@
           "title": "Svetski ponderirani carinski prosjek",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-10-1",
+          "href": "/lat/17-10-1",
           "status": "notstarted"
         },
         {
@@ -2018,7 +2018,7 @@
           "title": "Udio zemalja u razvoju i najmanje razvijenih zemalja u globalnom izvozu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-11-1",
+          "href": "/lat/17-11-1",
           "status": "complete"
         },
         {
@@ -2026,7 +2026,7 @@
           "title": "Prosječne carine s kojima se suočavaju zemlje u razvoju, najnerazvijenije zemlje, i male ostrvske zemlje u razvoju",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-12-1",
+          "href": "/lat/17-12-1",
           "status": "notstarted"
         },
         {
@@ -2034,7 +2034,7 @@
           "title": "Glavni makroekonomski pokazatelji",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-13-1",
+          "href": "/lat/17-13-1",
           "status": "notstarted"
         },
         {
@@ -2042,7 +2042,7 @@
           "title": "Broj zemalja koje imaju   mehanizme za unapređenje koherentnosti mjera politike za održivi razvoj",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-14-1",
+          "href": "/lat/17-14-1",
           "status": "notstarted"
         },
         {
@@ -2050,7 +2050,7 @@
           "title": "Obim korišćenja okvira državnih rezultata i planiranih alata od strane pružalaca razvojne saradnje",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-15-1",
+          "href": "/lat/17-15-1",
           "status": "notstarted"
         },
         {
@@ -2058,7 +2058,7 @@
           "title": "Broj zemalja koje prijavljuju napredak u višekorisničkom razvoju efektivnosti koji podržavaju postizanje ciljeva održivog razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-16-1",
+          "href": "/lat/17-16-1",
           "status": "notstarted"
         },
         {
@@ -2066,7 +2066,7 @@
           "title": "Iznos u američkim dolarima opredijeljen javno-privatnom partnerstvu za infrastrukturu",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-17-1",
+          "href": "/lat/17-17-1",
           "status": "notstarted"
         },
         {
@@ -2074,7 +2074,7 @@
           "title": "Indikator statističkih kapaciteta za praćenje ciljeva održivog razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-18-1",
+          "href": "/lat/17-18-1",
           "status": "notstarted"
         },
         {
@@ -2082,7 +2082,7 @@
           "title": "Broj zemalja koje imaju nacionalno statističko zakonodavstvo koje je u skladu sa Osnovnim principima zvanične statistike",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-18-2",
+          "href": "/lat/17-18-2",
           "status": "notstarted"
         },
         {
@@ -2090,7 +2090,7 @@
           "title": "Broj zemalja sa nacionalnim statističkim planom koji je u potpunosti finansiran i koji se implementira prema izvorima finansiranja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-18-3",
+          "href": "/lat/17-18-3",
           "status": "complete"
         },
         {
@@ -2098,7 +2098,7 @@
           "title": "Dolarska vrijednost svih izvora sredstava dostupnih za jačanje statističkih kapaciteta u zemljama razvoja",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-19-1",
+          "href": "/lat/17-19-1",
           "status": "notstarted"
         },
         {
@@ -2106,7 +2106,7 @@
           "title": "Procenat zemalja koje su: (a) provele najmanje jedan popis stanovništva i stanova u posljednjih 10 godina; i (b) postigli 100 procenata registracije rođenih i 80 procenata smrti",
           "description": "",
           "keywords": "",
-          "href": "/sdg-site-rs/lat/17-19-2",
+          "href": "/lat/17-19-2",
           "status": "notstarted"
         }]
     }
