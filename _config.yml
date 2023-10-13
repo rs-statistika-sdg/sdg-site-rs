@@ -19,9 +19,9 @@ metadata_edit_url: http://prose.io/#rs-statistika-sdg/sdg-data-rs/edit/develop/m
 #
 # The list of languages that are translated. The first one is the default.
 languages:
-  - en
-  - lat
   - cir
+  - lat
+  - en
 #
 # That's enough for the Quick Start! The remaining settings can be configured later.
 
@@ -67,9 +67,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: sdg@bhas.gov.ba
-  suggestions: sdg@bhas.gov.ba
-  functional: sdg@bhas.gov.ba
+  questions: stat@rzs.rs.ba
+  suggestions: stat@rzs.rs.ba
+  functional: stat@rzs.rs.ba
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -120,7 +120,7 @@ menu:
     translation_key: menu.publications
 
 footer_menu:
-  - path: mailto:sdg@bhas.gov.ba
+  - path: mailto:stat@rzs.rs.ba
     translation_key: menu.contact_us
   - path: /about/cookies-and-privacy/
     translation_key: menu.cookies
