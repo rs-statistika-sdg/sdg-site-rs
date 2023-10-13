@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 14 - Life below water - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 14 - Очување воденог свијета - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/14/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/14/">
-              Ћирилица
+            <a href="/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/14/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/14/">
-              Ћирилица
+            <a href="/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/14/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/14/">
-              Ћирилица
+            <a href="/en/14/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 14</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 14</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/13" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/15" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/14.png" alt="Life below water - Goal 14" id="goal-14" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/14.png" alt="Очување воденог свијета - Циљ 14" id="goal-14" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 14: </span>Conserve and sustainably use the oceans, seas and marine resources for sustainable development
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 14: </span>Заштити и одрживо користити океане, мора и морске ресурсе
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.1
       </span>
-      By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution
+      До краја 2025. године спријечити и значајно смањити све врсте загађивања морских ресурса, а посебно оних активности које долазе са копна, укључујући морски шут и загађење нутријената
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           14.1.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-1-1">
-          (a) Index of coastal eutrophication; and (b) plastic debris density
+          (а) индекс еутрофикације обале; и (б) густине пластичног отпада
         </a>
         
       </div>
@@ -401,10 +401,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.2
       </span>
-      By 2020, sustainably manage and protect marine and coastal ecosystems to avoid significant adverse impacts, including by strengthening their resilience, and take action for their restoration in order to achieve healthy and productive oceans
+      До краја 2020. године одрживо управљати морским и обалским екосистемима и заштитити их како би се избјегли значајни негативни утицаји, између осталог и кроз јачање њихове прилагодљивости, и предузети активности за њихову обнову како би океани поново постали здрави и продуктивни
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -422,11 +422,11 @@ var translations = {
         <span>
           14.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-2-1">
-          Proportion of national exclusive economic zones managed using ecosystem-based approaches
+          Број земаља које користе приступе засноване на екосистемима у управљању морским подручјима
         </a>
         
       </div>
@@ -436,10 +436,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.3
       </span>
-      Minimize and address the impacts of ocean acidification, including through enhanced scientific cooperation at all levels
+      Свести на најмању мјеру утицаје повећања нивоа киселости океана и бавити се тим проблемом, између осталог и кроз бољу и ширу научну сарадњу на свим нивоима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -457,11 +457,11 @@ var translations = {
         <span>
           14.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-3-1">
-          Average marine acidity (pH) measured at agreed suite of representative sampling stations
+          Просјечна поморска киселина (pH) мјерена на договореном пакету репрезентативних станица за узорковањa
         </a>
         
       </div>
@@ -471,10 +471,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.4
       </span>
-      By 2020, effectively regulate harvesting and end overfishing, illegal, unreported and unregulated fishing and destructive fishing practices and implement science-based management plans, in order to restore fish stocks in the shortest time feasible, at least to levels that can produce maximum sustainable yield as determined by their biological characteristics
+      До краја 2020. године дјелотворно регулисати експлоатацију рибе и окончати прекомјерни риболов, као и незаконит, непријављен и нерегулисан риболов, односно деструктивне рибарске праксе, и примјенити научно засноване планове управљања како би се обновиле залихе риба у најкраћем могућем року, бар до нивоа на којима се може произвести максимални одрживи принос који је одређен њиховим биолошким карактеристикама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -492,11 +492,11 @@ var translations = {
         <span>
           14.4.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-4-1">
-          Proportion of fish stocks within biologically sustainable levels
+          Удио рибљег фонда на биолошки одрживим нивоима
         </a>
         
       </div>
@@ -506,10 +506,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.5
       </span>
-      By 2020, conserve at least 10 per cent of coastal and marine areas, consistent with national and international law and based on the best available scientific information
+      До краја 2020. године очувати најмање 10% обалских и морских области, у складу са законима у државама чланицама међународним правом и на основу најбољих постојећих научних информација
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -527,11 +527,11 @@ var translations = {
         <span>
           14.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-5-1">
-          Coverage of protected areas in relation to marine areas
+          Покривеност заштићених подручја у односу на морска подручја
         </a>
         
       </div>
@@ -541,10 +541,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.6
       </span>
-      By 2020, prohibit certain forms of fisheries subsidies which contribute to overcapacity and overfishing, eliminate subsidies that contribute to illegal, unreported and unregulated fishing and refrain from introducing new such subsidies, recognizing that appropriate and effective special and differential treatment for developing and least developed countries should be an integral part of the World Trade Organization fisheries subsidies negotiation
+      ДДо краја 2020. године забранити одређене облике субвенција за рибарство које доводе до стварања превеликог капацитета рибара и прекомјерног изловљавања рибе, укинути субвенције које доприносе незаконитом, непријављеном и нерегулисаном риболову и уздржати се од увођења нових сличних субвенција, уз свијест да одговарајући и дјелотворни специјални и диференцијални третмани за земље у развоју и најнеразвијеније земље треба да буду интегрални дио преговора Свјетске трговинске организације у вези са субвенцијама за рибарство (узимајући у обзир текуће преговоре Свјетске трговинске организације, Развојну агенду из Дохе и Министарски мандат из Хонг Конга)
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -562,11 +562,11 @@ var translations = {
         <span>
           14.6.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-6-1">
-          Progress by countries in the degree of implementation of international instruments aiming to combat illegal, unreported and unregulated fishing
+          Степен примјене међународних инструмената усмјерених на борбу против незаконитог, непријављеног и нерегулисаног риболова
         </a>
         
       </div>
@@ -576,10 +576,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.7
       </span>
-      By 2030, increase the economic benefits to small island developing States and least developed countries from the sustainable use of marine resources, including through sustainable management of fisheries, aquaculture and tourism
+      До краја 2030. године увећати економску корист за мале острвске државе у развоју и најнеразвијеније земље на основу одрживог коришћења морских ресурса, између осталог и преко одрживог управљања рибарством, водопривредом и туризмом
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -597,11 +597,11 @@ var translations = {
         <span>
           14.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-7-1">
-          Sustainable fisheries as a proportion of GDP in small island developing States, least developed countries and all countries
+          Одржив риболов као проценат БДП-а у малим острвским државама у развоју, најмање развијеним земљама и свим земљама
         </a>
         
       </div>
@@ -611,10 +611,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.a
       </span>
-      Increase scientific knowledge, develop research capacity and transfer marine technology, taking into account the Intergovernmental Oceanographic Commission Criteria and Guidelines on the Transfer of Marine Technology, in order to improve ocean health and to enhance the contribution of marine biodiversity to the development of developing countries, in particular small island developing States and least developed countries
+      Повећати научно знање, развити истраживачке капацитете и преносити поморску технологију, узимајући у обзир „Критеријуме и смјернице Међувладине океанографске комисије за пренос поморске технологије”, како би се побољшало здравље океана и унаприједио допринос морског биодиверзитета развоју земаља у развоју, посебно малих острвских држава у развоју и најнеразвијенијих земаља
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -632,11 +632,11 @@ var translations = {
         <span>
           14.a.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-a-1">
-          Proportion of total research budget allocated to research in the field of marine technology
+          Удио укупног истраживачког буџета намјењеног истраживањима у области поморске технологије
         </a>
         
       </div>
@@ -646,10 +646,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.b
       </span>
-      Provide access for small-scale artisanal fishers to marine resources and markets
+      Обезбиједити приступ морским ресурсима и тржиштима за мале професионалне рибаре
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -667,11 +667,11 @@ var translations = {
         <span>
           14.b.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-b-1">
-          Progress by countries in the degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries
+          Напредак земаља у степену примјене правног/регулаторног /политичког/институционалног оквира који препознаје и штити приступна права за мала рибарство
         </a>
         
       </div>
@@ -681,10 +681,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         14.c
       </span>
-      Enhance the conservation and sustainable use of oceans and their resources by implementing international law as reflected in the United Nations Convention on the Law of the Sea, which provides the legal framework for the conservation and sustainable use of oceans and their resources, as recalled in paragraph 158 of “The future we want”
+      Осигурати пуну примјену међународног права, онако како то предвиђа „Конвенција Уједињених нација о поморском праву” за земље потписнице, између осталог, гдје је то примјенљиво, и постојећих регионалних и међународних планова за очување и одрживо коришћење океана и њихових ресурса
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -702,11 +702,11 @@ var translations = {
         <span>
           14.c.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/14-c-1">
-          Number of countries making progress in ratifying, accepting and implementing through legal, policy and institutional frameworks, ocean-related instruments that implement international law, as reflected in the United Nations Convention on the Law of the Sea, for the conservation and sustainable use of the oceans and their resources
+          Број земаља које остварују напредак у ратификацији, прихватању и спровођењу, кроз законске, политичке, и институционалне оквире, инструмената који се односе на океане а служе спровођењу међународног права, онако како то предвиђа Конвенција Уједињених нација о поморском праву, за очување и одрживу употребу океана и њихових ресурса
         </a>
         
       </div>
@@ -721,21 +721,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -762,17 +762,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

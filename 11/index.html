@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 11 - Sustainable cities &amp; communities - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 11 - Одрживи градови и заједнице - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/11/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/11/">
-              Ћирилица
+            <a href="/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/11/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/11/">
-              Ћирилица
+            <a href="/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/11/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/11/">
-              Ћирилица
+            <a href="/en/11/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 11</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 11</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/10" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/12" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/11.png" alt="Sustainable cities &amp; communities - Goal 11" id="goal-11" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/11.png" alt="Одрживи градови и заједнице - Циљ 11" id="goal-11" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 11: </span>Make cities and human settlements inclusive, safe, resilient and sustainable
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 11: </span>Учинити градове и насеља инклузивним, безбједним, издржљивим и одрживим
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.1
       </span>
-      By 2030, ensure access for all to adequate, safe and affordable housing and basic services and upgrade slums
+      До краја 2030. године осигурати да сви имају приступ адекватном, безбједном и економски прихватљивом смјештају и основним услугама те унаприједити услове у нехигијенским насељима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           11.1.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/11-1-1">
-          Proportion of urban population living in slums, informal settlements or inadequate housing
+          Удио градског становништва које живи у картонским насељима, неформалним насељима или неадекватним стамбеним условима
         </a>
         
       </div>
@@ -401,10 +401,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.2
       </span>
-      By 2030, provide access to safe, affordable, accessible and sustainable transport systems for all, improving road safety, notably by expanding public transport, with special attention to the needs of those in vulnerable situations, women, children, persons with disabilities and older persons
+      До краја 2030. године омогућити приступ безбједним, економски прихватљивим, приступачним и одрживим транспортним системима за све, унапређујући безбједност на путевима, прије свега проширивањем обима јавног превоза, уз обраћање посебне пажње на потребе оних који се налазе у рањивим ситуацијама, жена, дјеце, лица са инвалидитетом и старијих лица
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -422,11 +422,11 @@ var translations = {
         <span>
           11.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-2-1">
-          Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities
+          Проценат становништва које има погодан приступ јавном превозу, према полу, старости и особама са инвалидитетом
         </a>
         
       </div>
@@ -436,10 +436,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.3
       </span>
-      By 2030, enhance inclusive and sustainable urbanization and capacity for participatory, integrated and sustainable human settlement planning and management in all countries
+      До краја 2030. године у свим земљама унаприједити инклузивну и одрживу урбанизацију и капацитете за партиципативно, интегрисано и одрживо планирање људских насеља и за управљање њима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -457,11 +457,11 @@ var translations = {
         <span>
           11.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-3-1">
-          Ratio of land consumption rate to population growth rate
+          Коефицијент стопе коришћења земљишта у односу на стопу раста становништва
         </a>
         
       </div>
@@ -480,11 +480,11 @@ var translations = {
         <span>
           11.3.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-3-2">
-          Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically
+          Удио градова са структуром директног учешћа цивилних друштава у урбанистичком планирању и управљању које функционишу редовно и на демократски начин
         </a>
         
       </div>
@@ -494,10 +494,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.4
       </span>
-      Strengthen efforts to protect and safeguard the world’s cultural and natural heritage
+      Појачати напоре да се заштити и обезбиједи свјетска културна и природна баштина
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -515,11 +515,11 @@ var translations = {
         <span>
           11.4.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-4-1">
-          Total expenditure (public and private) per capita spent on the preservation, protection and conservation of all cultural and natural heritage, by type of heritage (cultural, natural, mixed and World Heritage Centre designation), level of government (national, regional and local/municipal), type of expenditure (operating expenditure/investment) and type of private funding (donations in kind, private non-profit sector and sponsorship)
+          Укупни издаци по глави становника за очување, заштиту и конзервацију цјелокупне културне и природне баштине, по врстама, врсти наслијеђа и нивоу управљања (национални, регионални и локални/општински)
         </a>
         
       </div>
@@ -529,10 +529,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.5
       </span>
-      By 2030, significantly reduce the number of deaths and the number of people affected and substantially decrease the direct economic losses relative to global gross domestic product caused by disasters, including water-related disasters, with a focus on protecting the poor and people in vulnerable situations
+      До краја 2030. године значајно смањити број смртних случајева и број угрожених људи те знатно  смањити економске губитке до којих доводе елементарне непогоде, између осталог и оне повезане са водом, усмјеравајући пажњу на заштиту сиромашних и оних у рањивим ситуацијама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -550,11 +550,11 @@ var translations = {
         <span>
           11.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-5-1">
-          Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population
+          Број умрлих, несталих особа и директно погођених лица узрокован катастрофама на 100.000 становника
         </a>
         
       </div>
@@ -573,11 +573,11 @@ var translations = {
         <span>
           11.5.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-5-2">
-          Direct economic loss in relation to global GDP, damage to critical infrastructure and number of disruptions to basic services, attributed to disasters
+          Непосредни економски губици у односу на глобални БДП, оштећења критичне инфраструктуре и број прекида основне услуге, узроковано катастрофама
         </a>
         
       </div>
@@ -587,10 +587,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.6
       </span>
-      By 2030, reduce the adverse per capita environmental impact of cities, including by paying special attention to air quality and municipal and other waste management
+      До краја 2030. године смањити негативан утицај градова на животну средину мјерен по глави становника, између осталог и тако што ће се посебна пажња посветити квалитету ваздуха и управљању отпадом на општинским и другим нивоима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -608,11 +608,11 @@ var translations = {
         <span>
           11.6.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/11-6-1">
-          Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities
+          Удио комуналног чврстог отпада који се редовно прикупља и који се на одговарајући начин одлаже у укупној количини генерисаног комуналног чврстог отпада, по градовима
         </a>
         
       </div>
@@ -631,11 +631,11 @@ var translations = {
         <span>
           11.6.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-6-2">
-          Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)
+          Годишњи средњи нивои финих честица (нпр. PM2.5 и PM10) у градовима (пондерисана популација)
         </a>
         
       </div>
@@ -645,10 +645,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.7
       </span>
-      By 2030, provide universal access to safe, inclusive and accessible, green and public spaces, in particular for women and children, older persons and persons with disabilities
+      До краја 2030. године омогућити универзални приступ безбједним, инклузивним и приступачним зеленим и јавним површинама, посебно за жене и дјецу, старија лица и лица са инвалидитетом
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -666,11 +666,11 @@ var translations = {
         <span>
           11.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-7-1">
-          Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities
+          Просјечан удио отворених јавних површина у изграђеним површинама градова, према полу, старости и инвалидитету
         </a>
         
       </div>
@@ -689,11 +689,11 @@ var translations = {
         <span>
           11.7.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-7-2">
-          Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months
+          Удио особа које су жртве физичког или сексуалног узнемиравања, по полу, старости, инвалидитету, и мјесту дешавања, током претходних 12 мјесеци
         </a>
         
       </div>
@@ -703,10 +703,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.a
       </span>
-      Support positive economic, social and environmental links between urban, peri-urban and rural areas by strengthening national and regional development planning
+      Подржати позитивне економске, социјалне и еколошке везе између урбаних, периферних урбаних и руралних области оснаживањем  планирања развоја на нивоу држава чланица и на регионалном нивоу
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -724,11 +724,11 @@ var translations = {
         <span>
           11.a.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-a-1">
-          Number of countries that have national urban policies or regional development plans that (a) respond to population dynamics; (b) ensure balanced territorial development; and (c) increase local fiscal space
+          Број земаља које имају националне урбане политике или планове регионалног развоја који (а) одговарају на динамику становништва; (б) осигуравају уравнотежен територијални развој; и (ц) повећава локални фискални простор
         </a>
         
       </div>
@@ -738,10 +738,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.b
       </span>
-      By 2020, substantially increase the number of cities and human settlements adopting and implementing integrated policies and plans towards inclusion, resource efficiency, mitigation and adaptation to climate change, resilience to disasters, and develop and implement, in line with the Sendai Framework for Disaster Risk Reduction 2015–2030, holistic disaster risk management at all levels
+      До краја 2020. године знатно повећати број градова и људских насеља који усвајају и примјењују интегрисане политике и планове у смислу инклузије, ефикасности ресурса, ублажавања климатских промјена и прилагођавања климатским промјенама, отпорности на елементарне непогоде, односно који развијају и реализују, у складу са Сендаи оквиром за смањење ризика од катастрофа 2015-2030, свеобухватно управљање ризицима од елементарних непогода на свим нивоима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -759,11 +759,11 @@ var translations = {
         <span>
           11.b.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-b-1">
-          Number of countries that adopt and implement national disaster risk reduction strategies in line with the Sendai Framework for Disaster Risk Reduction 2015–2030
+          Број земаља које усвајају и имплементирају националне стратегије за смањење ризика од катастрофа у складу са Сендаи Оквиром за смањење ризика од катастрофа 2015-2030
         </a>
         
       </div>
@@ -782,11 +782,11 @@ var translations = {
         <span>
           11.b.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-b-2">
-          Proportion of local governments that adopt and implement local disaster risk reduction strategies in line with national disaster risk reduction strategies
+          Удио локалних самоуправа које усвајају и спроведе стратегије за смањење ризика од катастрофа у складу са националним стратегијама за смањење ризика од катастрофа
         </a>
         
       </div>
@@ -796,10 +796,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         11.c
       </span>
-      Support least developed countries, including through financial and technical assistance, in building sustainable and resilient buildings utilizing local materials
+      Подржати најнеразвијеније земље, између осталог и кроз финансијску и техничку помоћ, у изградњи одрживих и прилагодљивих зграда за које се користе локални материјали
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -817,11 +817,11 @@ var translations = {
         <span>
           11.c.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/11-c-1">
-          Proportion of financial support to the least developed countries that is allocated to the construction and retrofitting of sustainable, resilient and resource-efficient buildings utilizing local materials
+          Тренутно нису доступни подаци за овај показатељ и његова методологија је још увијек у фази израде
         </a>
         
       </div>
@@ -836,21 +836,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -877,17 +877,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

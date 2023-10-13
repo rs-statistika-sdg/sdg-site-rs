@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 3 - Good health and well-being - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 3 - Здравље и благостање - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/3/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/3/">
-              Ћирилица
+            <a href="/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/3/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/3/">
-              Ћирилица
+            <a href="/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/3/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/3/">
-              Ћирилица
+            <a href="/en/3/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 3</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 3</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/2" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/4" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/3.png" alt="Good health and well-being - Goal 3" id="goal-3" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/3.png" alt="Здравље и благостање - Циљ 3" id="goal-3" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 3: </span>Ensure healthy lives and promote well-being for all at all ages
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 3: </span>Обезбиједити здрав живот и промовисати добробит свих људи, свих животних доби
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.1
       </span>
-      By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births
+      До краја 2030. године смањити глобалну стопу смртности код мајки на мање од 70 на 100 000 живорођених
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           3.1.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-1-1">
-          Maternal mortality ratio
+          Стопа смртности мајки (на 100 000 живорођених)
         </a>
         
       </div>
@@ -410,11 +410,11 @@ var translations = {
         <span>
           3.1.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-1-2">
-          Proportion of births attended by skilled health personnel
+          Удио порођаја уз присуство квалификованог здравственог особља
         </a>
         
       </div>
@@ -424,10 +424,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.2
       </span>
-      By 2030, end preventable deaths of newborns and children under 5 years of age, with all countries aiming to reduce neonatal mortality to at least as low as 12 per 1,000 live births and under‐5 mortality to at least as low as 25 per 1,000 live births
+      До краја 2030. године окончати смртне случајеве који се могу спријечити код новорођенчади и дјеце млађе од пет година
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -445,11 +445,11 @@ var translations = {
         <span>
           3.2.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-2-1">
-          Under‐five mortality rate
+          Стопа смртности дјеце млађе од пет година
         </a>
         
       </div>
@@ -468,11 +468,11 @@ var translations = {
         <span>
           3.2.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-2-2">
-          Neonatal mortality rate
+          Стопа смртности новорођенчади
         </a>
         
       </div>
@@ -482,10 +482,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.3
       </span>
-      By 2030, end the epidemics of AIDS, tuberculosis, malaria and neglected tropical diseases and combat hepatitis, water-borne diseases and other communicable diseases
+      До краја 2030. године окончати епидемије AIDS-а, туберкулозе, маларије и занемарених тропских болести и наставити борбу против хепатитиса, болести које се преносе водом и осталих заразних болести
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -503,11 +503,11 @@ var translations = {
         <span>
           3.3.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-3-1">
-          Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations
+          Број нових ХИВ инфекција на 1 000 неинфицираних становника, по полу, старости и по главним популационим групама
         </a>
         
       </div>
@@ -526,11 +526,11 @@ var translations = {
         <span>
           3.3.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-3-2">
-          Tuberculosis incidence per 100,000 population
+          Инциденција туберкулозе на 100 000 становника
         </a>
         
       </div>
@@ -549,11 +549,11 @@ var translations = {
         <span>
           3.3.3
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-3-3">
-          Malaria incidence per 1,000 population
+          Инциденција маларије на 1 000 становника
         </a>
         
       </div>
@@ -572,11 +572,11 @@ var translations = {
         <span>
           3.3.4
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-3-4">
-          Hepatitis B incidence per 100,000 population
+          Инциденција хепатитиса Б на 100 000 становника
         </a>
         
       </div>
@@ -595,11 +595,11 @@ var translations = {
         <span>
           3.3.5
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-3-5">
-          Number of people requiring interventions against neglected tropical diseases
+          Број људи којима су потребне интервенције против занемарених тропских болести
         </a>
         
       </div>
@@ -609,10 +609,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.4
       </span>
-      By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment and promote mental health and well-being
+      До краја 2030. године смањити за једну трећину број пријевремених смртних случајева од незаразних болести кроз превенцију и лијечење и промовисати ментално здравље и благостање
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -630,11 +630,11 @@ var translations = {
         <span>
           3.4.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-4-1">
-          Mortality rate attributed to cardiovascular disease, cancer, diabetes or chronic respiratory disease
+          Стопа смртности која се приписује кардиоваскуларним болестима, раку, дијабетесу или хроничним болестима
         </a>
         
       </div>
@@ -653,11 +653,11 @@ var translations = {
         <span>
           3.4.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-4-2">
-          Suicide mortality rate
+          Стопа смртности усљед самоубиства
         </a>
         
       </div>
@@ -667,10 +667,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.5
       </span>
-      Strengthen the prevention and treatment of substance abuse, including narcotic drug abuse and harmful use of alcohol
+      Појачати превенцију злоупотребе супстанци и лијечење посљедица такве злоупотребе, што обухвата и злоупотребу опојних дрога и штетну употребу алкохола
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -688,11 +688,11 @@ var translations = {
         <span>
           3.5.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-5-1">
-          Coverage of treatment interventions (pharmacological, psychosocial and rehabilitation and aftercare services) for substance use disorders
+          Обухват интервенција лијечења (фармаколошке, психолошке и услуге рехабилитације и даље његе) за поремећаје употребе супстанци
         </a>
         
       </div>
@@ -711,11 +711,11 @@ var translations = {
         <span>
           3.5.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-5-2">
-          Harmful use of alcohol, defined according to the national context as alcohol per capita consumption (aged 15 years and older) within a calendar year in litres of pure alcohol
+          Потрошња алкохола по становнику (старости од 15 и више година) у календарској години у литрима чистог алкохола
         </a>
         
       </div>
@@ -725,10 +725,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.6
       </span>
-      By 2020, halve the number of global deaths and injuries from road traffic accidents
+      До краја 2020. године на глобалном нивоу преполовити број смртних случајева и повреда до којих долази у саобраћајним несрећама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -746,11 +746,11 @@ var translations = {
         <span>
           3.6.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-6-1">
-          Death rate due to road traffic injuries
+          Стопа смртности усљед повреда у саобраћајним несрећама
         </a>
         
       </div>
@@ -760,10 +760,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.7
       </span>
-      By 2030, ensure universal access to sexual and reproductive health-care services, including for family planning, information and education, and the integration of reproductive health into national strategies and programmes
+      До краја 2030. године обезбиједити универзални приступ услугама које се односе на полну и репродуктивну здравствену заштиту (између осталог и услугама за планирање породице, информисање и образовање), као и интегрисање питања репродуктивног здравља у стратегије и програме које постоје у државама чланицама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -781,11 +781,11 @@ var translations = {
         <span>
           3.7.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-7-1">
-          Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods
+          Удио жена у репродуктивном периоду (старости 15–49 година) које своје потребе за планирање породице задовољавају савременим методама
         </a>
         
       </div>
@@ -804,11 +804,11 @@ var translations = {
         <span>
           3.7.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-7-2">
-          Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group
+          Стопа рађања код адолесцената (старости 10–14 година; старости 15–19 година) на 1 000 жена из те старосне групе
         </a>
         
       </div>
@@ -818,10 +818,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.8
       </span>
-      Achieve universal health coverage, including financial risk protection, access to quality essential health-care services and access to safe, effective, quality and affordable essential medicines and vaccines for all
+      Постићи универзални обухват здравственом заштитом, укључујући заштиту од финансијског ризика, доступност квалитетних основних услуга из области здравствене заштите и доступност безбједних, дјелотворних, квалитетних и јефтиних основних лијекова и вакцина за све
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -839,11 +839,11 @@ var translations = {
         <span>
           3.8.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-8-1">
-          Coverage of essential health services (defined as the average coverage of essential services based on tracer interventions that include reproductive, maternal, newborn and child health, infectious diseases, non-communicable diseases and service capacity and access, among the general and the most disadvantaged population)
+          Покривеност основних здравствених услуга
         </a>
         
       </div>
@@ -862,11 +862,11 @@ var translations = {
         <span>
           3.8.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-8-2">
-          Proportion of population with large household expenditures on health as a share of total household expenditure or income
+          Удио становништва с великим издацима домаћинства за здравство као удио у укупним издацима или приходима домаћинства
         </a>
         
       </div>
@@ -876,10 +876,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.9
       </span>
-      By 2030, substantially reduce the number of deaths and illnesses from hazardous chemicals and air, water and soil pollution and contamination
+      До краја 2030. битно смањити број смртних случајева и обољења од опасних хемикалија, односно од загађења и контаминације ваздуха, воде и земљишта
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -897,11 +897,11 @@ var translations = {
         <span>
           3.9.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-9-1">
-          Mortality rate attributed to household and ambient air pollution
+          Стопа смртности узрокована загађењем домаћинствима и зрака у околини
         </a>
         
       </div>
@@ -920,11 +920,11 @@ var translations = {
         <span>
           3.9.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-9-2">
-          Mortality rate attributed to unsafe water, unsafe sanitation and lack of hygiene (exposure to unsafe Water, Sanitation and Hygiene for All (WASH) services)
+          Стопа смртности узрокована небезбиједном водом, небезјбедној санитацији и недостатку хигијене (излагање небезбједним водама, санитацији и хигијени за све (WАSH) услугама)
         </a>
         
       </div>
@@ -943,11 +943,11 @@ var translations = {
         <span>
           3.9.3
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-9-3">
-          Mortality rate attributed to unintentional poisoning
+          Стопа смртности узрокована ненамјерним тровањем
         </a>
         
       </div>
@@ -957,10 +957,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.a
       </span>
-      Strengthen the implementation of the World Health Organization Framework Convention on Tobacco Control in all countries, as appropriate
+      Појачати примјену „Оквирне конвенције Свјетске здравствене организације о контроли дувана” у свим земљама, на одговарајући начин
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -978,11 +978,11 @@ var translations = {
         <span>
           3.a.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-a-1">
-          Age-standardized prevalence of current tobacco use among persons aged 15 years and older
+          Старосно стандардизована преваленција тренутне употребе дувана међу особама старости 15 година и више
         </a>
         
       </div>
@@ -992,10 +992,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.b
       </span>
-      Support the research and development of vaccines and medicines for the communicable and non‐communicable diseases that primarily affect developing countries, provide access to affordable essential medicines and vaccines, in accordance with the Doha Declaration on the TRIPS Agreement and Public Health, which affirms the right of developing countries to use to the full the provisions in the Agreement on Trade-Related Aspects of Intellectual Property Rights regarding flexibilities to protect public health, and, in particular, provide access to medicines for all
+      Подржати истраживања и развој вакцина и лијекова за заразне и незаразне болести које примарно погађају земље у развоју, обезбиједити доступност економски прихватљивих основних лијекова и вакцина (у складу са „Декларацијом из Дохе о Споразуму о трговинским аспектима права интелектуалне имовине (TRIPS 1)) и јавном здрављу”, којом се потврђује право земаља у развоју да у потпуности користе одредбе „Споразума о трговинским аспектима права интелектуалне имовине” које се односе на флексибилност у погледу заштите јавног здравља) и, посебно, обезбјеђивати универзалну доступност лијекова
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1013,11 +1013,11 @@ var translations = {
         <span>
           3.b.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-b-1">
-          Proportion of the target population covered by all vaccines included in their national programme
+          Удио циљане популације обухваћене свим вакцинама укључених у националним програма
         </a>
         
       </div>
@@ -1036,11 +1036,11 @@ var translations = {
         <span>
           3.b.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-b-2">
-          Total net official development assistance to medical research and basic health sectors
+          Укупна нето службена развојна помоћ медицинским истраживањима и основним здравственим секторима
         </a>
         
       </div>
@@ -1059,11 +1059,11 @@ var translations = {
         <span>
           3.b.3
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/3-b-3">
-          Proportion of health facilities that have a core set of relevant essential medicines available and affordable on a sustainable basis
+          Удио здравствених установа које имају основни пакет релевантних есенцијалних лијекова који су приуштиви и доступни на одрживој основи
         </a>
         
       </div>
@@ -1073,10 +1073,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.c
       </span>
-      Substantially increase health financing and the recruitment, development, training and retention of the health workforce in developing countries, especially in least developed countries and small island developing States
+      Значајно повећати финансирање у области здравства, као и регрутовање, развијање, обучавање и задржавање здравствених радника у земљама у развоју, посебно у најнеразвијенијим земљама и малим острвским државама у развоју
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1094,11 +1094,11 @@ var translations = {
         <span>
           3.c.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-c-1">
-          Health worker density and distribution
+          Густина и дистрибуција здравствених радника
         </a>
         
       </div>
@@ -1108,10 +1108,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         3.d
       </span>
-      Strengthen the capacity of all countries, in particular developing countries, for early warning, risk reduction and management of national and global health risks
+      Ојачати капацитете свих земаља, а посебно земаља у развоју, за рано упозоравање, смањивање ризика и управљање глобалним здравственим ризицима и ризицима у државама чланицама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1129,11 +1129,11 @@ var translations = {
         <span>
           3.d.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-d-1">
-          International Health Regulations (IHR) capacity and health emergency preparedness
+          Капацитет међународних здравствених прописа (IHR) и спремност за хитне случајеве у здравству
         </a>
         
       </div>
@@ -1152,11 +1152,11 @@ var translations = {
         <span>
           3.d.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/3-d-2">
-          Percentage of bloodstream infections due to selected antimicrobial-resistant organisms
+          Проценат инфекција крвотока због одабраних организама отпорних на антимикробне болести
         </a>
         
       </div>
@@ -1171,21 +1171,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -1212,17 +1212,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

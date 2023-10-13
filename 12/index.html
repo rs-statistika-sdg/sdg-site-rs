@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 12 - Responsible consumption and production - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 12 - Одговорна потрошња и производња - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/12/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/12/">
-              Ћирилица
+            <a href="/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/12/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/12/">
-              Ћирилица
+            <a href="/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/12/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/12/">
-              Ћирилица
+            <a href="/en/12/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 12</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 12</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/11" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/13" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/12.png" alt="Responsible consumption and production - Goal 12" id="goal-12" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/12.png" alt="Одговорна потрошња и производња - Циљ 12" id="goal-12" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 12: </span>Ensure sustainable consumption and production patterns
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 12: </span>Осигурати одрживе обрасце потрошње и производње
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.1
       </span>
-      Implement the 10‐Year Framework of Programmes on Sustainable Consumption and Production Patterns, all countries taking action, with developed countries taking the lead, taking into account the development and capabilities of developing countries
+      Примијенити десетогодишњи оквир програма за одрживу потрошњу и производњу, у коме ће учествовати све земље, а развијене земље ће преузети руководећу улогу, узимајући у обзир степен развоја и капацитете земаља у развоју
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           12.1.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-1-1">
-          Number of countries with sustainable consumption and production (SCP) national action plans or SCP mainstreamed as a priority or a target into national policies
+          Број земаља које развијају, које усвајају или спроводе инструменте политике усмјерене на подржавање преласка на одрживу потрошњу и производњу
         </a>
         
       </div>
@@ -401,10 +401,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.2
       </span>
-      By 2030, achieve the sustainable management and efficient use of natural resources
+      До краја 2030. године постићи одрживо управљање и ефикасно коришћење природних ресурса
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -422,11 +422,11 @@ var translations = {
         <span>
           12.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-2-1">
-          Material footprint, material footprint per capita, and material footprint per GDP
+          Материјални отисак, материјални отисак по глави становника и материјални отисак по БДП-у
         </a>
         
       </div>
@@ -445,11 +445,11 @@ var translations = {
         <span>
           12.2.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-2-2">
-          Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP
+          Потрошња домаћег материјала, потрошња домаћег материјала по глави становника и потрошња домаћег материјала по БДП-у
         </a>
         
       </div>
@@ -459,10 +459,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.3
       </span>
-      By 2030, halve per capita global food waste at the retail and consumer levels and reduce food losses along production and supply chains, including post-harvest losses
+      До краја 2030. године глобално преполовити бацање хране по глави становника на нивоу малопродаје и потрошача те смањити губитке у храни у производњи и ланцима снабдијевања, што обухвата и губитке који настају послије жетве
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -480,11 +480,11 @@ var translations = {
         <span>
           12.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-3-1">
-          Global food loss index
+          (а) Индекс губитка хране и (б) индекс губитка хране
         </a>
         
       </div>
@@ -494,10 +494,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.4
       </span>
-      By 2020, achieve the environmentally sound management of chemicals and all wastes throughout their life cycle, in accordance with agreed international frameworks, and significantly reduce their release to air, water and soil in order to minimize their adverse impacts on human health and the environment
+      До краја 2020. године постићи еколошки исправно управљање хемикалијама и свим облицима отпада током читавог њиховог употребног циклуса, у складу са договореним међународним оквирима, и значајно смањити њихово испуштање у ваздух, воду и земљиште како би се што више умањили њихови негативни утицаји на здравље људи и животну средину
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -515,11 +515,11 @@ var translations = {
         <span>
           12.4.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-4-1">
-          Number of parties to international multilateral environmental agreements on hazardous waste, and other chemicals that meet their commitments and obligations in transmitting information as required by each relevant agreement
+          Број страна међународних околишних мултилатералних споразума о опасном отпаду и другим хемикалијама које испуњавају своје обавезе и обавезе у преносу информација како то захтијева сваки релевантни споразум
         </a>
         
       </div>
@@ -538,11 +538,11 @@ var translations = {
         <span>
           12.4.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-4-2">
-          Hazardous waste generated per capita and proportion of hazardous waste treated, by type of treatment
+          (а) опасни отпад створен по становнику; и (б) удио третираног опасног отпада према врсти обраде
         </a>
         
       </div>
@@ -552,10 +552,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.5
       </span>
-      By 2030, substantially reduce waste generation through prevention, reduction, recycling and reuse
+      До краја 2030. године значајно смањити генерисање отпада тако што ће се спречавати или смањивати његово генерисање, односно тако што ће се отпад прерађивати и поново употребљавати
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -573,11 +573,11 @@ var translations = {
         <span>
           12.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-5-1">
-          National recycling rate, tons of material recycled
+          Национална стопа рециклирања, тоне рециклираног материјала
         </a>
         
       </div>
@@ -587,10 +587,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.6
       </span>
-      Encourage companies, especially large and transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle
+      Подстицати компаније, посебно велике и међународне компаније, да усвоје одрживе праксе и да интегришу информације о одрживости у свој циклус извјештавања
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -608,11 +608,11 @@ var translations = {
         <span>
           12.6.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-6-1">
-          Number of companies publishing sustainability reports
+          Број компанија које објављују извјештаје о одрживости
         </a>
         
       </div>
@@ -622,10 +622,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.7
       </span>
-      Promote public procurement practices that are sustainable, in accordance with national policies and priorities
+      Промовисати праксе јавних набавки које су одрживе, у складу са политикама и приоритетима у државама чланицама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -643,11 +643,11 @@ var translations = {
         <span>
           12.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-7-1">
-          Number of countries implementing sustainable public procurement policies and action plans
+          Степен одрживих политика јавних набавки и имплементације акционог плана
         </a>
         
       </div>
@@ -657,10 +657,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.8
       </span>
-      By 2030, ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature
+      До краја 2030. године осигурати да људи свуда имају релевантне информације и свијест о одрживом развоју и природним стиловима живота
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -678,11 +678,11 @@ var translations = {
         <span>
           12.8.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-8-1">
-          Extent to which (i) global citizenship education and (ii) education for sustainable development (including climate change education) are mainstreamed in (a) national education policies; (b) curricula; (c) teacher education; and (d) student assessment
+          Мјера у којој су на свим нивоима интегрисани образовање за (и) припадност глобалној заједници и (ии) одрживи развој, укључујући и родну равноправност и људска права на свим нивоима - (а) националних образовних политика; (б) курикулума; (ц) образовања наставника; и (д) процјене ученика и студената
         </a>
         
       </div>
@@ -692,10 +692,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.a
       </span>
-      Support developing countries to strengthen their scientific and technological capacity to move towards more sustainable patterns of consumption and production
+      Подржати земље у развоју да јачају своје научне и технолошке капацитете како би се кретале у правцу одрживијих облика потрошње и производње
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -713,11 +713,11 @@ var translations = {
         <span>
           12.a.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-a-1">
-          Installed renewable energy-generating capacity in developing countries (in watts per capita)
+          Инсталирани капацитети за производњу обновљивих извора енергије у земљама у развоју (у ватима по становнику)
         </a>
         
       </div>
@@ -727,10 +727,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.b
       </span>
-      Develop and implement tools to monitor sustainable development impacts for sustainable tourism that creates jobs and promotes local culture and products
+      Развијати и примјењивати алате за праћење утицаја одрживог развоја на одрживи туризам који ствара радна мјеста и промовише локалну културу и производе
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -748,11 +748,11 @@ var translations = {
         <span>
           12.b.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-b-1">
-          Number of sustainable tourism strategies or policies and implemented action plans with agreed monitoring and evaluation tools
+          Број стратегија или политика одрживог туризма и иимплементираних акционих планова са договореним алатима за праћење и евалуацију
         </a>
         
       </div>
@@ -762,10 +762,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         12.c
       </span>
-      Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities
+      Свести на разумну мјеру недјелотворне субвенције за фосилна горива којима се подстиче расипна потрошња отклањањем тржишних деформација, у складу са околностима у државама чланицама, између осталог и кроз реструктурисање система опорезивања и фазно укидање штетних субвенција тамо гдје оне постоје како би дошао до изражаја њихов утицај на животну средину, узимајући у обзир у потпуности специфичне потребе и услове земаља у развоју и сводећи на најмању мјеру могуће негативне утицаје на њихов развој на начин којим се штите сиромашни и погођене заједнице
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -783,11 +783,11 @@ var translations = {
         <span>
           12.c.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/12-c-1">
-          Amount of fossil-fuel subsidies per unit of GDP (production and consumption) and as a proportion of total national expenditure on fossil fuels
+          (а) износ субвенција за фосилна горива као проценат БДП-а; и (б) износ субвенција за фосилна горива као удио у укупним националним издацима за фосилна горива
         </a>
         
       </div>
@@ -802,21 +802,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -843,17 +843,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

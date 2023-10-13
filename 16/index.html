@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 16 - Peace and justice - strong institutions - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 16 - Мир, правда и снажне институције - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/16/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/16/">
-              Ћирилица
+            <a href="/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/16/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/16/">
-              Ћирилица
+            <a href="/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/16/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/16/">
-              Ћирилица
+            <a href="/en/16/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 16</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 16</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/15" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/17" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/16.png" alt="Peace and justice - strong institutions - Goal 16" id="goal-16" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/16.png" alt="Мир, правда и снажне институције - Циљ 16" id="goal-16" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 16: </span>Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 16: </span>Промовисати мирна и инклузивна друштва за одрживи развој, осигурати приступ правди за све и изградити ефикасне, одговорне и инклузивне институције на свим нивоима
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.1
       </span>
-      Significantly reduce all forms of violence and related death rates everywhere
+      Свуда значајно смањити све облике насиља и са њима повезане стопе смртних случајева
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           16.1.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/16-1-1">
-          Number of victims of intentional homicide per 100,000 population, by sex and age
+          Број жртава убистава с намјером на 100 000 становника, према полу и старости
         </a>
         
       </div>
@@ -410,11 +410,11 @@ var translations = {
         <span>
           16.1.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-1-2">
-          Conflict-related deaths per 100,000 population, by sex, age and cause
+          Умрли повезане са сукобима на 100.000 становника, према полу, старости и узроку
         </a>
         
       </div>
@@ -433,11 +433,11 @@ var translations = {
         <span>
           16.1.3
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-1-3">
-          Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months
+          Удио становништва изложеног (а) физичком насиљу, (б) психичком насиљу и (ц) сексуалном насиљу у претходних 12 мјесеци
         </a>
         
       </div>
@@ -456,11 +456,11 @@ var translations = {
         <span>
           16.1.4
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-1-4">
-          Proportion of population that feel safe walking alone around the area they live
+          Удио становништва који се осјећају сигурно да се крећу сами око подручја у којем живе
         </a>
         
       </div>
@@ -470,10 +470,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.2
       </span>
-      End abuse, exploitation, trafficking and all forms of violence against and torture of children
+      Окончати злоупотребу и експлоатацију дјеце, трговину дјецом и све облике насиља и тортуре над дјецом
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -491,11 +491,11 @@ var translations = {
         <span>
           16.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-2-1">
-          Proportion of children aged 1–17 years who experienced any physical punishment and/or psychological aggression by caregivers in the past month
+          Удио дјеце у доби од 1 до 17 година која су у протеклих мјесец дана доживјела било какве физичке казне и/или психолошку агресију од стране његоватеља
         </a>
         
       </div>
@@ -514,11 +514,11 @@ var translations = {
         <span>
           16.2.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/16-2-2">
-          Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation
+          Број жртава трговине људима на 100 000 становника, према полу, старости и облику експлоатације
         </a>
         
       </div>
@@ -537,11 +537,11 @@ var translations = {
         <span>
           16.2.3
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-2-3">
-          Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18
+          Удио младих жена и мушкараца у доби од 18-29 година који су искусили сексуално насиље до 18 година
         </a>
         
       </div>
@@ -551,10 +551,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.3
       </span>
-      Promote the rule of law at the national and international levels and ensure equal access to justice for all
+      Промовисати владавину права у државама чланицама и на међународном нивоу и свима осигурати једнак приступ правди
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -572,11 +572,11 @@ var translations = {
         <span>
           16.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-3-1">
-          Proportion of victims of violence in the previous 12 months who reported their victimization to competent authorities or other officially recognized conflict resolution mechanisms
+          Удио жртава насиља у задњих 12 мјесеци који су насиље пријавили надлежним органима или другим званично признатим механизмима за рјешавање сукоба
         </a>
         
       </div>
@@ -595,11 +595,11 @@ var translations = {
         <span>
           16.3.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-3-2">
-          Unsentenced detainees as a proportion of overall prison population
+          Неосуђени притвореници као удио у укупној затворској популацији
         </a>
         
       </div>
@@ -609,10 +609,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.4
       </span>
-      By 2030, significantly reduce illicit financial and arms flows, strengthen the recovery and return of stolen assets and combat all forms of organized crime
+      До краја 2030. године значајно смањити незаконите токове новца и оружја, побољшати проналажење и враћање украдене имовине и борити се против свих облика организованог криминала
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -630,11 +630,11 @@ var translations = {
         <span>
           16.4.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/16-4-1">
-          Total value of inward and outward illicit financial flows (in current United States dollars)
+          Укупна вриједност незаконитих финансијских прилива и одлива (у данашњим америчким доларима)
         </a>
         
       </div>
@@ -653,11 +653,11 @@ var translations = {
         <span>
           16.4.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-4-2">
-          Proportion of seized, found or surrendered arms whose illicit origin or context has been traced or established by a competent authority in line with international instruments
+          Удио заплијењеног, пронађеног и предатог ватреног оружја за које су надлежни органи утврдили незаконито порекло или контекст у складу са међународним инструментима
         </a>
         
       </div>
@@ -667,10 +667,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.5
       </span>
-      Substantially reduce corruption and bribery in all their forms
+      Значајно смањити корупцију и подмићивање у свим њиховим појавним облицима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -688,11 +688,11 @@ var translations = {
         <span>
           16.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-5-1">
-          Proportion of persons who had at least one contact with a public official and who paid a bribe to a public official, or were asked for a bribe by those public officials, during the previous 12 months
+          Удио особа које су имале најмање један контакт са државним службеником и које су платиле мито државном службенику или су им државни службеници тражили мито током претходних 12 мјесеци
         </a>
         
       </div>
@@ -711,11 +711,11 @@ var translations = {
         <span>
           16.5.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-5-2">
-          Proportion of businesses that had at least one contact with a public official and that paid a bribe to a public official, or were asked for a bribe by those public officials during the previous 12 months
+          Удио предузећа која су имала најмање један контакт са државним службеником и која су платила мито државном службенику или су им државни службеници тражили мито током претходних 12 мјесеци
         </a>
         
       </div>
@@ -725,10 +725,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.6
       </span>
-      Develop effective, accountable and transparent institutions at all levels
+      Развити дјелотворне, одговорне и транспарентне институције на свим нивоима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -746,11 +746,11 @@ var translations = {
         <span>
           16.6.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-6-1">
-          Primary government expenditures as a proportion of original approved budget, by sector (or by budget codes or similar)
+          Примарни државни расходи као дио првобитног одобреног буџета, по секторима (или по буџетским кодовима или слично)
         </a>
         
       </div>
@@ -769,11 +769,11 @@ var translations = {
         <span>
           16.6.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-6-2">
-          Proportion of population satisfied with their last experience of public services
+          Удио становништва задовољног својим посљедњим искуством у пружању јавних услуга
         </a>
         
       </div>
@@ -783,10 +783,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.7
       </span>
-      Ensure responsive, inclusive, participatory and representative decision-making at all levels
+      Осигурати одговорно, инклузивно, партиципативно и репрезентативно доношење одлука на свим нивоима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -804,11 +804,11 @@ var translations = {
         <span>
           16.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-7-1">
-          Proportions of positions (by sex, age, persons with disabilities and population groups) in public institutions (national and local legislatures, public service, and judiciary) compared to national distributions
+          Удио положаја у националним и локалним институцијама, укључујући (а) законодавна тијела; (б) јавну службу; и (ц) правосуђе, у поређењу са националним дистрибуцијама, према полу, старости, особама са инвалидитетом и групама становништва
         </a>
         
       </div>
@@ -827,11 +827,11 @@ var translations = {
         <span>
           16.7.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-7-2">
-          Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group
+          Удио становништва који вјерује да је доношење одлука инклузивно и одговара на потребе, по полу, старости, инвалидитету или популационим групама
         </a>
         
       </div>
@@ -841,10 +841,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.8
       </span>
-      Broaden and strengthen the participation of developing countries in the institutions of global governance
+      Проширити и повећати учешће земаља у развоју у институцијама глобалног управљања
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -862,11 +862,11 @@ var translations = {
         <span>
           16.8.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-8-1">
-          Proportion of members and voting rights of developing countries in international organizations
+          Удио чланова и права гласа земаља у развоју у међународним организацијама
         </a>
         
       </div>
@@ -876,10 +876,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.9
       </span>
-      By 2030, provide legal identity for all, including birth registration
+      До краја 2030. године за све обезбиједити законски идентитет, укључујући регистрацију приликом рођења
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -897,11 +897,11 @@ var translations = {
         <span>
           16.9.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-9-1">
-          Proportion of children under 5 years of age whose births have been registered with a civil authority, by age
+          Удио дjеце млађе од 5 година чија су рођења уписана у матичне књиге, према старосној доби
         </a>
         
       </div>
@@ -911,10 +911,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.10
       </span>
-      Ensure public access to information and protect fundamental freedoms, in accordance with national legislation and international agreements
+      Осигурати јавни приступ информацијама и заштиту основних слобода, у складу са законодавством у државама чланицама и међународним споразумима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -932,11 +932,11 @@ var translations = {
         <span>
           16.10.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-10-1">
-          Number of verified cases of killing, kidnapping, enforced disappearance, arbitrary detention and torture of journalists, associated media personnel, trade unionists and human rights advocates in the previous 12 months
+          Број потврђених случајева убистава, киднаповања, присилног нестанка, произвољног затварања и мучења новинара, припадника медијског особља, синдиката и заговорника људских права у претходних 12 мјесеци
         </a>
         
       </div>
@@ -955,11 +955,11 @@ var translations = {
         <span>
           16.10.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-10-2">
-          Number of countries that adopt and implement constitutional, statutory and/or policy guarantees for public access to information
+          Број земаља које усвајају и спроводе уставне, законске и/или политичке гаранције за јавни приступ информацијама
         </a>
         
       </div>
@@ -969,10 +969,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.a
       </span>
-      Strengthen relevant national institutions, including through international cooperation, for building capacity at all levels, in particular in developing countries, to prevent violence and combat terrorism and crime
+      Оснажити релевантне институције у државама чланицама, између осталог и преко међународне сарадње, за изградњу капацитета на свим нивоима, посебно у земљама у развоју, ради спречавања насиља и борбе против тероризма и криминала
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -990,11 +990,11 @@ var translations = {
         <span>
           16.a.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-a-1">
-          Existence of independent national human rights institutions in compliance with the Paris Principles
+          Постојање независних националних институција за људска права у складу са Париским принципима
         </a>
         
       </div>
@@ -1004,10 +1004,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         16.b
       </span>
-      Promote and enforce non-discriminatory laws and policies for sustainable development
+      Промовисати и спроводити недискриминаторске законе и политике ради постизања одрживог развоја
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1025,11 +1025,11 @@ var translations = {
         <span>
           16.b.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/16-b-1">
-          Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
+          Проценат извјештавања о становништву које је лично било дискриминирано или узнемиравано у претходних 12 мјесеци на основу дискриминације забрањене међународним законом о људским правима
         </a>
         
       </div>
@@ -1044,21 +1044,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -1085,17 +1085,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 8 - Decent jobs and economic growth - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 8 - Достојанствен рад и економски раст - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/8/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/8/">
-              Ћирилица
+            <a href="/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/8/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/8/">
-              Ћирилица
+            <a href="/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/8/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/8/">
-              Ћирилица
+            <a href="/en/8/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 8</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 8</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/7" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/9" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/8.png" alt="Decent jobs and economic growth - Goal 8" id="goal-8" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/8.png" alt="Достојанствен рад и економски раст - Циљ 8" id="goal-8" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 8: </span>Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 8: </span>Промовисати инклузиван и одржив економски раст, запосленост и достојанствен рад за све
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.1
       </span>
-      Sustain per capita economic growth in accordance with national circumstances and, in particular, at least 7 per cent gross domestic product growth per annum in the least developed countries
+      Одржати економски раст по глави становника у складу са условима у државама чланицама, а у најнеразвијенијим земљама одржати раст бруто домаћег производа на нивоу од најмање 7% годишње
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           8.1.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-1-1">
-          Annual growth rate of real GDP per capita
+          Годишња стопа раста реалног БДП-а по становнику
         </a>
         
       </div>
@@ -401,10 +401,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.2
       </span>
-      Achieve higher levels of economic productivity through diversification, technological upgrading and innovation, including through a focus on high-value added and labour-intensive sectors
+      Постићи више нивое економске продуктивности преко диверзификације, технолошких унапређења и иновација, између осталог и фокусирајући се на радно интензивне и високо профитабилне секторе
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -422,11 +422,11 @@ var translations = {
         <span>
           8.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-2-1">
-          Annual growth rate of real GDP per employed person
+          Годишња стопа раста реалног БДП-а по запосленој особи
         </a>
         
       </div>
@@ -436,10 +436,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.3
       </span>
-      Promote development-oriented policies that support productive activities, decent job creation, entrepreneurship, creativity and innovation, and encourage the formalization and growth of micro-, small- and medium-sized enterprises, including through access to financial services
+      Промовисати развојно оријентисане политике које подржавају производне активности, стварање пристојних послова, предузетништво, креативност и иновативност и подстицати формално оснивање и раст микропредузећа, односно малих и средњих предузећа, између осталог и кроз приступ финансијским услугама
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -457,11 +457,11 @@ var translations = {
         <span>
           8.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-3-1">
-          Proportion of informal employment in non‐agriculture employment, by sex
+          Удио неформалног запошљавања у укупној запослености, према секторима и полу
         </a>
         
       </div>
@@ -471,10 +471,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.4
       </span>
-      Improve progressively, through 2030, global resource efficiency in consumption and production and endeavour to decouple economic growth from environmental degradation, in accordance with the 10‐Year Framework of Programmes on Sustainable Consumption and Production, with developed countries taking the lead
+      Прогресивно унаприједити, до краја 2030. године, глобалну ефикасност ресурса у потрошњи и производњи и уложити напоре да се економски раст раздвоји од деградације животне средине у складу са десетогодишњим оквиром програма који се односе на одрживу потрошњу и производњу, уз водећу улогу развијених земаља
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -492,11 +492,11 @@ var translations = {
         <span>
           8.4.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-4-1">
-          Material footprint, material footprint per capita, and material footprint per GDP
+          Материјални отисак, материјални отисак по глави становника и материјални отисак по БДП-у
         </a>
         
       </div>
@@ -515,11 +515,11 @@ var translations = {
         <span>
           8.4.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-4-2">
-          Domestic material consumption, domestic material consumption per capita, and domestic material consumption per GDP
+          Потрошња домаћег материјала, потрошња домаћег материјала по глави становника и потрошња домаћег материјала по БДП-у
         </a>
         
       </div>
@@ -529,10 +529,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.5
       </span>
-      By 2030, achieve full and productive employment and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value
+      До краја 2030. године постићи пуну и продуктивну запосленост и достојанствен рад за све жене и мушкарце, што обухвата и младе људе и лица са инвалидитетом, као и исту плату за рад једнаке вриједности
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -550,11 +550,11 @@ var translations = {
         <span>
           8.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-5-1">
-          Average hourly earnings of female and male employees, by occupation, age and persons with disabilities
+          Просјечна зарада по сату запослених, према полу, старости, занимању и особама са инвалидитетом
         </a>
         
       </div>
@@ -573,11 +573,11 @@ var translations = {
         <span>
           8.5.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/8-5-2">
-          Unemployment rate, by sex, age and persons with disabilities
+          Стопа незапослености према полу, старости и инвалидитету
         </a>
         
       </div>
@@ -587,10 +587,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.6
       </span>
-      By 2020, substantially reduce the proportion of youth not in employment, education or training
+      До краја 2020. године битно смањити удио младих који нису запослени нити су у процесу образовања, односно обуке
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -608,11 +608,11 @@ var translations = {
         <span>
           8.6.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-6-1">
-          Proportion of youth (aged 15–24 years) not in education, employment or training
+          Проценат младих (у доби од 15-24 године) који нису у образовању, запошљавању или обуци
         </a>
         
       </div>
@@ -622,10 +622,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.7
       </span>
-      Take immediate and effective measures to eradicate forced labour, end modern slavery and human trafficking and secure the prohibition and elimination of the worst forms of child labour, including recruitment and use of child soldiers, and by 2025 end child labour in all its forms
+      Преузети непосредне и дјелотворне мјере како би се окончали присилни рад, модерни облици ропства и трговина људима, обезбиједила забрана и елиминисали најгори облици дјечијег рада, укључујући регрутовање и коришћење дјеце војника, као и како би се до 2025. године окончао дјечији рад у свим његовим облицима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -643,11 +643,11 @@ var translations = {
         <span>
           8.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-7-1">
-          Proportion and number of children aged 5–17 years engaged in child labour, by sex and age
+          Удио и број дјеце узраста 5-17 година ангажованих у дјечијем раду, према полу и старости
         </a>
         
       </div>
@@ -657,10 +657,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.8
       </span>
-      Protect labour rights and promote safe and secure working environments for all workers, including migrant workers, in particular women migrants, and those in precarious employment
+      Заштитити радна права и промовисати безбједно и сигурно радно окружење за све раднике, укључујући раднике мигранте, а посебно жене мигранте, и оне који раде опасне послове
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -678,11 +678,11 @@ var translations = {
         <span>
           8.8.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-8-1">
-          Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status
+          Фаталне и нефаталне повреде на раду на 100.000 радника, према полу и мигрантском статусу
         </a>
         
       </div>
@@ -701,11 +701,11 @@ var translations = {
         <span>
           8.8.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-8-2">
-          Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status
+          Ниво националне усклађености радних права (слобода удруживања и колективног преговарања) на основу текстуалних извора Међународне организације рада (ИЛО) и националног законодавства, према полу и статусу миграната
         </a>
         
       </div>
@@ -715,10 +715,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.9
       </span>
-      By 2030, devise and implement policies to promote sustainable tourism that creates jobs and promotes local culture and products
+      До краја 2030. године осмислити и примијенити политике за промовисање одрживог туризма који креира радна мјеста и промовише локалну културу и производе
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -736,11 +736,11 @@ var translations = {
         <span>
           8.9.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/8-9-1">
-          Tourism direct GDP as a proportion of total GDP and in growth rate
+          Директан БДП из туризма као учешће у укупном БДП-у и у стопи раста
         </a>
         
       </div>
@@ -759,11 +759,11 @@ var translations = {
         <span>
           8.9.2
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/8-9-2">
-          Proportion of jobs in sustainable tourism industries out of total tourism jobs
+          Удио радних мјеста у одрживој туристичкој привреди  у односу на укупан број радних мјеста у туризму
         </a>
         
       </div>
@@ -773,10 +773,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.10
       </span>
-      Strengthen the capacity of domestic financial institutions to encourage and expand access to banking, insurance and financial services for all
+      Јачати капацитете домаћих финансијских институција како би се подстицала и ширила доступност банкарских, осигуравајућих и финансијских услуга за све
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -794,11 +794,11 @@ var translations = {
         <span>
           8.10.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/8-10-1">
-          (a) Number of commercial bank branches per 100,000 adults and (b) number of automated teller machines (ATMs) per 100,000 adults
+          (а) Број филијала комерцијалних банака на 100.000 одраслих и (б) број аутоматизованих банкомата на 100.000 одраслих
         </a>
         
       </div>
@@ -817,11 +817,11 @@ var translations = {
         <span>
           8.10.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-10-2">
-          Proportion of adults (15 years and older) with an account at a bank or other financial institution or with a mobile-money-service provider
+          Удио одраслих (15 и више година) са рачуном у банци или другој финансијској институцији или са пружаоцем услуга мобилних новчаних услуга
         </a>
         
       </div>
@@ -831,10 +831,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.a
       </span>
-      Increase Aid for Trade support for developing countries, in particular least developed countries, including through the Enhanced Integrated Framework for Trade-related Technical Assistance to Least Developed Countries
+      Повећати подршку на основу „Помоћи за трговину” за земље у развоју, посебно за најнеразвијеније земље, између осталог и преко „Унапријеђеног интегрисаног оквира за питања трговинско-техничке помоћи најнеразвијенијим земљама”
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -852,11 +852,11 @@ var translations = {
         <span>
           8.a.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-a-1">
-          Aid for Trade commitments and disbursements
+          Пoмoћ за трговинске обавезе и исплате
         </a>
         
       </div>
@@ -866,10 +866,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         8.b
       </span>
-      By 2020, develop and operationalize a global strategy for youth employment and implement the Global Jobs Pact of the International Labour Organization
+      До краја 2020. године развити и операционализовати глобалну стратегију за запошљавање младих и примијенити „Глобални пакт о запошљавању”2) Међународне организације рада
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -887,11 +887,11 @@ var translations = {
         <span>
           8.b.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/8-b-1">
-          Existence of a developed and operationalized national strategy for youth employment, as a distinct strategy or as part of a national employment strategy
+          Постојање развијене и операционализоване националне стратегије за запошљавање младих, као посебна стратегија или као дио националне стратегије запошљавања
         </a>
         
       </div>
@@ -906,21 +906,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -947,17 +947,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

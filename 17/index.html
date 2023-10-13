@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Goal 17 - Partnerships for the goals - Indicators For The Sustainable Development Goals</title>
+    <title>Циљ 17 - Партнерством до циља - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231013012819">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231013112745">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-goal-by-target">
+<body class="language-cir layout-goal-by-target">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:sdg@bhas.gov.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -160,7 +160,7 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/17/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/17/">
-              Ћирилица
+            <a href="/en/17/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/17/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/17/">
-              Ћирилица
+            <a href="/en/17/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -249,21 +249,21 @@ var translations = {
 
       <div id="search" class="menu-target">
   <form action="/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
             <a href="/lat/17/">
               Latinica
             </a>
           </li><li>
-            <a href="/cir/17/">
-              Ћирилица
+            <a href="/en/17/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,8 +305,8 @@ var translations = {
 <div class="container">
   <ol class="breadcrumb">
   
-  <li><a href="/">Home</a></li>
-  <li class="active">Goal 17</li>
+  <li><a href="/">Насловна</a></li>
+  <li class="active">Циљ 17</li>
   
 </ol>
 
@@ -316,13 +316,13 @@ var translations = {
     <div class="col-xs-3 col-md-3 col-lg-4 pull-left text-left">
         <a class="btn btn-primary" href="/16" aria-labelledby="previous-link">
             <i class="fa fa-chevron-left" aria-hidden="true"></i>
-            <span id="previous-link" class="hidden-sm hidden-xs">Previous goal</span>
+            <span id="previous-link" class="hidden-sm hidden-xs">Претходни циљ</span>
         </a>
     </div>
     <div class="col-xs-3 col-md-3 col-lg-4 pull-right text-right">
         <a class="btn btn-primary" href="/1" aria-labelledby="next-link">
             <i class="fa fa-chevron-right" aria-hidden="true"></i>
-            <span id="next-link" class="hidden-sm hidden-xs">Next goal</span>
+            <span id="next-link" class="hidden-sm hidden-xs">Сљедећи циљ</span>
         </a>
     </div>
 </div>
@@ -335,11 +335,11 @@ var translations = {
   <div class="container">
     <div class="row">
       <div class="col-xs-4 col-md-3 col-lg-2 goal-tiles">
-        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/en/17.png" alt="Partnerships for the goals - Goal 17" id="goal-17" />
+        <img src="https://rs-statistika-sdg.github.io/sdg-site-rs/assets/img/goals/cir/17.png" alt="Партнерством до циља - Циљ 17" id="goal-17" />
       </div>
       <div class="col-xs-8 col-md-9 col-lg-10">
         <h1>
-          <span class="hidden-sm hidden-md hidden-lg">Goal 17: </span>Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development
+          <span class="hidden-sm hidden-md hidden-lg">Циљ 17: </span>Ојачати средства за спровођење и ревитализовати Глобално партнерство за одрживи развој
         </h1>
       </div>
     </div>
@@ -354,10 +354,10 @@ var translations = {
 
   <div class="visible-md-block visible-lg-block">
     <div class="col-md-6">
-      <h2>Targets</h2>
+      <h2>Потциљеви</h2>
     </div>
     <div class="col-md-6">
-      <h2>Indicators</h2>
+      <h2>Индикатори</h2>
     </div>
   </div>
 
@@ -366,10 +366,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.1
       </span>
-      Strengthen domestic resource mobilization, including through international support to developing countries, to improve domestic capacity for tax and other revenue collection
+      Појачати мобилизацију домаћих ресурса, између осталог и преко међународне подршке за земље у развоју, како би се унаприједили домаћи капацитети за прикупљање пореза и осталих прихода
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -387,11 +387,11 @@ var translations = {
         <span>
           17.1.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-1-1">
-          Total government revenue as a proportion of GDP, by source
+          Укупни државни приходи као проценат БДП-а, по извору
         </a>
         
       </div>
@@ -410,11 +410,11 @@ var translations = {
         <span>
           17.1.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-1-2">
-          Proportion of domestic budget funded by domestic taxes
+          Удио домаћег буџета који се финансира из домаћих пореза
         </a>
         
       </div>
@@ -424,10 +424,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.2
       </span>
-      Developed countries to implement fully their official development assistance commitments, including the commitment by many developed countries to achieve the target of 0.7 per cent of gross national income for official development assistance (ODA/GNI) to developing countries and 0.15 to 0.20 per cent of ODA/GNI to least developed countries; ODA providers are encouraged to consider setting a target to provide at least 0.20 per cent of ODA/GNI to least developed countries
+      Развијене земље треба у потпуности да примјене своје званичне обавезе у вези са развојном помоћи, између осталог, да дају 0,7% бруто домаћег производа (БДП) у програме званичне развојне помоћи за земље у развоју, од чега 0,15% до 0,20% треба обезбиједити за најнеразвијеније земље
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -445,11 +445,11 @@ var translations = {
         <span>
           17.2.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-2-1">
-          Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)
+          Нето званична развојна помоћ, укупно и најмање развијеним земљама, као дио Организације за економску сарадњу и развој (OECD) помоћи Комитета за развојну помоћбруто националног доходка донатора (GNI)
         </a>
         
       </div>
@@ -459,10 +459,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.3
       </span>
-      Mobilize additional financial resources for developing countries from multiple sources
+      Мобилисати додатна финансијска средства из вишеструких извора за потребе земаља у развоју
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -480,11 +480,11 @@ var translations = {
         <span>
           17.3.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-3-1">
-          Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget
+          Директна страна улагања, службена развојна помоћ и сарадња југ-југ као удио у бруто националном дохотку
         </a>
         
       </div>
@@ -503,11 +503,11 @@ var translations = {
         <span>
           17.3.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-3-2">
-          Volume of remittances (in United States dollars) as a proportion of total GDP
+          Обим дознака (у америчким доларима) као удио у укупном БДП-у
         </a>
         
       </div>
@@ -517,10 +517,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.4
       </span>
-      Assist developing countries in attaining long-term debt sustainability through coordinated policies aimed at fostering debt financing, debt relief and debt restructuring, as appropriate, and address the external debt of highly indebted poor countries to reduce debt distress
+      Помоћи земљама у развоју да постигну дугорочну одрживост дугова кроз координисане политике усмјерене ка очувању начина за финансирање дугова, отпис дугова и реструктурисање дугова на примјерен начин и бавити се спољним дуговима високо задужених сиромашних земаља како би се умањиле дужничке невоље
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -538,11 +538,11 @@ var translations = {
         <span>
           17.4.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-4-1">
-          Debt service as a proportion of exports of goods and services
+          Сервис дуга као дио извоза роба и услуга
         </a>
         
       </div>
@@ -552,10 +552,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.5
       </span>
-      Adopt and implement investment promotion regimes for least developed countries
+      Усвојити и примијенити планове промовисања инвестирања за најнеразвијеније земље
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -573,11 +573,11 @@ var translations = {
         <span>
           17.5.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-5-1">
-          Number of countries that adopt and implement investment promotion regimes for least developed countries
+          Број земаља које усвајају и спроводе режиме промоције инвестиција за земље у развоју, укључујући и најмање развијене земље
         </a>
         
       </div>
@@ -587,10 +587,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.6
       </span>
-      Enhance North-South, South-South and triangular regional and international cooperation on and access to science, technology and innovation and enhance knowledge-sharing on mutually agreed terms, including through improved coordination among existing mechanisms, in particular at the United Nations level, and through a global technology facilitation mechanism
+      Унаприједити сарадњу Сјевер–Југ, Југ–Југ и триангуларну регионалну и међународну сарадњу у области науке, технологије и иновација, као и приступ овим областима, и унаприједити дијељење знања према узајамно договореним условима, између осталог и кроз унапређену координацију у оквиру постојећих механизама, а посебно на нивоу Уједињених нација, као и кроз глобалне механизме управљања технологијама када је тако договорено
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -608,11 +608,11 @@ var translations = {
         <span>
           17.6.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-6-1">
-          Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation
+          Претплата на фиксни интернет широкопојасног приступа на 100 становника, брзином
         </a>
         
       </div>
@@ -622,10 +622,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.7
       </span>
-      Promote the development, transfer, dissemination and diffusion of environmentally sound technologies to developing countries on favourable terms, including on concessional and preferential terms, as mutually agreed
+      Промовисати развој, пренос и ширење еколошки исправних технологија у земље у развоју на позитивним основама, укључујући концесионалне и преференцијалне основе, а према узајамном договору
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -643,11 +643,11 @@ var translations = {
         <span>
           17.7.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-7-1">
-          Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies
+          Укупан износ одобреног финансирања за земље у развоју за промовисање, пријенос и ширење еколошки прихватљивих технологија
         </a>
         
       </div>
@@ -657,10 +657,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.8
       </span>
-      Fully operationalize the technology bank and science, technology and innovation capacity-building mechanism for least developed countries by 2017 and enhance the use of enabling technology, in particular information and communications technology
+      До краја 2017. године у потпуности операционализовати технолошке банке и механизам за изградњу капацитета у најнеразвијенијим земљама у области науке, технологије и иновација те унаприједити коришћење иновативних технологија, а посебно информационе и комуникационе технологије
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -678,11 +678,11 @@ var translations = {
         <span>
           17.8.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/17-8-1">
-          Proportion of individuals using the Internet
+          Удио појединаца који користе интернет
         </a>
         
       </div>
@@ -692,10 +692,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.9
       </span>
-      Enhance international support for implementing effective and targeted capacity-building in developing countries to support national plans to implement all the Sustainable Development Goals, including through North-South, South-South and triangular cooperation
+      Унаприједити међународну подршку за примјену дјелотворне и циљане изградње капацитета у земљама у развоју како би се у државама чланицама подржали планови за примјену свих циљева одрживог развоја, између осталог и кроз сарадњу Сјевер–Југ и Југ–Југ, односно кроз триангуларну сарадњу
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -713,11 +713,11 @@ var translations = {
         <span>
           17.9.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-9-1">
-          Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries
+          Вриједност финансијске и техничке помоћи у доларима (укључујући кроз сјевер-југ, југ-југ и троугласту сарадњу) посвећена земљама у развоју
         </a>
         
       </div>
@@ -727,10 +727,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.10
       </span>
-      Promote a universal, rules-based, open, non‐discriminatory and equitable multilateral trading system under the World Trade Organization, including through the conclusion of negotiations under its Doha Development Agenda
+      Промовисати универзални, заснован на правилима, отворен, недискриминаторски и правичан мултилатерални систем размјене под окриљем Свјетске трговинске организације, између осталог и преко закључивања преговора у оквиру њене „Развојне агенде из Дохе”
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -748,11 +748,11 @@ var translations = {
         <span>
           17.10.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-10-1">
-          Worldwide weighted tariff-average
+          Светски пондерисани царински просјек
         </a>
         
       </div>
@@ -762,10 +762,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.11
       </span>
-      Significantly increase the exports of developing countries, in particular with a view to doubling the least developed countries’ share of global exports by 2020
+      До краја 2020. године значајно повећати нивое извоза земаља у развоју, посебно у циљу удвостручавања удјела најнеразвијенијих земаља у свјетском извозу
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -783,11 +783,11 @@ var translations = {
         <span>
           17.11.1
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/17-11-1">
-          Developing countries’ and least developed countries’ share of global exports
+          Удио земаља у развоју и најнеразвијенијих земаља у свјетском извозу
         </a>
         
       </div>
@@ -797,10 +797,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.12
       </span>
-      Realize timely implementation of duty-free and quota-free market access on a lasting basis for all least developed countries, consistent with World Trade Organization decisions, including by ensuring that preferential rules of origin applicable to imports from least developed countries are transparent and simple, and contribute to facilitating market access
+      Остварити благовремену и трајну примјену тржишних приступа без царина и квота за све најнеразвијеније земље у складу са одлукама Свјетске трговинске организације, између осталог и тако што ће се обезбиједити да преференцијална правила о поријеклу која се примјењују на увоз из најнеразвијенијих земаља буду транспарентна и једноставна, односно да олакшавају приступ тржиштима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -818,11 +818,11 @@ var translations = {
         <span>
           17.12.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-12-1">
-          Average tariffs faced by developing countries, least developed countries and small island developing States
+          Просјечне царине с којима се суочавају земље у развоју, најнеразвијеније земље, и мале острвске земље у развоју
         </a>
         
       </div>
@@ -832,10 +832,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.13
       </span>
-      Enhance global macroeconomic stability, including through policy coordination and policy coherence
+      Унаприједити глобалну макроекономску стабилност, између осталог и кроз координацију политика, односно кохерентност политика
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -853,11 +853,11 @@ var translations = {
         <span>
           17.13.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-13-1">
-          Macroeconomic Dashboard
+          Главни макроекономски показатељи
         </a>
         
       </div>
@@ -867,10 +867,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.14
       </span>
-      Enhance policy coherence for sustainable development
+      Унаприједити кохерентност политика за потребе одрживог развоја
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -888,11 +888,11 @@ var translations = {
         <span>
           17.14.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-14-1">
-          Number of countries with mechanisms in place to enhance policy coherence of sustainable development
+          Број земаља које имају   механизме за унапређење кохерентности мјера политике за одрживи развој
         </a>
         
       </div>
@@ -902,10 +902,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.15
       </span>
-      Respect each country’s policy space and leadership to establish and implement policies for poverty eradication and sustainable development
+      Поштовати простор политике сваке земље и вођство за успостављање и спровођење политика за искорјењивање сиромаштва и одрживи развој
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -923,11 +923,11 @@ var translations = {
         <span>
           17.15.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-15-1">
-          Extent of use of country-owned results frameworks and planning tools by providers of development cooperation
+          Обим коришћења оквира државних резултата и планираних алата од стране пружалаца развојне сарадње
         </a>
         
       </div>
@@ -937,10 +937,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.16
       </span>
-      Enhance the Global Partnership for Sustainable Development, complemented by multi-stakeholder partnerships that mobilize and share knowledge, expertise, technology and financial resources, to support the achievement of the Sustainable Development Goals in all countries, in particular developing countries
+      Унаприједити глобално партнерство за постизање одрживог развоја, употпуњено вишестраним партнерствима која мобилишу и дијеле знања, стручност, технологију и финансијска средства, како би се пружила подршка за постизање циљева одрживог развоја у свим земљама, а посебно у земљама у развоју
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -958,11 +958,11 @@ var translations = {
         <span>
           17.16.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-16-1">
-          Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals
+          Број земаља које пријављују напредак у вишекорисничком развоју ефективности који подржавају постизање циљева одрживог развоја
         </a>
         
       </div>
@@ -972,10 +972,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.17
       </span>
-      Encourage and promote effective public, public-private and civil society partnerships, building on the experience and resourcing strategies of partnerships
+      Подржати и промовисати дјелотворна јавна и јавно-приватна партнерства, односно партнерства цивилног друштва, градећи их на искуствима и стратегијама проналажења ресурса за партнерства
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -993,11 +993,11 @@ var translations = {
         <span>
           17.17.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-17-1">
-          Amount of United States dollars committed to public-private and civil society partnerships
+          Износ у америчким доларима опредијељен јавно-приватном партнерству за инфраструктуру
         </a>
         
       </div>
@@ -1007,10 +1007,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.18
       </span>
-      By 2020, enhance capacity-building support to developing countries, including for least developed countries and small island developing States, to increase significantly the availability of high-quality, timely and reliable data disaggregated by income, gender, age, race, ethnicity, migratory status, disability, geographic location and other characteristics relevant in national contexts
+      До краја 2020. године унаприједити подршку за изградњу капацитета земаља у развоју, укључујући најнеразвијеније земље и мале острвске државе у развоју, како би се значајно повећала доступност висококвалитетних, благовремених и поузданих података разврстаних по дохотку, полу, старости, раси, етничкој припадности, миграционом статусу, инвалидности, географској локацији и осталим карактеристикама које су релевантне у датим националним контекстима
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1028,11 +1028,11 @@ var translations = {
         <span>
           17.18.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-18-1">
-          Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics
+          Индикатор статистичких капацитета за праћење циљева одрживог развоја
         </a>
         
       </div>
@@ -1051,11 +1051,11 @@ var translations = {
         <span>
           17.18.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-18-2">
-          Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics
+          Број земаља које имају национално статистичко законодавство које је у складу са Основним принципима званичне статистике
         </a>
         
       </div>
@@ -1074,11 +1074,11 @@ var translations = {
         <span>
           17.18.3
           <span class="status complete">
-            Reported online
+            Извијештено онлине
           </span>
         </span>
         <a href="/17-18-3">
-          Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding
+          Број земаља са националним статистичким планом који је у потпуности финансиран и који се имплементира према изворима финансирања
         </a>
         
       </div>
@@ -1088,10 +1088,10 @@ var translations = {
     
     <div class="indicator-cards target goal-target col-md-6">
       <span>
-        <label class="hidden-md hidden-lg">Target</label>
+        <label class="hidden-md hidden-lg">Потциљ</label>
         17.19
       </span>
-      By 2030, build on existing initiatives to develop measurements of progress on sustainable development that complement gross domestic product, and support statistical capacity-building in developing countries
+      До краја 2030. године надоградити постојеће иницијативе како би се развила мјерила напретка у одрживом развоју, комплементарно мјерењу бруто домаћег производа, те подржати стварање капацитета који се тичу статистичких података у земљама у развоју
     </div>
     <div class="indicator-cards col-md-6 row no-gutters">
     
@@ -1109,11 +1109,11 @@ var translations = {
         <span>
           17.19.1
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-19-1">
-          Dollar value of all resources made available to strengthen statistical capacity in developing countries
+          Доларска вриједност свих извора средстава доступних за јачање статистичких капацитета у земљама развоја
         </a>
         
       </div>
@@ -1132,11 +1132,11 @@ var translations = {
         <span>
           17.19.2
           <span class="status notstarted">
-            Exploring data sources
+            Истраживање извора података
           </span>
         </span>
         <a href="/17-19-2">
-          Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration
+          Проценат земаља које су - (а) провеле најмање један попис становништва и станова у посљедњих 10 година; и (б) постигли 100 процената регистрације рођених и 80 процената смрти
         </a>
         
       </div>
@@ -1151,21 +1151,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:sdg@bhas.gov.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -1192,17 +1192,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231013012819'></script>
+<script src='/assets/js/sdg.js?v=20231013112745'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231013012819"></script><script>
+    <script src="/assets/js/custom.js?v=20231013112745"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
