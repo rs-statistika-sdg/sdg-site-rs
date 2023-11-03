@@ -1,8 +1,8 @@
 ---
 layout: news
 title: News & Events
-language: en
-permalink: /news/
+language: cir
+permalink: cir/news/
 ---
 
 ## News and Events

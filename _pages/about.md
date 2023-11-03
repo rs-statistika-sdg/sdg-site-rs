@@ -1,16 +1,15 @@
 ---
-title: About
-language: en
-permalink: /about/
+title: О нама
+language: cir
+permalink: cir/about/
 layout: page
 ---
 
-At the Sustainable Development Summit held between 25 and 27 September 2015 in New York, Member States of the United Nations adopted the 2030 Sustainable Development Agenda. The Agenda represents a general call for action and partnerships in order to address the global challenges, end poverty, protect the planet and provide everyone with the opportunity to enjoy peace and prosperity. The Agenda defines five areas of critical importance for sustainable development of humanity and the planet (People, Planet, Prosperity, Peace, Partnership) and it is implemented through the 17 Sustainable Development Goals (SDGs) and 169 targets.
+На Самиту одрживог развоја, одржаном од 25. до 27. септембра 2015. године у Њујорку, државе чланицe Уједињених нација усвојиле су Програм одрживог развоја до 2030. године, који представља општи позив на дјеловање и склапање партнерстава како би се рјешавали глобални изазови, окончало сиромаштво, заштитила планета и свакоме обезбиједило да ужива мир и просперитет. Програм дефинише пет подручја од кључне важности за одрживи развој човјечанства и планете (људи, планета, просперитет, мир, партнерство) и спроводи се путем 17 циљева одрживог развоја (SDG – Sustanable Development Goals) и 169 потциљева.
 
-The 2030 Sustainable Development Agenda covers issues of poverty and inequality, food security, quality of life and well-being for all, health, education, sustainable consumption and production, employment, growth, infrastructure, sustainable natural resources management, climate change, gender equality, inclusive, resilient and sustainable cities and settlements, as well as access to justice, and effective and accountable institutions.
+Области дјеловања у оквиру Програма одрживог развоја до 2030. године су сиромаштво и неједнакост, безбједност снабдијевања храном, квалитет живота и благостање за све, здравље, образовање, одржива потрошња и производња, запосленост, раст, инфраструктура, одрживо управљање природним ресурсима, климатске промјене, родна равноправност, прилагодљиви, укључиви и одрживи градови и насеља, као и приступ правосуђу, те ефикасне и одговорне институције.
 
-The achievement of these goals is reported through sustainable development indicators, which represent the tools for measuring and monitoring changes in the economy, society and environment. The United Nations Statistical Commission created the Inter-agency and Expert Group on SDG Indicators (IAEG-SDG), composed of Member States and including regional and international agencies as observers. IAEG-SDG developed the global indicator framework at the 48th session of the United States Statistical Commission held in March 2017. To facilitate the implementation of the global indicator framework, all indicators are classified by the IAEG-SDG into three tiers on the basis of their level of methodological development and the availability of data at the global level.
- 
-The development of reference indicator framework for monitoring the sustainable development goals in the context of the European Union is managed by Eurostat. The EU SDG indicator set was approved by the European Statistical System in May 2017. The set contains 100 indicators, structured along the 17 sustainable development goals and is balanced among the social, economic, environmental and institutional dimensions of sustainability. Each goal is presented through five to six indicators that reflect its overall goal.
- 
-This website serves to disseminate SDG indicators for Republika Srpska. With the support of the United Nations Economic Commission for Europe (UNECE), the page is maintained by the Republika Srpska Institute of Statistics.
+О постизању циљева извјештава се путем индикатора одрживог развоја који представљају алат за мјерење и праћење промјена у економији, друштву и животној средини. Статистичка комисија Уједињених нација основала је Међуагенцијску и експертску групу за СДГ индикаторе (IAEG-SDG), састављену од држава чланица, укључујући и регионалне и међународне агенције као посматраче. IAEG-SDG је развила глобални оквир индикатора на 48. сједници Статистичке комисије Уједињених нација одржаној у марту 2017. године. Како би се поједноставила примјена глобалног оквира индикатора, IAEG-SDG је класификовала све индикаторе на три нивоа на основу степена методолошког развоја и доступности података на глобалном нивоу. 
+
+Развојем оквира референтних индикатора за праћење циљева одрживог развоја у контексту Европске уније управља Евростат. Листа индикатора ЕУ СДГ одобрена је од стране Европског статистичког система у мају 2017. године. Листа садржи 100 индикатора, структурисаних у оквиру 17 циљева одрживог развоја и покрива друштвене, економске, еколошке и институционалне димензије одрживости. Сваки циљ приказан је кроз пет до шест показатеља који одражавају његов општи циљ.
+Ова веб-страница служи за дисеминацију података СДГ индикатора за Републику Српску. Уз подршку Економске комисије Уједињених нација за Европу (УНЕЦЕ), страницу одржава Републички завод за статистику.

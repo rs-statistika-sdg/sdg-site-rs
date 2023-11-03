@@ -1,55 +1,54 @@
 ---
 layout: page
-title: Cookies and privacy
-language: en
-permalink: /about/cookies-and-privacy/
+title: Колачићи и приватност
+language: cir
+permalink: cir/about/cookies-and-privacy/
 ---
-The following is a description of what data is collected when you use this website and what it is used for.
+Слиједи опис података који се прикупљају када користите ову њеб страницу и за шта се користе.
 
-## User information
-This website uses cookies and JavaScript tracking code to gather anonymous information about visitors' usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.
+## Информације о кориснику
+Ова њеб страница користи колачиће и ЈаваСцрипт кôд за праћење прикупљања анонимних информација о обрасцима кориштења посјетитеља, како би се побољшала навигација њеб страницом, презентација њеног садржаја и квалитета услуга.
 
-The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.
+Прикупљени подаци не укључују личне податке попут вашег имена, старости, броја телефона, поштанске адресе или адресе е-поште, нити омогућавају личну идентификацију корисника.
 
-## Cookies
-When we provide services, we want to make them easy, useful and reliable.
+## Колачићи
+Када пружамо услуге, желимо их учинити једноставним, корисним и поузданим.
 
-Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.
+Тамо гђе се услуге пружају путем Интернета, то понекад укључује стављање мале количине података на ваш уређај, на примјер, рачунар или мобилни телефон.
 
-These include small files known as cookies. They cannot be used to identify you personally.
+Укључују мале датотеке познате као колачићи. Не могу се користити за вашу личну идентификацију.
 
-These pieces of information are used to improve services for you through, for example:
+Ови се подаци користе за побољшање услуга за вас, на примјер:
 
-- enabling a service to recognise your device so you don't have to give the same information several times during one task
-- recognising that you may already have given a username and password so you don't need to do it for every web page requested
-- measuring how many people are using services, so they can be made easier to use and there's enough capacity to ensure they are fast
+-	омогућавање услуге да препозна ваш уређај тако да током једног задатка не морате давати исте информације неколико пута
+-	препознајући да сте можда већ дали корисничко име и лозинку, па то не морате чинити за сваку тражену њеб страницу
+-	мјерење колико људи користи услуге, тако да им се може олакшати кориштење и да има довољно капацитета за брзину
 
-You can manage these small files yourself and learn more about them through [internet browser cookies – what they are and how to manage them](https://www.aboutcookies.org/).
+Овим малим датотекама можете сами управљати и сазнати више о њима путем колачића [интернетског прегледника - што су они и како њима управљати](https://www.aboutcookies.org/).
 
-## Our use of cookies
-Important information about this list of cookies:
+## Наше кориштење колачића
+Важне информације о овој листи колачића:
 
-This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.
+Овај попис можда није увијек потпун. Редовно ће се ажурирати како се прикупљају додатне информације од других компанија и организација с којима радимо.
+Колачићи за задржавање активног стања услуга приступачности:
 
-Cookies for retaining active state of accessibility services:
+-	контраст
 
-- contrast
+Колачићи за мерење употребе услуга:
 
-Cookies for measuring use of services:
+-	_га
+-	_гид
+-	_гат
 
-- _ga
-- _gid
-- _gat
+Разумијевањем како људи користе нашу њеб страницу, можемо побољшати пружене информације. Ове податке прикупљамо помоћу услуге Гоогле Аналyтицс.
 
-By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.
+## Вањске везе
+Ова њеб локација може садржавати везе до других њеб локација. 
 
-## External links
-This site may contain links to other sites.
+ОНС није одговоран за праксе приватности или садржај таквих њеб страница.
 
-ONS is not responsible for the privacy practices or the content of such websites.
+## Сигурност
+Ова њеб локација има успостављене сигурносне мјере за заштиту губитка, злоупотребе и измјене података под нашом контролом.
 
-## Security
-This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.
-
-## Contacting the website
-If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can [contact us](mailto:{{site.email_contacts.functional}}).
+## Контактирање њеб странице
+Ако имате било каквих питања у вези с овом изјавом о приватности, праксама на овој њеб локацији или у вези са овом њеб локацијом, можете нас [контактирати](mailto:{{site.email_contacts.functional}}).

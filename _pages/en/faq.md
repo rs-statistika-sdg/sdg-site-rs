@@ -1,7 +1,7 @@
 ---
 title: Frequently Asked Questions (FAQ)
-language: cir
-permalink: cir/faq/
+language: en
+permalink: /faq/
 layout: page
 ---
 
