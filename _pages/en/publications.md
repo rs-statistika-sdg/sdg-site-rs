@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 language: en
-permalink: /publications/
+permalink: en/publications/
 ---
 
 <div>

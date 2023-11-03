@@ -1,7 +1,7 @@
 ---
 title: О нама
 language: cir
-permalink: cir/about/
+permalink: /about/
 layout: page
 ---
 

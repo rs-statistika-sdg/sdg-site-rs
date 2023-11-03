@@ -1,7 +1,7 @@
 ---
 title: Guidance
 language: cir
-permalink: cir/guidance/
+permalink: /guidance/
 layout: page
 ---
 

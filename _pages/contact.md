@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 language: cir
-permalink: cir/contact/
+permalink: /contact/
 ---
 ### We are interested in your feedback regarding this website and its contents.
 

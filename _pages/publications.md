@@ -2,7 +2,7 @@
 layout: page
 title: Публикације
 language: cir
-permalink: cir/publications/
+permalink: /publications/
 ---
 
 <div>

@@ -2,7 +2,7 @@
 layout: page
 title: Колачићи и приватност
 language: cir
-permalink: cir/about/cookies-and-privacy/
+permalink: /about/cookies-and-privacy/
 ---
 Слиједи опис података који се прикупљају када користите ову њеб страницу и за шта се користе.
 
