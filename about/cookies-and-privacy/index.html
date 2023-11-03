@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/en',
+  remoteDataBaseUrl: 'https://rs-statistika-sdg.github.io/sdg-data-rs/cir',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -32,7 +32,7 @@ var opensdg = {
     return value;
   },
 
-  language: 'en',
+  language: 'cir',
 };
 
 // For backwards compatibility, some of these might need to be global.
@@ -97,7 +97,7 @@ var translations = {
         ================================================== -->
 
         
-    <title>Cookies and privacy - Indicators For The Sustainable Development Goals</title>
+    <title>Колачићи и приватност - Индикатори за циљеве одрживог развоја</title>
 
 
 
@@ -127,7 +127,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20231103175306">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20231103182443">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -138,18 +138,18 @@ var translations = {
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
     </head>
-<body class="language-en layout-page">
+<body class="language-cir layout-page">
 <!-- <div class="container"> -->
 
-<script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_address\">feedback</a>.","enable_high_contrast":"Enable high contrast","high_contrast":"High contrast","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
+<script>translations['header'] = {"alpha":"Алфа","default_contrast":"Задати контраст","disable_high_contrast":"Онемогући високи контраст","disclaimer":"Ова интернет страница се развија. Поздрављамо ваше <a href=\"mailto:%email_address\">повратне информације</a>.","enable_high_contrast":"Омогући високи контраст","high_contrast":"Висок контраст","skip_link":"Пријеђи на главни садржај","tag_line":"17 циљева за трансформисање нашег свијета"};</script>
 
-<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
+<a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Пријеђи на главни садржај</a>
 <div id="disclaimer">
   <div class="container">
   <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
+    <strong class="phase-tag">Алфа</strong>
     
-    This is a development website. We welcome your <a href="mailto:stat@rzs.rs.ba">feedback</a>.
+    Ова интернет страница се развија. Поздрављамо ваше <a href="mailto:stat@rzs.rs.ba">повратне информације</a>.
   </div>
 </div>
 
@@ -159,8 +159,8 @@ var translations = {
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/en/" id="home">
-        <img src="/assets/img/logo/en/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+      <a class="navbar-brand" href="/" id="home">
+        <img src="/assets/img/logo/cir/SDG_logo.png" alt="Циљеви одрживог развоја - 17 циљева за трансформисање нашег свијета" />
       </a>
 
       <div class="mobile-widgets">
@@ -169,15 +169,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/about/cookies-and-privacy/">
-              Ћирилица
-            </a>
-          </li><li>
             <a href="/lat/about/cookies-and-privacy/">
               Latinica
+            </a>
+          </li><li>
+            <a href="/en/about/cookies-and-privacy/">
+              English
             </a>
           </li></ul>
   </div>
@@ -190,17 +190,17 @@ var translations = {
 
       <ul class="top-level">
         <li id="menuToggle"
-            aria-label="Menu toggle. Click to expand or collapse the menu."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="menu-mobile" aria-expanded="false">Menu</button>
+          <button data-target="menu-mobile" aria-expanded="false">Мени</button>
           <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/en/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/en/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/en/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/en/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -212,15 +212,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/about/cookies-and-privacy/">
-              Ћирилица
-            </a>
-          </li><li>
             <a href="/lat/about/cookies-and-privacy/">
               Latinica
+            </a>
+          </li><li>
+            <a href="/en/about/cookies-and-privacy/">
+              English
             </a>
           </li></ul>
   </div>
@@ -233,14 +233,14 @@ var translations = {
 
         </li>
         <li id="searchToggle"
-            aria-label="Search toggle. Click to expand or collapse the search bar."
+            aria-label=""
             aria-haspopup="true">
-          <button data-target="search-mobile" aria-expanded="false">Search</button>
+          <button data-target="search-mobile" aria-expanded="false">Претраживање</button>
           <div id="search-mobile" class="menu-target">
-  <form action="/en/search">
-    <label class="sr-only" for="indicator_search-mobile">Search</label>
-    <input type="text" name="q" id="indicator_search-mobile" title="Search" /><!--
-    --><button aria-label="Search" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/search">
+    <label class="sr-only" for="indicator_search-mobile">Претраживање</label>
+    <input type="text" name="q" id="indicator_search-mobile" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
@@ -248,22 +248,22 @@ var translations = {
       </ul>
 
       <div id="search" class="menu-target">
-  <form action="/en/search">
-    <label class="sr-only" for="indicator_search">Search</label>
-    <input type="text" name="q" id="indicator_search" title="Search" /><!--
-    --><button aria-label="Search" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
+  <form action="/search">
+    <label class="sr-only" for="indicator_search">Претраживање</label>
+    <input type="text" name="q" id="indicator_search" title="Претраживање" /><!--
+    --><button aria-label="Претраживање" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
   </form>
 </div>
 
 
       <ul class="nav navbar-nav menu-target contrast-switcher" id="menu"><li class="nav-link ">
-    <a href="/en/goals">Goals</a>
+    <a href="/goals">Циљеви</a>
     </li><li class="nav-link ">
-    <a href="/en/reporting-status">Reporting Status</a>
+    <a href="/reporting-status">Статус извјештавања</a>
     </li><li class="nav-link ">
-    <a href="/en/about">About</a>
+    <a href="/about">О нама</a>
     </li><li class="nav-link ">
-    <a href="/en/publications">Publications</a>
+    <a href="/publications">Публикације</a>
     </li><li class="language-toggle-menu-header">
     
 
@@ -275,15 +275,15 @@ var translations = {
   
   <div class="btn-group language-toggle-dropdown ">
     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">English</span>
-      <span class="language-abbreviation">en</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
+      <span class="language-globe-in-dropdown"><i class="fa fa-globe language-toggle-globe-dropdown"></i></span><span class="language-name">Ћирилица</span>
+      <span class="language-abbreviation">cir</span><i class="language-toggle-caret fa fa-chevron-down"></i></button>
     <ul class="dropdown-menu"><li>
-            <a href="/about/cookies-and-privacy/">
-              Ћирилица
-            </a>
-          </li><li>
             <a href="/lat/about/cookies-and-privacy/">
               Latinica
+            </a>
+          </li><li>
+            <a href="/en/about/cookies-and-privacy/">
+              English
             </a>
           </li></ul>
   </div>
@@ -305,63 +305,62 @@ var translations = {
 
 <div id="main-content" class="container" role="main">
     <div>
-        <h1>Cookies and privacy</h1>
+        <h1>Колачићи и приватност</h1>
         
-            <p>The following is a description of what data is collected when you use this website and what it is used for.</p>
+            <p>Слиједи опис података који се прикупљају када користите ову њеб страницу и за шта се користе.</p>
 
-<h2 id="user-information">User information</h2>
-<p>This website uses cookies and JavaScript tracking code to gather anonymous information about visitors’ usage patterns, in order to improve the navigation of the site, the presentation of its content and the quality of its services.</p>
+<h2 id="информације-о-кориснику">Информације о кориснику</h2>
+<p>Ова њеб страница користи колачиће и ЈаваСцрипт кôд за праћење прикупљања анонимних информација о обрасцима кориштења посјетитеља, како би се побољшала навигација њеб страницом, презентација њеног садржаја и квалитета услуга.</p>
 
-<p>The information collected does not include personal details such as your name, age, telephone number, postal address or email address, nor does it allow personal identification of a user.</p>
+<p>Прикупљени подаци не укључују личне податке попут вашег имена, старости, броја телефона, поштанске адресе или адресе е-поште, нити омогућавају личну идентификацију корисника.</p>
 
-<h2 id="cookies">Cookies</h2>
-<p>When we provide services, we want to make them easy, useful and reliable.</p>
+<h2 id="колачићи">Колачићи</h2>
+<p>Када пружамо услуге, желимо их учинити једноставним, корисним и поузданим.</p>
 
-<p>Where services are delivered on the internet, this sometimes involves placing small amounts of information on your device, for example, computer or mobile phone.</p>
+<p>Тамо гђе се услуге пружају путем Интернета, то понекад укључује стављање мале количине података на ваш уређај, на примјер, рачунар или мобилни телефон.</p>
 
-<p>These include small files known as cookies. They cannot be used to identify you personally.</p>
+<p>Укључују мале датотеке познате као колачићи. Не могу се користити за вашу личну идентификацију.</p>
 
-<p>These pieces of information are used to improve services for you through, for example:</p>
-
-<ul>
-  <li>enabling a service to recognise your device so you don’t have to give the same information several times during one task</li>
-  <li>recognising that you may already have given a username and password so you don’t need to do it for every web page requested</li>
-  <li>measuring how many people are using services, so they can be made easier to use and there’s enough capacity to ensure they are fast</li>
-</ul>
-
-<p>You can manage these small files yourself and learn more about them through <a href="https://www.aboutcookies.org/">internet browser cookies – what they are and how to manage them</a>.</p>
-
-<h2 id="our-use-of-cookies">Our use of cookies</h2>
-<p>Important information about this list of cookies:</p>
-
-<p>This list may not always be complete. It will be regularly updated as further information is gathered from other companies and organisations that we work with.</p>
-
-<p>Cookies for retaining active state of accessibility services:</p>
+<p>Ови се подаци користе за побољшање услуга за вас, на примјер:</p>
 
 <ul>
-  <li>contrast</li>
+  <li>омогућавање услуге да препозна ваш уређај тако да током једног задатка не морате давати исте информације неколико пута</li>
+  <li>препознајући да сте можда већ дали корисничко име и лозинку, па то не морате чинити за сваку тражену њеб страницу</li>
+  <li>мјерење колико људи користи услуге, тако да им се може олакшати кориштење и да има довољно капацитета за брзину</li>
 </ul>
 
-<p>Cookies for measuring use of services:</p>
+<p>Овим малим датотекама можете сами управљати и сазнати више о њима путем колачића <a href="https://www.aboutcookies.org/">интернетског прегледника - што су они и како њима управљати</a>.</p>
+
+<h2 id="наше-кориштење-колачића">Наше кориштење колачића</h2>
+<p>Важне информације о овој листи колачића:</p>
+
+<p>Овај попис можда није увијек потпун. Редовно ће се ажурирати како се прикупљају додатне информације од других компанија и организација с којима радимо.
+Колачићи за задржавање активног стања услуга приступачности:</p>
 
 <ul>
-  <li>_ga</li>
-  <li>_gid</li>
-  <li>_gat</li>
+  <li>контраст</li>
 </ul>
 
-<p>By understanding how people use our website, we can improve the information provided. We gather this data using Google Analytics.</p>
+<p>Колачићи за мерење употребе услуга:</p>
 
-<h2 id="external-links">External links</h2>
-<p>This site may contain links to other sites.</p>
+<ul>
+  <li>_га</li>
+  <li>_гид</li>
+  <li>_гат</li>
+</ul>
 
-<p>ONS is not responsible for the privacy practices or the content of such websites.</p>
+<p>Разумијевањем како људи користе нашу њеб страницу, можемо побољшати пружене информације. Ове податке прикупљамо помоћу услуге Гоогле Аналyтицс.</p>
 
-<h2 id="security">Security</h2>
-<p>This website has security measures in place to protect the loss, misuse, and alteration of the information under our control.</p>
+<h2 id="вањске-везе">Вањске везе</h2>
+<p>Ова њеб локација може садржавати везе до других њеб локација.</p>
 
-<h2 id="contacting-the-website">Contacting the website</h2>
-<p>If you have any questions about this privacy statement, the practices of this site, or your dealings with this website, you can <a href="mailto:stat@rzs.rs.ba">contact us</a>.</p>
+<p>ОНС није одговоран за праксе приватности или садржај таквих њеб страница.</p>
+
+<h2 id="сигурност">Сигурност</h2>
+<p>Ова њеб локација има успостављене сигурносне мјере за заштиту губитка, злоупотребе и измјене података под нашом контролом.</p>
+
+<h2 id="контактирање-њеб-странице">Контактирање њеб странице</h2>
+<p>Ако имате било каквих питања у вези с овом изјавом о приватности, праксама на овој њеб локацији или у вези са овом њеб локацијом, можете нас <a href="mailto:stat@rzs.rs.ba">контактирати</a>.</p>
 
         
     </div>
@@ -373,21 +372,21 @@ var translations = {
       <div class="col-xs-12">
         <div id="footerLinks">
           <ul>
-            <li><a href="https://open-sdg.org">Built using Open SDG</a></li>
+            <li><a href="https://open-sdg.org">Изграђено помоћу Open SDG-a</a></li>
             
               <li>
                 
-                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Contact us</a>
+                  <a href="mailto:stat@rzs.rs.ba" target="_blank">Контактирајте нас</a>
                 
                 </li>
               <li>
-                <a href="/en/about/cookies-and-privacy/">Cookies</a>
+                <a href="/about/cookies-and-privacy/">Колачићи</a>
                 
                 </li>
               
             
             </ul>
-          <p class="supp-by">Supported by<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
+          <p class="supp-by">Подржано од<a href="https://ba.unfpa.org/" target="_blank"><img src="/assets/img/other/unfpa-logo.png"></a></p>
         </div>
       </div>
     </div>
@@ -414,17 +413,17 @@ var translations = {
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/file-saver@2.0.2/dist/FileSaver.min.js"></script>
 <script>translations['general'] = translations['general'] || {};
-    translations['general']['hide'] = 'hide';</script>
+    translations['general']['hide'] = 'Сакрити';</script>
 
 <script>translations['search'] = translations['search'] || {};
-    translations['search']['search'] = 'Search';</script>
+    translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20231103175306'></script>
+<script src='/assets/js/sdg.js?v=20231103182443'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20231103175306"></script><script>
+    <script src="/assets/js/custom.js?v=20231103182443"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
