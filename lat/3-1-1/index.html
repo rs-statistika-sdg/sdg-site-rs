@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250325090011">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250325101000">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -456,7 +456,7 @@ var translations = {
   data-charttitles="[{&quot;series&quot;:&quot;Incidencija HIV-a na 100 000 stanovnika&quot;,&quot;title&quot;:&quot;Incidencija HIV-a na 100 000 stanovnika&quot;},{&quot;series&quot;:&quot;Broj prijavljenih HIV pozitivnih u toku godine&quot;,&quot;title&quot;:&quot;Broj prijavljenih HIV pozitivnih u toku godine&quot;}]"
   data-measurementunit=""
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -754,39 +754,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#07C';
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -1090,7 +1083,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/8a3f8969eb8c93f838913426b9a8fa412cc8a51b" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/d6b40b2995a47c975e18d923a7b53746896988c8" target="_blank">
                 2025-03-25: see changes on GitHub <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1117,7 +1110,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/8a3f8969eb8c93f838913426b9a8fa412cc8a51b" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/d6b40b2995a47c975e18d923a7b53746896988c8" target="_blank">
                 2025-03-25: see changes on GitHub <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1815,12 +1808,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20250325090011'></script>
+<script src='/assets/js/sdg.js?v=20250325101000'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250325090011"></script><script>
+    <script src="/assets/js/custom.js?v=20250325101000"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
