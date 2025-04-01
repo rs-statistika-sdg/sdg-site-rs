@@ -7,6 +7,7 @@ permalink: /publications/
 
 <div>
     <ul class="publications">
+        <li><a href="https://www.rzs.rs.ba/front/article/6863/?left_mi=291&add=291" target="_blank">ИНДИКАТОРИ ОДРЖИВОГ РАЗВОЈА РЕПУБЛИКЕ СРПСКЕ, 2024.</a> </li>
         <li><a href="https://www.rzs.rs.ba/front/article/5731/?left_mi=291&add=291" target="_blank">ИНДИКАТОРИ ОДРЖИВОГ РАЗВОЈА РЕПУБЛИКЕ СРПСКЕ, 2022.</a> </li>
         <li><a href="https://www.rzs.rs.ba/front/article/4633/?left_mi=291&add=291" target="_blank">ИНДИКАТОРИ ОДРЖИВОГ РАЗВОЈА РЕПУБЛИКЕ СРПСКЕ, 2020.</a></li>
         <li><a href="https://www.rzs.rs.ba/front/article/3281/?left_mi=None&add=None" target="_blank">ИНДИКАТОРИ ОДРЖИВОГ РАЗВОЈА РЕПУБЛИКЕ СРПСКЕ, 2018.</a> </li>
