@@ -7,6 +7,7 @@ permalink: lat/publications/
 
 <div>
     <ul class="publications">
+        <li><a href="https://www.rzs.rs.ba/front/article/6863/?left_mi=291&add=291" target="_blank">INDIKATORI ODRŽIVOG RAZVOJA REPUBLIKE SRPSKE, 2024.</a> </li>
         <li><a href="https://www.rzs.rs.ba/front/article/5731/?left_mi=291&add=291" target="_blank">INDIKATORI ODRŽIVOG RAZVOJA REPUBLIKE SRPSKE, 2022.</a> </li>
         <li><a href="https://www.rzs.rs.ba/front/article/4633/?left_mi=291&add=291" target="_blank">INDIKATORI ODRŽIVOG RAZVOJA REPUBLIKE SRPSKE, 2020.</a></li>
         <li><a href="https://www.rzs.rs.ba/front/article/3281/?left_mi=None&add=None" target="_blank">INDIKATORI ODRŽIVOG RAZVOJA REPUBLIKE SRPSKE, 2018.</a> </li>
