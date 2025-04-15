@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250415123433">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250415124313">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,9 +454,9 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Стопа смртности мајки (на 100 000 живорођених)"
   data-charttitles="[{&quot;series&quot;:&quot;Стопа смртности мајки&quot;,&quot;title&quot;:&quot;Стопа смртности мајки&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Стопа на 100 000 живорођених"
   data-showdata="true"
-  data-graphtype="bar"
+  data-graphtype="line"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="null"
@@ -824,9 +824,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Извор: UNSTATS</p>
+    <p>Извор: Републички завод за статистику</p>
     
     
+    
+    <p>Мјерна јединица: Стопа на 100 000 живорођених</p>
     
     
   </div>
@@ -1070,32 +1072,39 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
+// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
-  if (info.stackedDisaggregation) {
     var overrides = {
-      options: {
-        scales: {
-          xAxes: [{ stacked: true }],
-          yAxes: [{ stacked: true }],
-        }
-      }
+        options: {
+            tooltips: {
+                intersect: false,
+                axis: 'x'
+            },
+        },
+        plugins: [{
+            beforeDatasetsDraw: function(chart) {
+                if (chart.tooltip._active && chart.tooltip._active.length) {
+                    var activePoint = chart.tooltip._active[0],
+                        ctx = chart.ctx,
+                        x = activePoint.tooltipPosition().x,
+                        topY = chart.scales['y-axis-0'].top,
+                        bottomY = chart.scales['y-axis-0'].bottom;
+
+                    // draw line
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.moveTo(x, topY);
+                    ctx.lineTo(x, bottomY);
+                    ctx.lineWidth = 2;
+                    ctx.strokeStyle = '#07C';
+                    ctx.stroke();
+                    ctx.restore();
+                }
+            }
+        }],
     };
-    // If we have stackedDisaggregation, we need to group datasets into stacks.
-    config.data.datasets.forEach(function(dataset) {
-      var disaggregation = $.extend({}, dataset.disaggregation);
-      // We're going to "stringify" each combination of disaggregations in order
-      // to place them in their own "stacks". To place "stacked" disaggregations
-      // into the same stack, we set them as "samestack" before stringifying.
-      // Note that the string "samestack" is completely arbitrary.
-      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
-        disaggregation[info.stackedDisaggregation] = 'samestack';
-      }
-      // Use the disaggregation as a unique id for each stack.
-      dataset.stack = JSON.stringify(disaggregation);
-    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
-  }
 });
 </script>
 
@@ -1110,11 +1119,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Републички завод за статистику</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Стопа на 100 000 живорођених</dd>
         
 
         
@@ -1149,11 +1161,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Републички завод за статистику</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Стопа на 100 000 живорођених</dd>
         
 
         
@@ -1281,7 +1296,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Мјерна јединица </th>
         <td>
           
-            
+            <p>Стопа на 100 000 живорођених</p>
 
           
         </td>
@@ -1399,7 +1414,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/77a93392886fdbc80e4dae0f32498131a4b15ce8" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/93c7a22b0b98b7a138df1378b02878c1bdeb4946" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
@@ -1426,7 +1441,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/77a93392886fdbc80e4dae0f32498131a4b15ce8" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/93c7a22b0b98b7a138df1378b02878c1bdeb4946" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
@@ -1825,7 +1840,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Организација </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Републички завод за статистику</p>
 
           
         </td>
@@ -1867,7 +1882,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Географска покривеност </th>
         <td>
           
-            
+            <p>Република Српска</p>
 
           
         </td>
@@ -1887,8 +1902,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link to source <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -2124,12 +2139,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20250415123433'></script>
+<script src='/assets/js/sdg.js?v=20250415124313'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250415123433"></script><script>
+    <script src="/assets/js/custom.js?v=20250415124313"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
