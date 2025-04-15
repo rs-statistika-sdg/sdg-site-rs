@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250415122258">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250415122615">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,9 +454,9 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Prevalence of malnutrition (weight for height >+2 or <-2 standard deviation from the median of the WHO Child Growth Standards) among children under 5 years of age, by type (wasting and overweight)"
   data-charttitles="[{&quot;series&quot;:&quot;Children moderately or severely overweight (number)&quot;,&quot;title&quot;:&quot;Children moderately or severely overweight (number)&quot;},{&quot;series&quot;:&quot;Children moderately or severely wasted (number)&quot;,&quot;title&quot;:&quot;Children moderately or severely wasted (number)&quot;},{&quot;series&quot;:&quot;Proportion of children moderately or severely overweight&quot;,&quot;title&quot;:&quot;Proportion of children moderately or severely overweight&quot;},{&quot;series&quot;:&quot;Proportion of children moderately or severely wasted&quot;,&quot;title&quot;:&quot;Proportion of children moderately or severely wasted&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Number, percentage"
   data-showdata="true"
-  data-graphtype="line"
+  data-graphtype="bar"
   data-geocoderegex=""
   data-showmap=""
   data-startvalues="null"
@@ -508,9 +508,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Source: UNSTATS</p>
+    <p>Source: Multiple Indicator Cluster Survey (MICS) for Bosnia and Herzegovina, 2006 (MICS3) and 20112012 (MICS4)</p>
     
     
+    
+    <p>Unit of Measurement: Number, percentage</p>
     
     
   </div>
@@ -754,39 +756,32 @@ opensdg.chartConfigAlter(function(config, info) {
 </script>
 
 <script>
-// For line charts, add the vertical line hover functionality.
 opensdg.chartConfigAlter(function(config, info) {
+  if (info.stackedDisaggregation) {
     var overrides = {
-        options: {
-            tooltips: {
-                intersect: false,
-                axis: 'x'
-            },
-        },
-        plugins: [{
-            beforeDatasetsDraw: function(chart) {
-                if (chart.tooltip._active && chart.tooltip._active.length) {
-                    var activePoint = chart.tooltip._active[0],
-                        ctx = chart.ctx,
-                        x = activePoint.tooltipPosition().x,
-                        topY = chart.scales['y-axis-0'].top,
-                        bottomY = chart.scales['y-axis-0'].bottom;
-
-                    // draw line
-                    ctx.save();
-                    ctx.beginPath();
-                    ctx.moveTo(x, topY);
-                    ctx.lineTo(x, bottomY);
-                    ctx.lineWidth = 2;
-                    ctx.strokeStyle = '#07C';
-                    ctx.stroke();
-                    ctx.restore();
-                }
-            }
-        }],
+      options: {
+        scales: {
+          xAxes: [{ stacked: true }],
+          yAxes: [{ stacked: true }],
+        }
+      }
     };
+    // If we have stackedDisaggregation, we need to group datasets into stacks.
+    config.data.datasets.forEach(function(dataset) {
+      var disaggregation = $.extend({}, dataset.disaggregation);
+      // We're going to "stringify" each combination of disaggregations in order
+      // to place them in their own "stacks". To place "stacked" disaggregations
+      // into the same stack, we set them as "samestack" before stringifying.
+      // Note that the string "samestack" is completely arbitrary.
+      if (typeof disaggregation[info.stackedDisaggregation] !== 'undefined') {
+        disaggregation[info.stackedDisaggregation] = 'samestack';
+      }
+      // Use the disaggregation as a unique id for each stack.
+      dataset.stack = JSON.stringify(disaggregation);
+    });
     // Add these overrides onto the normal config, and return it.
     $.extend(true, config, overrides);
+  }
 });
 </script>
 
@@ -801,11 +796,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Multiple Indicator Cluster Survey (MICS) for Bosnia and Herzegovina, 2006 (MICS3) and 20112012 (MICS4)</dd>
         
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number, percentage</dd>
         
 
         
@@ -840,11 +838,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Multiple Indicator Cluster Survey (MICS) for Bosnia and Herzegovina, 2006 (MICS3) and 20112012 (MICS4)</dd>
         
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Number, percentage</dd>
         
 
         
@@ -972,7 +973,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Number, percentage</p>
 
           
         </td>
@@ -1090,7 +1091,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/c0b6107ddb2fe456bcf19f875e0ee451b72a296f" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/0b1ea734b93313e8fcb7e48cdb17e051c789cebe" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1117,7 +1118,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/c0b6107ddb2fe456bcf19f875e0ee451b72a296f" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/0b1ea734b93313e8fcb7e48cdb17e051c789cebe" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
@@ -1517,7 +1518,7 @@ World Bank (WB)</p>
         <th scope="row">Organisation </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Multiple Indicator Cluster Survey (MICS) for Bosnia and Herzegovina, 2006 (MICS3) and 20112012 (MICS4)</p>
 
           
         </td>
@@ -1559,7 +1560,7 @@ World Bank (WB)</p>
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Republika Srpska</p>
 
           
         </td>
@@ -1579,8 +1580,8 @@ World Bank (WB)</p>
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1816,12 +1817,12 @@ World Bank (WB)</p>
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20250415122258'></script>
+<script src='/assets/js/sdg.js?v=20250415122615'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250415122258"></script><script>
+    <script src="/assets/js/custom.js?v=20250415122615"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
