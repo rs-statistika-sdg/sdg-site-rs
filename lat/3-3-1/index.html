@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250415124811">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250415124945">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,7 +454,7 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Broj novih HIV infekcija na 1 000 neinficiranih stanovnika, po polu, starosti i po glavnim populacionim grupama"
   data-charttitles="[{&quot;series&quot;:&quot;Broj prijavljenih HIV pozitivnih u toku godine&quot;,&quot;title&quot;:&quot;Broj prijavljenih HIV pozitivnih u toku godine&quot;},{&quot;series&quot;:&quot;Incidencija HIV-a na 100 000 stanovnika&quot;,&quot;title&quot;:&quot;Incidencija HIV-a na 100 000 stanovnika&quot;,&quot;composite_breakdown_label&quot;:&quot;Naziv nezarazne bolesti&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Broj, stopa na 100 000 stanovnika"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -508,9 +508,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Izvor: UNSTATS</p>
+    <p>Izvor: Institut za javno zdravstvo Republike Srpske</p>
     
     
+    
+    <p>Mjerna jedinica: Broj, stopa na 100 000 stanovnika</p>
     
     
   </div>
@@ -801,11 +803,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Institut za javno zdravstvo Republike Srpske</dd>
         
 
         
 
+        
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj, stopa na 100 000 stanovnika</dd>
         
 
         
@@ -840,11 +845,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Izvor:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Institut za javno zdravstvo Republike Srpske</dd>
         
 
         
 
+        
+        <dt>Mjerna jedinica:</dt>
+        <dd>Broj, stopa na 100 000 stanovnika</dd>
         
 
         
@@ -972,7 +980,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Mjerna jedinica </th>
         <td>
           
-            
+            <p>Broj, stopa na 100 000 stanovnika</p>
 
           
         </td>
@@ -1090,7 +1098,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/c1c6504e47e1557fd0a8432539f2d20be0ef18e1" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/771eb51d7d8ed1119bfe537816646426d85772be" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1117,7 +1125,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/c1c6504e47e1557fd0a8432539f2d20be0ef18e1" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/771eb51d7d8ed1119bfe537816646426d85772be" target="_blank">
                 2025-04-15: see changes on GitHub <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
@@ -1516,7 +1524,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organizacija </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Institut za javno zdravstvo Republike Srpske</p>
 
           
         </td>
@@ -1558,7 +1566,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geografska pokrivenost </th>
         <td>
           
-            
+            <p>Republika Srpska</p>
 
           
         </td>
@@ -1578,8 +1586,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link <span class="visuallyhidden">otvara se u novom prozoru</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">otvara se u novom prozoru</span>
               </a>
             
 
@@ -1815,12 +1823,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Pretraživanje';</script>
 
-<script src='/assets/js/sdg.js?v=20250415124811'></script>
+<script src='/assets/js/sdg.js?v=20250415124945'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250415124811"></script><script>
+    <script src="/assets/js/custom.js?v=20250415124945"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
