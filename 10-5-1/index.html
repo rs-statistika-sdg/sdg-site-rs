@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250416065546">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250416065756">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,7 +454,7 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Индикатори финансијске стабилности"
   data-charttitles="[{&quot;series&quot;:&quot;Основни капитал према укупном износу изложености ризику (%)&quot;,&quot;title&quot;:&quot;Основни капитал према укупном износу изложености ризику (%)&quot;},{&quot;series&quot;:&quot;Регулаторни капитал према укупном износу изложености ризику (%)&quot;,&quot;title&quot;:&quot;Регулаторни капитал према укупном износу изложености ризику (%)&quot;},{&quot;series&quot;:&quot;Капитал према активи (%)&quot;,&quot;title&quot;:&quot;Капитал према активи (%)&quot;},{&quot;series&quot;:&quot;НПА према укупној активи (%)&quot;,&quot;title&quot;:&quot;НПА према укупној активи (%)&quot;},{&quot;series&quot;:&quot;Неквалитетна актива умањена за резервисања према основном капиталу (%)&quot;,&quot;title&quot;:&quot;Неквалитетна актива умањена за резервисања према основном капиталу (%)&quot;},{&quot;series&quot;:&quot;Неквалитетни кредити умањени за резервисања према основном капиталу (%)&quot;,&quot;title&quot;:&quot;Неквалитетни кредити умањени за резервисања према основном капиталу (%)&quot;},{&quot;series&quot;:&quot;НПЛ према укупним кредитима (%)&quot;,&quot;title&quot;:&quot;НПЛ према укупним кредитима (%)&quot;},{&quot;series&quot;:&quot;Поврат на активу (РОА) (%)&quot;,&quot;title&quot;:&quot;Поврат на активу (РОА) (%)&quot;},{&quot;series&quot;:&quot;Поврат на дионички капитал (%)&quot;,&quot;title&quot;:&quot;Поврат на дионички капитал (%)&quot;},{&quot;series&quot;:&quot;Нето каматни приход према укупном приходу (%)&quot;,&quot;title&quot;:&quot;Нето каматни приход према укупном приходу (%)&quot;},{&quot;series&quot;:&quot;Некаматни расходи према укупном приходу (%)&quot;,&quot;title&quot;:&quot;Некаматни расходи према укупном приходу (%)&quot;},{&quot;series&quot;:&quot;Ликвидна средства према укупној активи (%)&quot;,&quot;title&quot;:&quot;Ликвидна средства према укупној активи (%)&quot;},{&quot;series&quot;:&quot;Ликвидна средства према краткорочним финансијским обавезама (%)&quot;,&quot;title&quot;:&quot;Ликвидна средства према краткорочним финансијским обавезама (%)&quot;},{&quot;series&quot;:&quot;Депозити према кредитима умањеним за међубанкарске кредите (%)&quot;,&quot;title&quot;:&quot;Депозити према кредитима умањеним за међубанкарске кредите (%)&quot;},{&quot;series&quot;:&quot;Краткорочне финансијске обавезе према укупним обавезама (%)&quot;,&quot;title&quot;:&quot;Краткорочне финансијске обавезе према укупним обавезама (%)&quot;},{&quot;series&quot;:&quot;Кредити у страној валути и кредити са валутном клаузулом према укупним кредитима (%)&quot;,&quot;title&quot;:&quot;Кредити у страној валути и кредити са валутном клаузулом према укупним кредитима (%)&quot;},{&quot;series&quot;:&quot;Обавезе у страној валути према укупним обавезама (%)&quot;,&quot;title&quot;:&quot;Обавезе у страној валути према укупним обавезама (%)&quot;},{&quot;series&quot;:&quot;Нето отворена позиција (%)&quot;,&quot;title&quot;:&quot;Нето отворена позиција (%)&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Проценат"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -464,7 +464,7 @@ var translations = {
   data-stackeddisaggregation=""
   data-graphannotations="null"
   data-indicatordownloads="null"
-  data-compositebreakdownlabel="Назив међународне институције"
+  data-compositebreakdownlabel=""
 >
   
   <span role="status" class="sr-only" id="indicator-data-view-status"></span>
@@ -2684,9 +2684,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Извор: UNSTATS</p>
+    <p>Извор: Агенција за банкарство Републике Српске</p>
     
     
+    
+    <p>Мјерна јединица: Проценат</p>
     
     
   </div>
@@ -2977,11 +2979,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Агенција за банкарство Републике Српске</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Проценат</dd>
         
 
         
@@ -3016,11 +3021,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Агенција за банкарство Републике Српске</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Проценат</dd>
         
 
         
@@ -3148,7 +3156,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Мјерна јединица </th>
         <td>
           
-            
+            <p>Проценат</p>
 
           
         </td>
@@ -3266,7 +3274,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/d49c0bc2c9f603d18e37efdc7e65bfd555efe701" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
                 2025-04-16: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
@@ -3293,7 +3301,7 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/d49c0bc2c9f603d18e37efdc7e65bfd555efe701" target="_blank">
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
                 2025-04-16: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
@@ -3692,7 +3700,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Организација </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Агенција за банкарство Републике Српске</p>
 
           
         </td>
@@ -3734,7 +3742,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Географска покривеност </th>
         <td>
           
-            
+            <p>Република Српска</p>
 
           
         </td>
@@ -3754,8 +3762,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -3991,12 +3999,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20250416065546'></script>
+<script src='/assets/js/sdg.js?v=20250416065756'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250416065546"></script><script>
+    <script src="/assets/js/custom.js?v=20250416065756"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
