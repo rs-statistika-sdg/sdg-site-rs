@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250505021711">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250505115308">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,7 +454,7 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Proportion of urban solid waste regularly collected and with adequate final discharge out of total urban solid waste generated, by cities"
   data-charttitles="[{&quot;series&quot;:&quot;Total generated municipal waste&quot;,&quot;title&quot;:&quot;Total generated municipal waste&quot;},{&quot;series&quot;:&quot;Municipal waste delivered for treatment&quot;,&quot;title&quot;:&quot;Municipal waste delivered for treatment&quot;},{&quot;series&quot;:&quot;Share of treated municipal waste&quot;,&quot;title&quot;:&quot;Share of treated municipal waste&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Tone, percentage"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -1364,9 +1364,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Source: UNSTATS</p>
+    <p>Source: Republika Srpska Institute of Statistics</p>
     
     
+    
+    <p>Unit of Measurement: Tone, percentage</p>
     
     
   </div>
@@ -1657,11 +1659,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Republika Srpska Institute of Statistics</dd>
         
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Tone, percentage</dd>
         
 
         
@@ -1696,11 +1701,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Source:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Republika Srpska Institute of Statistics</dd>
         
 
         
 
+        
+        <dt>Unit of Measurement:</dt>
+        <dd>Tone, percentage</dd>
         
 
         
@@ -1828,7 +1836,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Unit of measurement </th>
         <td>
           
-            
+            <p>Tone, percentage</p>
 
           
         </td>
@@ -1946,8 +1954,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
-                2025-04-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/eafb6c35359a97b51a7d83e9b55996ec8ae18afd" target="_blank">
+                2025-05-05: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -1973,8 +1981,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
-                2025-04-16: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/eafb6c35359a97b51a7d83e9b55996ec8ae18afd" target="_blank">
+                2025-05-05: see changes on GitHub <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -2372,7 +2380,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Republika Srpska Institute of Statistics</p>
 
           
         </td>
@@ -2414,7 +2422,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Geographical coverage </th>
         <td>
           
-            
+            <p>Republika Srpska</p>
 
           
         </td>
@@ -2434,8 +2442,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link <span class="visuallyhidden">opens in a new window</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">opens in a new window</span>
               </a>
             
 
@@ -2671,12 +2679,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/assets/js/sdg.js?v=20250505021711'></script>
+<script src='/assets/js/sdg.js?v=20250505115308'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250505021711"></script><script>
+    <script src="/assets/js/custom.js?v=20250505115308"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();

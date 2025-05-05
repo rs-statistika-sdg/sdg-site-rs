@@ -132,7 +132,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/assets/css/style.css?v=20250505021711">
+        <link rel="stylesheet" href="/assets/css/style.css?v=20250505115308">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -454,7 +454,7 @@ var translations = {
   data-country="Република Српска"
   data-charttitle="Удио комуналног чврстог отпада који се редовно прикупља и који се на одговарајући начин одлаже у укупној количини генерисаног комуналног чврстог отпада, по градовима"
   data-charttitles="[{&quot;series&quot;:&quot;Укупно произведени комунални отпад&quot;,&quot;title&quot;:&quot;Укупно произведени комунални отпад&quot;},{&quot;series&quot;:&quot;Комунални отпад предат на прераду&quot;,&quot;title&quot;:&quot;Комунални отпад предат на прераду&quot;},{&quot;series&quot;:&quot;Удио прерађеног комуналног отпада&quot;,&quot;title&quot;:&quot;Удио прерађеног комуналног отпада&quot;}]"
-  data-measurementunit=""
+  data-measurementunit="Тоне, проценат"
   data-showdata="true"
   data-graphtype="line"
   data-geocoderegex=""
@@ -1364,9 +1364,11 @@ var translations = {
 
   <div id="datatableFooter">
     
-    <p>Извор: UNSTATS</p>
+    <p>Извор: Републички завод за статистику</p>
     
     
+    
+    <p>Мјерна јединица: Тоне, проценат</p>
     
     
   </div>
@@ -1657,11 +1659,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Републички завод за статистику</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Тоне, проценат</dd>
         
 
         
@@ -1696,11 +1701,14 @@ opensdg.chartConfigAlter(function(config, info) {
     <dl>
         
         <dt>Извор:</dt>
-        <dd>UNSTATS</dd>
+        <dd>Републички завод за статистику</dd>
         
 
         
 
+        
+        <dt>Мјерна јединица:</dt>
+        <dd>Тоне, проценат</dd>
         
 
         
@@ -1828,7 +1836,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Мјерна јединица </th>
         <td>
           
-            
+            <p>Тоне, проценат</p>
 
           
         </td>
@@ -1946,8 +1954,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
-                2025-04-16: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/eafb6c35359a97b51a7d83e9b55996ec8ae18afd" target="_blank">
+                2025-05-05: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -1973,8 +1981,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/402ca2e455177acbcff6e198387e8eaad2f2316e" target="_blank">
-                2025-04-16: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://github.com/rs-statistika-sdg/sdg-data-rs/commit/eafb6c35359a97b51a7d83e9b55996ec8ae18afd" target="_blank">
+                2025-05-05: see changes on GitHub <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -2117,7 +2125,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Назив подциља </th>
+        <th scope="row">Назив потциља </th>
         <td>
           
             <p>До краја 2030. године смањити негативан утицај градова на животну средину мјерен по глави становника, између осталог и тако што ће се посебна пажња посветити квалитету ваздуха и управљању отпадом на општинским и другим нивоима</p>
@@ -2131,7 +2139,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">Број подциља </th>
+        <th scope="row">Број потциља </th>
         <td>
           
             <p>11.6</p>
@@ -2173,7 +2181,7 @@ data-event-label="Change to Sources tab"
       
       
       <tr>
-        <th scope="row">УН кустос агенција </th>
+        <th scope="row">УН агенција која се стара о подацима </th>
         <td>
           
             <p>UN-Habitat, UNSD</p>
@@ -2372,7 +2380,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Организација </th>
         <td>
           
-            <p>UNSTATS</p>
+            <p>Републички завод за статистику</p>
 
           
         </td>
@@ -2414,7 +2422,7 @@ data-event-label="Change to Sources tab"
         <th scope="row">Географска покривеност </th>
         <td>
           
-            
+            <p>Република Српска</p>
 
           
         </td>
@@ -2434,8 +2442,8 @@ data-event-label="Change to Sources tab"
             
 
             
-              <a href="https://unstats.un.org/sdgs/indicators/database/" target="_blank">
-                Link <span class="visuallyhidden">отвара се у новом прозору</span>
+              <a href="https://www.rzs.rs.ba/front/category/312/?left_mi=291&add=291/" target="_blank">
+                www.rzs.rs.ba/rs_sdg <span class="visuallyhidden">отвара се у новом прозору</span>
               </a>
             
 
@@ -2671,12 +2679,12 @@ data-event-label="Change to Sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Претраживање';</script>
 
-<script src='/assets/js/sdg.js?v=20250505021711'></script>
+<script src='/assets/js/sdg.js?v=20250505115308'></script>
 
 
     
     
-    <script src="/assets/js/custom.js?v=20250505021711"></script><script>
+    <script src="/assets/js/custom.js?v=20250505115308"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
