@@ -61,3 +61,12 @@ $( document ).ready(function() {
     return newLabel;
   }
 });
+
+
+//remove link from dates
+$(document).ready(function () {
+   let date1 = $("#national tr:nth-last-child(1) a ").text().substring(17, 27);
+   let date2 = $("#national tr:nth-last-child(2) a ").text().substring(17, 27);
+   $("#national tr:nth-last-child(1) a ").text(date1).removeAttr("href");
+   $("#national tr:nth-last-child(2) a ").text(date2).removeAttr("href");
+});
