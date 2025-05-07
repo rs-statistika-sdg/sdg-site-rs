@@ -64,21 +64,21 @@ $( document ).ready(function() {
 
 
 //remove link from dates
-// $(document).ready(function () {
-//    const $rows = $("#national tr");
+$(document).ready(function () {
+   const $rows = $("#national tr");
 
-//    if ($rows.length >= 2) {
-//       const $link1 = $rows.eq(-1).find("a");
-//       const $link2 = $rows.eq(-2).find("a");
+   if ($rows.length >= 2) {
+      const $link1 = $rows.eq(-1).find("a");
+      const $link2 = $rows.eq(-2).find("a");
 
-//       [$link1, $link2].forEach(($link) => {
-//          if ($link.length) {
-//             const text = $link.text().trim();
-//             const match = text.match(/\d{4}-\d{2}-\d{2}/);
-//             if (match) {
-//                $link.text(match[0]).removeAttr("href");
-//             }
-//          }
-//       });
-//    }
-// });
+      [$link1, $link2].forEach(($link) => {
+         if ($link.length) {
+            const text = $link.text().trim();
+            const match = text.match(/\d{4}-\d{2}-\d{2}/);
+            if (match) {
+               $link.text(match[0]).removeAttr("href");
+            }
+         }
+      });
+   }
+});
